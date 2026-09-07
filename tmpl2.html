@@ -1,0 +1,330 @@
+<title>Ставочная пиццерия</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+  :root{color-scheme:dark;
+    --bg:#070f1c;--panel:#0e1d33;--panel2:#0a1424;--line:#22406a;--line-soft:#1a3355;
+    --brass:#c9a24a;--brass-hi:#e6c983;--brass-deep:#8f6f2c;
+    --ink:#dde6f2;--ink-dim:#9fb0c6;--muted:#748aa6;--faint:#4b5f7d;
+    --green:#7fd457;--amber:#e8b657;--blue:#6fb7e8;--red:#e56a5b;
+    --r:14px;--r-s:9px;--mono:'JetBrains Mono',ui-monospace,monospace;--disp:'Oswald','Arial Narrow',sans-serif;--body:'Spectral',Georgia,serif;}
+  *{box-sizing:border-box}html,body{margin:0}
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{background:radial-gradient(1100px 700px at 80% -12%,#14273f 0%,transparent 58%),radial-gradient(900px 600px at 0% 108%,#0c1a2e 0%,transparent 55%),var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:640px;margin:0 auto;padding:0 14px 90px}
+  h1,h2,h3,h4{margin:0;font-family:var(--disp);font-weight:600}
+  .mono{font-family:var(--mono)}
+
+  /* header */
+  header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:10px;padding:11px 4px;margin-bottom:6px;background:linear-gradient(180deg,var(--bg) 65%,transparent);backdrop-filter:blur(3px)}
+  .logo{width:34px;height:34px;border-radius:9px;background:radial-gradient(circle at 32% 28%,var(--brass-hi),var(--brass) 45%,var(--brass-deep));display:grid;place-items:center;box-shadow:0 6px 18px -8px var(--brass),0 0 0 1px #ffffff22 inset;flex:0 0 auto}
+  .logo svg{width:19px;height:19px}
+  .htxt .t{font-family:var(--disp);font-weight:600;font-size:16px;line-height:1;letter-spacing:.02em}
+  .htxt .s{font-family:var(--mono);font-size:10px;color:var(--muted)}
+  .hupd{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--muted);text-align:right}
+
+  /* hero */
+  .hero{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 26px 70px -46px #000}
+  .hero img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
+  .hero .grad{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,#08111fdd 100%)}
+  .hero .cap{position:absolute;left:14px;bottom:12px;right:14px}
+  .hero .cap .k{font-family:var(--disp);text-transform:uppercase;letter-spacing:.2em;font-size:10px;color:var(--brass);font-weight:600}
+  .hero .cap .h{font-family:var(--disp);font-weight:600;font-size:23px;line-height:1.05;margin-top:2px}
+  .zone{position:absolute;transform:translate(-50%,-50%);border-radius:50%;display:grid;place-items:center;cursor:pointer}
+  .zone .zdot{width:12px;height:12px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px #7fd45733,0 0 14px var(--green);animation:pz 2s infinite}
+  @keyframes pz{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.35);opacity:.5}}
+  @media(prefers-reduced-motion:reduce){.zdot{animation:none}}
+  .zone .zl{position:absolute;top:calc(100% + 3px);left:50%;transform:translateX(-50%);font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:9px;font-weight:600;white-space:nowrap;color:var(--brass-hi);background:#0a1424cc;border:1px solid var(--brass-deep);border-radius:20px;padding:2px 8px}
+
+  /* CTA */
+  .cta{margin:16px 0 6px;text-align:center}
+  .bigbtn{width:100%;font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-weight:600;font-size:18px;border:none;border-radius:14px;padding:17px;cursor:pointer;color:#1a1305;background:linear-gradient(180deg,var(--brass-hi),var(--brass));box-shadow:0 14px 34px -14px var(--brass);transition:transform .12s,filter .12s}
+  .bigbtn:active{transform:scale(.985)}
+  .bigbtn:disabled{filter:grayscale(.4) brightness(.85)}
+  .cta .sub{font-size:12px;color:var(--muted);margin-top:8px;font-family:var(--mono)}
+
+  /* analyzing animation */
+  .analyzing{margin:16px 0;border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--panel),var(--panel2));padding:16px}
+  .analyzing h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.1em;font-size:12px;color:var(--brass-hi);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+  .spin{width:13px;height:13px;border:2px solid var(--brass-deep);border-top-color:var(--brass-hi);border-radius:50%;animation:sp .7s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .astep{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:13.5px;color:var(--faint);transition:color .25s}
+  .astep .dot{width:16px;height:16px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-size:10px;flex:0 0 auto}
+  .astep.on{color:var(--ink-dim)}
+  .astep.done{color:var(--ink)}.astep.done .dot{border-color:var(--green);color:var(--green);background:#7fd4571a}
+
+  /* intro / honesty */
+  .call{border-radius:var(--r);padding:13px 15px;margin:14px 0;font-size:13px;line-height:1.5}
+  .call.warn{border:1px solid #e8b65740;border-left:3px solid var(--amber);background:#e8b6570b}
+  .call h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.07em;font-size:11.5px;margin:0 0 6px;color:var(--amber)}
+  .call p{margin:0 0 6px;color:var(--ink-dim)}.call p:last-child{margin:0}.call b{color:var(--ink)}
+
+  /* tabs */
+  .tabs{display:flex;gap:7px;margin:14px 0 10px;position:sticky;top:56px;z-index:15;background:linear-gradient(180deg,var(--bg) 70%,transparent);padding:4px 0}
+  .tab{flex:1;font-family:var(--disp);text-transform:uppercase;letter-spacing:.05em;font-size:13px;font-weight:600;color:var(--ink-dim);background:#0b1728;border:1px solid var(--line);border-radius:11px;padding:11px 6px;cursor:pointer;text-align:center}
+  .tab .c{display:block;font-size:9px;letter-spacing:0;opacity:.65;margin-top:2px;font-family:var(--mono)}
+  .tab.on{color:#221a06;background:linear-gradient(180deg,var(--brass-hi),var(--brass));border-color:transparent}
+
+  .bankbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 12px;font-size:13px;color:var(--ink-dim)}
+  .bankbar input{width:130px;background:#0b1728;border:1px solid var(--line);border-radius:var(--r-s);color:var(--ink);font-family:var(--mono);padding:9px 11px;font-size:14px}
+  .bankbar .hint{font-size:11px;color:var(--muted)}
+
+  .sech{font-family:var(--disp);text-transform:uppercase;letter-spacing:.09em;font-size:11px;font-weight:600;margin:16px 2px 8px;display:flex;align-items:center;gap:8px}
+  .sech.go{color:var(--green)} .sech.skip{color:var(--muted)}
+  .sech .pill{font-family:var(--mono);font-size:10px;letter-spacing:0;text-transform:none;color:var(--muted);border:1px solid var(--line-soft);border-radius:20px;padding:1px 8px}
+  .dayhdr{font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-size:10px;font-weight:600;color:var(--brass-hi);margin:12px 2px 6px;padding-bottom:4px;border-bottom:1px solid var(--line-soft)}
+
+  /* pick card */
+  .pick{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--panel),var(--panel2));padding:14px;margin-bottom:11px}
+  .pick.go{border-color:#7fd45733;box-shadow:0 0 0 1px #7fd45715}
+  .pick.skip{opacity:.72}
+  .pick.done-win{border-color:#7fd45788}.pick.done-loss{opacity:.6}
+  .p-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .p-ev{font-family:var(--disp);font-weight:600;font-size:16px;line-height:1.1}
+  .p-mk{font-size:13px;color:var(--brass-hi);margin-top:2px}
+  .p-when{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:3px}
+  .p-stake{text-align:right;flex:0 0 auto}
+  .p-stake .amt{font-family:var(--mono);font-size:17px;font-weight:700;color:var(--green);line-height:1}
+  .p-stake .amt.skip{color:var(--muted);font-size:12px;font-family:var(--disp);text-transform:uppercase}
+  .p-stake .lbl{font-size:8px;color:var(--muted);font-family:var(--disp);text-transform:uppercase;letter-spacing:.06em;margin-top:3px}
+  .p-nums{display:flex;gap:16px;margin:11px 0 2px;flex-wrap:wrap}
+  .p-nums .n{font-size:11px;color:var(--muted)}.p-nums .n b{color:var(--ink);font-family:var(--mono);font-size:14px;display:block;margin-top:1px}
+  .p-nums .n b.br{color:var(--brass-hi)}.p-nums .n b.g{color:var(--green)}
+  .cflag{font-family:var(--disp);text-transform:uppercase;letter-spacing:.04em;font-size:9px;color:var(--amber);background:#e8b6571c;border:1px solid #e8b65733;border-radius:20px;padding:3px 9px;margin-top:9px;display:inline-block}
+  .intel{font-size:11.5px;color:var(--ink-dim);margin-top:9px;padding-top:8px;border-top:1px solid #ffffff0d;line-height:1.45}
+  .intel b{color:var(--red)}
+  .track{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:11px;padding-top:9px;border-top:1px dashed var(--line-soft)}
+  .track label{font-family:var(--disp);text-transform:uppercase;letter-spacing:.04em;font-size:10px;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer}
+  .track input[type=checkbox]{accent-color:var(--brass);width:17px;height:17px}
+  .track input.od{width:64px;background:#0b1728;border:1px solid var(--line);border-radius:6px;color:var(--brass-hi);font-family:var(--mono);padding:6px;font-size:13px}
+  .rbtn{font-family:var(--disp);text-transform:uppercase;font-size:11px;border:1px solid var(--line);background:#0c1a2e;color:var(--muted);border-radius:7px;padding:6px 11px;cursor:pointer}
+  .rbtn.win.on{background:var(--green);color:#0c1a10;border-color:var(--green)}.rbtn.loss.on{background:var(--red);color:#fff;border-color:var(--red)}
+  .pl{margin-left:auto;font-family:var(--mono);font-size:13px}.pl.pos{color:var(--green)}.pl.neg{color:var(--red)}
+
+  /* β pool row */
+  .poolrow{display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--line-soft);border-radius:var(--r-s);background:#0b1728;padding:12px 13px;margin-bottom:8px}
+  .poolrow .e{font-size:14px;font-weight:500}.poolrow .w{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:2px}
+  .poolrow .rt{text-align:right;flex:0 0 auto}
+  .poolrow .o{font-family:var(--mono);font-size:15px;color:var(--brass-hi)}
+  .poolrow .fv{font-family:var(--mono);font-size:10px;color:var(--muted)}
+
+  /* summary + calib */
+  .card{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--panel),var(--panel2));padding:15px;margin-top:14px}
+  .card.brass{border-color:var(--brass-deep)}
+  .card>h4{font-family:var(--disp);text-transform:uppercase;letter-spacing:.07em;font-size:12px;color:var(--brass-hi);margin-bottom:10px}
+  .sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}
+  @media(max-width:560px){.sgrid{grid-template-columns:repeat(2,1fr)}}
+  .sg{text-align:center}.sg .n{font-family:var(--mono);font-size:21px;font-weight:700}.sg .l{font-size:9px;color:var(--muted);font-family:var(--disp);text-transform:uppercase;letter-spacing:.05em;margin-top:3px}
+  .sg .n.g{color:var(--green)}.sg .n.r{color:var(--red)}.sg .n.b{color:var(--brass-hi)}
+  textarea{width:100%;min-height:110px;background:#0b1728;border:1px solid var(--line);border-radius:var(--r-s);color:var(--ink-dim);font-family:var(--mono);font-size:12px;padding:11px;line-height:1.5;resize:vertical;margin-top:12px}
+  .btn{font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-weight:600;font-size:12px;border:none;border-radius:9px;padding:11px 15px;cursor:pointer;color:#1a1305;background:linear-gradient(180deg,var(--brass-hi),var(--brass));margin-top:10px}
+  .btn.ghost{background:transparent;color:var(--ink-dim);border:1px solid var(--line);margin-left:8px}
+  .crow{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:8px;align-items:center;padding:7px 0;border-top:1px solid #ffffff0d}
+  .crow:first-child{border-top:none}
+  .crow-all{background:#c9a24a10;border-radius:7px;padding:9px 8px}
+  .crow .ck{font-size:12px;color:var(--ink-dim)}
+  .crow-all .ck{color:var(--brass-hi);font-weight:600;font-family:var(--disp);text-transform:uppercase;letter-spacing:.04em;font-size:11px}
+  .crow .cv{font-family:var(--mono);font-size:14px;text-align:right}
+  .crow .cv.g{color:var(--green)}.crow .cv.a{color:var(--amber)}
+  .crow .cs{display:block;font-size:8px;font-family:var(--disp);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  .cnote{font-size:12px;color:var(--ink-dim);margin-top:10px;line-height:1.5}.cnote b{color:var(--brass-hi)}
+
+  footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--faint);font-size:11px;font-family:var(--disp);letter-spacing:.05em;text-transform:uppercase;text-align:center;line-height:1.7}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 L22 7 L12 12 L2 7 Z" fill="#221a06" opacity=".85"/><path d="M2 7 L12 12 L12 22 L2 17 Z" fill="#3a2c0a" opacity=".7"/><path d="M22 7 L12 12 L12 22 L22 17 Z" fill="#1c1505" opacity=".55"/></svg></div>
+    <div class="htxt"><div class="t">Ставочная пиццерия</div><div class="s">штаб ставок · футбол · теннис · MMA</div></div>
+    <div class="hupd" id="hupd">—</div>
+  </header>
+
+  <div class="hero">
+    <img alt="Ставочная пиццерия — командный штаб" src="__IMGDATA__">
+    <div class="grad"></div>
+    <div class="zones" id="zones"></div>
+    <div class="cap"><div class="k">командный штаб</div><div class="h">Аналитика на что ставить</div></div>
+  </div>
+
+  <div class="cta">
+    <button class="bigbtn" id="analyze">⚡ Дай события — что ставить</button>
+    <div class="sub">анализ формы, травм и рынка по трём видам спорта</div>
+  </div>
+
+  <div id="analyzing" hidden></div>
+  <div id="app" hidden>
+    <div class="tabs" id="tabs">
+      <div class="tab on" data-s="football">Футбол<span class="c" id="cF"></span></div>
+      <div class="tab" data-s="mma">MMA<span class="c" id="cM"></span></div>
+      <div class="tab" data-s="tennis">Теннис<span class="c" id="cT"></span></div>
+    </div>
+    <div class="bankbar">
+      <span>Банк (для суммы ставки):</span><input id="bank" type="number" placeholder="напр. 10000" inputmode="numeric">
+      <span class="hint" id="bankhint">введи банк — покажу ставку в ₽</span>
+    </div>
+    <div id="content"></div>
+
+    <div class="card brass">
+      <div class="sgrid">
+        <div class="sg"><div class="n b" id="sTaken">0</div><div class="l">Взял</div></div>
+        <div class="sg"><div class="n" id="sSettled">0</div><div class="l">Сыграно</div></div>
+        <div class="sg"><div class="n g" id="sPL">0</div><div class="l">Итог (юниты)</div></div>
+        <div class="sg"><div class="n" id="sROI">—</div><div class="l">ROI</div></div>
+      </div>
+      <textarea id="report" readonly placeholder="Отметь взятые ставки и исходы — соберётся отчёт."></textarea>
+      <button class="btn" id="copyBtn">Скопировать отчёт</button>
+      <button class="btn ghost" id="resetBtn">Сброс</button>
+    </div>
+
+    <div class="card" id="calibBox">
+      <h4>Табло калибровки · прогноз против факта</h4>
+      <div id="calibGrid"></div>
+      <div class="cnote"><b>Как читать.</b> «зашло/ожид» — сыграло против ожидания модели (близко = честные вероятности). <b>Brier</b> — точность вероятностей (ниже лучше; 0.25 = «наугад», меньше = модель информативна). Табло растёт само: каждый прогноз авто‑сверяется с результатом.</div>
+    </div>
+
+    <div class="call warn" style="margin-top:16px">
+      <h4>Честно — как этим пользоваться</h4>
+      <p><b>Зелёные «СТАВИТЬ»</b> — там, где у модели есть небольшой перевес: тоталы и «обе забьют» по футболу (её сильная сторона). Суммы микро — это дисциплина, а не азарт.</p>
+      <p><b>«Монетки» и β‑пул</b> (теннис/MMA) — витрина рынка без выдуманного перевеса: показываю фаворита честно, но это не рекомендация ставить.</p>
+      <p class="mono" style="font-size:11px;color:var(--muted)">Футбол на fallback‑модели (без xG). Не гарантия прибыли. Ставь только то, что не жалко.</p>
+    </div>
+  </div>
+
+  <footer>аналитика для проверки, не гарантия прибыли · играй ответственно</footer>
+</div>
+
+<script>
+const POOL=__POOL__;
+const NOWMS=Date.now();
+function evMs(p){const t=p.iso?Date.parse(p.iso):(p.when?Date.parse(p.when.replace(' ','T')+':00Z'):NaN);return isNaN(t)?Infinity:t;}
+function notPast(p){return evMs(p)>NOWMS-90*60000;}
+function dayLabel(p){const t=evMs(p);if(!isFinite(t))return 'позже';
+  const d=new Date(t);const md=x=>Date.UTC(x.getUTCFullYear(),x.getUTCMonth(),x.getUTCDate());
+  const diff=Math.round((md(d)-md(new Date(NOWMS)))/86400000);
+  return diff<=0?'Сегодня':diff===1?'Завтра':diff===2?'Послезавтра':d.toLocaleDateString('ru-RU',{day:'2-digit',month:'short',timeZone:'UTC'});}
+function timeLabel(p){const t=evMs(p);if(!isFinite(t))return p.when||'';return new Date(t).toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
+function groupByDay(arr){const g={},ord=[];arr.forEach(p=>{const d=dayLabel(p);if(!g[d]){g[d]=[];ord.push(d);}g[d].push(p);});return ord.map(d=>[d,g[d]]);}
+function poolRow(p){return `<div class="poolrow"><div><div class="e">${p.ev}</div><div class="w">${p.league?p.league+' · ':''}${timeLabel(p)}</div></div><div class="rt"><div class="o">${p.odds||'—'}</div><div class="fv">${p.fav?('фаворит '+(p.ourm||'')+'% · '+(p.fav.length>16?p.fav.slice(0,16)+'…':p.fav)):''}</div></div></div>`;}
+const ZONES={football:{x:27,y:49,l:'Футбол'},mma:{x:52,y:48,l:'MMA'},tennis:{x:74,y:52,l:'Теннис'}};
+let sport='football',bank=0,revealed=false;
+const KEY='pizzeria_shtab_v1';
+let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){st={}}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
+document.getElementById('hupd').textContent='обновлено\n'+(POOL.updated||'');
+document.getElementById('cF').textContent=(POOL.football||[]).filter(p=>notPast(p)&&p.stake>0&&!p.caution).length+' ✓';
+document.getElementById('cM').textContent=(POOL.mma||[]).filter(notPast).length+' матч.';
+document.getElementById('cT').textContent=(POOL.tennis||[]).filter(notPast).length+' матч.';
+
+// arenas
+document.getElementById('zones').innerHTML=Object.keys(ZONES).map(sk=>{const z=ZONES[sk];
+  return `<div class="zone" data-sk="${sk}" style="left:${z.x}%;top:${z.y}%;width:34px;height:34px"><span class="zdot"></span><span class="zl">${z.l}</span></div>`;}).join('');
+document.querySelectorAll('.zone').forEach(el=>el.addEventListener('click',()=>{if(!revealed)doReveal(()=>selectSport(el.dataset.sk));else selectSport(el.dataset.sk);}));
+
+function unit(u){return bank>0?('₽'+Math.round(u/100*bank).toLocaleString('ru-RU')+' · '+u.toFixed(1)+'ю'):(u.toFixed(1)+'% банка');}
+const uKey=p=>sport+'|'+p.ev+'|'+(p.market||'ml');
+
+// analyze animation
+const STEPS=['Тяну события и коэффициенты рынка','Форма и голевые темпы команд','Разведка: травмы и составы','Считаю вероятности и усадку к рынку','Отбираю ставки с перевесом'];
+document.getElementById('analyze').addEventListener('click',()=>{if(revealed){document.getElementById('app').scrollIntoView({behavior:'smooth'});return;}doReveal();});
+function doReveal(then){
+  const btn=document.getElementById('analyze');btn.disabled=true;btn.textContent='⚙ Анализирую…';
+  const box=document.getElementById('analyzing');box.hidden=false;
+  box.innerHTML=`<h4><span class="spin"></span> Штаб анализирует события</h4>`+STEPS.map((s,i)=>`<div class="astep" id="as${i}"><span class="dot">${i+1}</span>${s}</div>`).join('');
+  let i=0;const tick=()=>{
+    if(i>0)document.getElementById('as'+(i-1)).className='astep done',document.getElementById('as'+(i-1)).querySelector('.dot').textContent='✓';
+    if(i<STEPS.length){document.getElementById('as'+i).className='astep on';i++;setTimeout(tick,430);}
+    else{finishReveal();if(then)then();}
+  };tick();
+}
+function finishReveal(){
+  revealed=true;
+  setTimeout(()=>{document.getElementById('analyzing').hidden=true;},500);
+  document.getElementById('app').hidden=false;
+  const btn=document.getElementById('analyze');btn.disabled=false;btn.textContent='↻ Обновить анализ';
+  renderCalib();render();
+  setTimeout(()=>document.getElementById('tabs').scrollIntoView({behavior:'smooth',block:'start'}),120);
+}
+function selectSport(sk){sport=sk;document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.s===sk));render();document.getElementById('tabs').scrollIntoView({behavior:'smooth',block:'start'});}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>selectSport(t.dataset.s)));
+
+function fCard(p){
+  const k=uKey(p);const s=st[k]||{};const od=s.odds||p.odds;const res=s.result||null;
+  const skip=p.caution;
+  let pl=0,plt='';if(s.taken&&res&&!skip){pl=res==='win'?(p.stake*(od-1)):res==='loss'?-p.stake:0;plt=(pl>0?'+':'')+pl.toFixed(2)+'ю';}
+  const parts=p.ev.split(' — ');
+  const intel=(p.homeOut!=null)?`<div class="intel">🩺 <b>${parts[0]}</b>: ${p.homeOut} вне игры${p.homeKey&&p.homeKey.length?' ('+p.homeKey.join(', ')+')':''} · <b>${parts[1]}</b>: ${p.awayOut} вне игры${p.awayKey&&p.awayKey.length?' ('+p.awayKey.join(', ')+')':''}${p.adj!=null?` · с травмами фаворит ${Math.round(p.adj*100)}%`:''}</div>`:'';
+  const reason=p.coinflip?'монетка (уверенность &lt;58%) — не ставим':(p.midweek?'будни — риск ротации':'большой перевес — вероятна переоценка');
+  return `<div class="pick ${skip?'skip':'go'} ${s.taken&&res?('done-'+res):''}">
+    <div class="p-top"><div><div class="p-ev">${p.ev}</div><div class="p-mk">${p.market}</div><div class="p-when">${p.league?p.league+' · ':''}${dayLabel(p)} ${timeLabel(p)}</div></div>
+      <div class="p-stake">${skip?`<div class="amt skip">пропуск</div>`:`<div class="amt">${unit(Math.min(p.stake,1.5))}</div>`}<div class="lbl">${skip?'не ставим':'ставка'}</div></div></div>
+    <div class="p-nums"><div class="n">наша вер.<b class="br">${p.our}%</b></div><div class="n">коэф<b class="g">${p.odds}</b></div><div class="n">перевес<b>${p.val>0?'+':''}${p.val}%</b></div></div>
+    ${skip?`<span class="cflag">⚠ ${reason}</span>`:''}
+    ${intel}
+    <div class="track"><label><input type="checkbox" class="tk" data-k="${k}" ${s.taken?'checked':''}> Поставил</label>
+      <label>коэф <input class="od" type="number" step="0.01" data-k="${k}" value="${od}"></label>
+      <button class="rbtn win ${res==='win'?'on':''}" data-k="${k}" data-r="win">Зашло</button>
+      <button class="rbtn loss ${res==='loss'?'on':''}" data-k="${k}" data-r="loss">Нет</button>
+      <span class="pl ${pl>0?'pos':pl<0?'neg':''}">${plt}</span></div>
+  </div>`;
+}
+
+function render(){
+  const c=document.getElementById('content');
+  const bh=document.getElementById('bankhint');bh.textContent=bank>0?('банк '+bank.toLocaleString('ru-RU')+' ₽ · 1 юнит = 1%'):'введи банк — покажу ставку в ₽';
+  if(sport==='football'){
+    const all=(POOL.football||[]).filter(notPast);
+    const go=all.filter(p=>p.stake>0&&!p.caution).sort((a,b)=>b.val-a.val);
+    const skip=all.filter(p=>p.caution);
+    const slate=(POOL.football_pool||[]).filter(notPast);
+    let html='';
+    html+=`<div class="sech go">▲ Штаб советует ставить <span class="pill">${go.length}</span></div>`;
+    html+= go.length?go.map(fCard).join(''):`<div class="poolrow"><div class="e" style="color:var(--muted)">На ближайших матчах перевеса нет — это норм, пусто лучше, чем на удачу. Смотри полный слейт ниже.</div></div>`;
+    if(skip.length){html+=`<div class="sech skip">▽ Рассмотрели, но пропускаем <span class="pill">${skip.length}</span></div>`+skip.sort((a,b)=>b.val-a.val).map(fCard).join('');}
+    if(slate.length){
+      html+=`<div class="sech" style="color:var(--brass-hi)">📅 Все ближайшие матчи <span class="pill">${slate.length}</span></div>`;
+      html+=groupByDay(slate).map(([d,items])=>`<div class="dayhdr">${d}</div>`+items.map(poolRow).join('')).join('');
+    }
+    c.innerHTML=html;
+  } else {
+    const pool=(POOL[sport]||[]).filter(notPast);
+    c.innerHTML=`<div class="sech skip">${sport==='tennis'?'Теннис · US Open':'MMA'} · β‑пул рынка <span class="pill">витрина</span></div>`+
+      `<div class="call warn" style="margin:0 0 10px"><p>Своей модели тут пока нет — показываю рыночного фаворита и его честную (де‑виг) вероятность. Это витрина матчей, <b>не рекомендация ставить</b>.</p></div>`+
+      (pool.length?groupByDay(pool).map(([d,items])=>`<div class="dayhdr">${d}</div>`+items.map(poolRow).join('')).join(''):`<div class="poolrow"><div class="e" style="color:var(--muted)">Ближайших матчей в фиде нет.</div></div>`);
+  }
+  wire();updateSummary();
+}
+function wire(){
+  document.querySelectorAll('.tk').forEach(el=>el.addEventListener('change',()=>{const k=el.dataset.k;st[k]=st[k]||{};st[k].taken=el.checked;save();render();}));
+  document.querySelectorAll('.od').forEach(el=>el.addEventListener('input',()=>{const k=el.dataset.k;st[k]=st[k]||{};st[k].odds=parseFloat(el.value)||null;save();updateSummary();}));
+  document.querySelectorAll('.rbtn').forEach(el=>el.addEventListener('click',()=>{const k=el.dataset.k,r=el.dataset.r;st[k]=st[k]||{};st[k].result=(st[k].result===r?null:r);st[k].taken=true;save();render();}));
+}
+function allPicks(){const m={};(POOL.football||[]).forEach(p=>m['football|'+p.ev+'|'+(p.market||'ml')]=p);return m;}
+function findPick(k){return allPicks()[k];}
+function allTaken(){return Object.entries(st).filter(([k,v])=>v.taken);}
+function updateSummary(){
+  const taken=allTaken();const settled=taken.filter(([k,v])=>v.result);
+  let staked=0,pl=0,wins=0;
+  settled.forEach(([k,v])=>{const p=findPick(k);if(!p)return;const stk=Math.min(p.stake||1,1.5);const od=v.odds||p.odds;staked+=stk;if(v.result==='win'){pl+=stk*(od-1);wins++;}else if(v.result==='loss')pl-=stk;});
+  document.getElementById('sTaken').textContent=taken.length;
+  document.getElementById('sSettled').textContent=settled.length;
+  const plEl=document.getElementById('sPL');plEl.textContent=(pl>0?'+':'')+pl.toFixed(2);plEl.className='n '+(pl>0?'g':pl<0?'r':'b');
+  const roi=staked?pl/staked*100:0;const rEl=document.getElementById('sROI');rEl.textContent=settled.length?((roi>0?'+':'')+roi.toFixed(0)+'%'):'—';rEl.className='n '+(roi>0?'g':roi<0?'r':'b');
+  let r='ОТЧЁТ · '+(POOL.updated||'')+'\nбанк: '+(bank>0?bank+' ₽':'(не указан)')+'\n\n';
+  if(!taken.length)r+='(ставки не отмечены)\n';
+  taken.forEach(([k,v])=>{const p=findPick(k);if(!p)return;const od=v.odds||p.odds;const res=v.result||'ждём';r+=`• ${p.ev} — ${p.market}\n   коэф ${od} · ${res==='win'?'ЗАШЛО':res==='loss'?'нет':'ждём'}\n`;});
+  if(settled.length)r+=`\nИТОГ: ${settled.length} сыграно · ${wins} зашло · P/L ${(pl>0?'+':'')+pl.toFixed(2)}ю · ROI ${(roi>0?'+':'')+roi.toFixed(0)}%\n`;
+  document.getElementById('report').value=r;
+}
+function renderCalib(){
+  const box=document.getElementById('calibBox');const grid=document.getElementById('calibGrid');const c=POOL.calib;
+  if(!c||!c.all||!c.all.n){box.hidden=true;return;}
+  const LBL={all:'Все прогнозы',ou:'Тоталы (голы)',btts:'Обе забьют','1x2':'Исход (1X2)',tennis:'Теннис · фаворит',mma:'MMA · фаворит'};
+  const order=['all','ou','btts','1x2','tennis','mma'];
+  grid.innerHTML=order.filter(k=>c[k]&&c[k].n).map(k=>{const b=c[k];const good=b.brier<0.25;
+    return `<div class="crow ${k==='all'?'crow-all':''}"><div class="ck">${LBL[k]}</div><div class="cv">${b.hits}/${b.n}<span class="cs">зашло</span></div><div class="cv">${b.exp}<span class="cs">ожид</span></div><div class="cv ${good?'g':'a'}">${b.brier}<span class="cs">Brier</span></div></div>`;}).join('');
+}
+document.getElementById('bank').addEventListener('input',e=>{bank=parseFloat(e.target.value)||0;render();});
+document.getElementById('copyBtn').addEventListener('click',()=>{const t=document.getElementById('report');t.select();try{navigator.clipboard.writeText(t.value)}catch(e){}try{document.execCommand('copy')}catch(e){}const b=document.getElementById('copyBtn');b.textContent='Скопировано ✓';setTimeout(()=>b.textContent='Скопировать отчёт',1400);});
+document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('Сбросить отметки?')){st={};save();render();}});
+</script>
