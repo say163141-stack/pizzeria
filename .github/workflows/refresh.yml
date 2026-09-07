@@ -1,0 +1,31 @@
+name: Обновление пиццерии
+# Пересобирает сайт каждый день (свежие ставки + оценка прогнозов) и коммитит docs/.
+on:
+  schedule:
+    - cron: '0 8 * * *'   # каждый день 08:00 UTC
+  workflow_dispatch: {}    # можно запустить вручную кнопкой в Actions
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install pillow
+      - name: Build site
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python3 make_site.py
+      - name: Commit result
+        run: |
+          git config user.name "pizzeria-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs predictions_log.json football_markets.json tennis_markets.json mma_markets.json kupon_data.json
+          git commit -m "auto: обновление пула $(date -u +%F_%H:%M)" || echo "нет изменений"
+          git push
