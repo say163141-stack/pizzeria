@@ -89,6 +89,7 @@ MIDWEEK_MULT = 0.5                      # ротация: в будни усаж
 STAKE_CAP = 1.5                         # потолок ставки, % банка (четверть-Келли)
 CAUTION_VAL = 0.18                      # порог «осторожно» по value
 COINFLIP = 0.58                         # ниже этой увер-ти направленную ставку не стейкаем
+W_MMA = 0.30                            # вес Elo-модели MMA против рынка (грубый Elo рынок не бьёт)
 
 NAME2CODE = {'Newcastle United': 'NEW', 'Bournemouth': 'BOU', 'Brentford': 'BRE', 'Sunderland': 'SUN',
  'Brighton and Hove Albion': 'BHA', 'Leeds United': 'LEE', 'Manchester City': 'MCI', 'Fulham': 'FUL',
@@ -480,6 +481,100 @@ def build_market_only(sportkeys, outfile, label, limit=12):
     return picks
 
 
+# ==================== MMA: модель Elo по бойцам ====================
+def build_mma_elo():
+    """Строит рейтинги бойцов Elo из истории боёв UFC (Greco1899). Возвращает {боец: (rating, n)}."""
+    import csv, io
+    try:
+        ev = {}
+        for r in csv.DictReader(io.StringIO(fetch("https://raw.githubusercontent.com/Greco1899/scrape_ufc_stats/main/ufc_event_details.csv"))):
+            ev[r['EVENT'].strip()] = r.get('DATE', '')
+        fights = list(csv.DictReader(io.StringIO(fetch("https://raw.githubusercontent.com/Greco1899/scrape_ufc_stats/main/ufc_fight_results.csv"))))
+    except Exception as e:
+        print(f"  ! MMA данные: {e}")
+        return {}
+
+    def pdate(s):
+        for f in ('%B %d, %Y',):
+            try:
+                return datetime.datetime.strptime(s.strip(), f)
+            except Exception:
+                pass
+        return datetime.datetime(1994, 1, 1)
+    parsed = []
+    for r in fights:
+        bout = r.get('BOUT', '')
+        out = (r.get('OUTCOME') or '').strip()
+        if ' vs. ' not in bout or out not in ('W/L', 'L/W', 'D/D'):
+            continue
+        a, b = [x.strip() for x in bout.split(' vs. ', 1)]
+        parsed.append((pdate(ev.get(r['EVENT'].strip(), '')), a, b, out))
+    parsed.sort(key=lambda x: x[0])
+    R, N = defaultdict(lambda: 1500.0), defaultdict(int)
+    K = 32
+    for _, a, b, out in parsed:
+        Ra, Rb = R[a], R[b]
+        Ea = 1 / (1 + 10 ** ((Rb - Ra) / 400))
+        sa = 1.0 if out == 'W/L' else (0.0 if out == 'L/W' else 0.5)
+        R[a] = Ra + K * (sa - Ea); R[b] = Rb + K * ((1 - sa) - (1 - Ea))
+        N[a] += 1; N[b] += 1
+    print(f"  MMA Elo: {len(R)} бойцов из {len(parsed)} боёв")
+    return {k: (R[k], N[k]) for k in R}
+
+
+def build_mma(sportkeys, outfile, limit=16):
+    if isinstance(sportkeys, str):
+        sportkeys = [sportkeys]
+    elo = build_mma_elo()
+    keys = list(elo.keys())
+
+    def rate(name):
+        if name in elo:
+            return elo[name]
+        mm = difflib.get_close_matches(name, keys, n=1, cutoff=0.86)
+        return elo[mm[0]] if mm else None
+    raw = []
+    for k in sportkeys:
+        raw += get_odds(k, 'h2h')
+    picks, modeled = [], 0
+    for m in raw:
+        if not fut(m.get('commence_time', '')):
+            continue
+        med = med_h2h(m)
+        if len(med) < 2:
+            continue
+        names = list(med.keys())
+        a, b = names[0], names[1]
+        dv = devig([med[a], med[b]])
+        if not dv:
+            continue
+        ra, rb = rate(a), rate(b)
+        disagree = 0.0
+        if ra and rb and ra[1] >= 3 and rb[1] >= 3:  # оба в базе с ≥3 боями → наша модель
+            model_a = 1 / (1 + 10 ** ((rb[0] - ra[0]) / 400))
+            # ДИСЦИПЛИНА (урок футбола): грубый Elo рынок не бьёт → усадка к рынку.
+            disagree = abs(model_a - dv[0])
+            our_a = W_MMA * model_a + (1 - W_MMA) * dv[0]
+            is_model = True
+        else:
+            our_a = dv[0]
+            is_model = False
+        our = [our_a, 1 - our_a]
+        fav_i = 0 if our[0] >= our[1] else 1
+        fav = names[fav_i]
+        picks.append({'a': a, 'b': b, 'mk': f'Победа: {fav}', 'fav': fav,
+                      'our': round(our[fav_i], 4), 'ext': round(dv[fav_i], 4), 'odds': round(med[fav], 2),
+                      'modeled': is_model, 'disagree': round(disagree, 3),
+                      'when': whenstr(m['commence_time']), 'iso': m['commence_time']})
+        if is_model:
+            modeled += 1
+    picks.sort(key=lambda x: x['when'])
+    picks = picks[:limit]
+    json.dump(picks, open(outfile, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f"  MMA: {len(picks)} боёв ({modeled} по модели Elo, остальные β)")
+    return picks
+
+
 # ==================== 4. BUILD KUPON ====================
 def build_kupon():
     fm = json.load(open('football_markets.json', encoding='utf-8'))
@@ -542,8 +637,19 @@ def build_kupon():
             return []
         out = []
         for p in arr:
+            our = p['our'] if p['our'] <= 1 else p['our'] / 100
+            ext = p.get('ext', our)
+            odds = p.get('odds')
+            val = round((our * odds - 1) * 100) if odds else None
+            dis = p.get('disagree', 0)
+            modeled = p.get('modeled', False)
+            # рекомендуем только вменяемое: модель, перевес есть, не андердог, модель не спорит с рынком
+            rec = bool(modeled and val is not None and val >= 3 and our >= 0.5 and dis <= 0.18)
+            caution = bool(modeled and (dis > 0.18) and val and val > 10)
             out.append({'sport': sport, 'ev': f"{p['a']} — {p['b']}", 'when': p['when'], 'iso': p.get('iso'),
-                        'fav': p.get('fav'), 'odds': p['odds'], 'ourm': round(p['our'] * 100) if p['our'] <= 1 else round(p['our'])})
+                        'fav': p.get('fav'), 'odds': odds, 'ourm': round(our * 100),
+                        'extm': round((ext or our) * 100), 'val': val, 'modeled': modeled,
+                        'rec': rec, 'caution': caution})
         return out
 
     data = {
@@ -797,7 +903,7 @@ def main():
         tk = active_sports('tennis') or ['tennis_atp_us_open', 'tennis_wta_us_open']
         mk = active_sports('mma') or ['mma_mixed_martial_arts']
         build_market_only(tk, 'tennis_markets.json', 'теннис', limit=20)
-        build_market_only(mk, 'mma_markets.json', 'MMA', limit=16)
+        build_mma(mk, 'mma_markets.json', limit=16)
     if step in ('all', 'log', 'grade'):
         print("[4/6] журнал прогнозов + оценка по фактам")
         log_predictions()   # логируем текущий билд (dedup по id)
