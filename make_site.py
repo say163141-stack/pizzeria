@@ -24,7 +24,15 @@ HEAD = '''<!doctype html><html lang="ru"><head>
 '''
 TAIL = '''
 <script>
-if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+if('serviceWorker' in navigator){
+  var hadCtrl=!!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange',function(){
+    if(hadCtrl&&!window.__reloaded){window.__reloaded=true;location.reload();}
+  });
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('sw.js').then(function(reg){reg.update&&reg.update();}).catch(function(){});
+  });
+}
 </script>
 </body></html>'''
 
