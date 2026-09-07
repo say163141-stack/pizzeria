@@ -188,6 +188,19 @@ def med_over(m, line):
     return statistics.median(ov) if ov else None
 
 
+def med_total(m, line, side):
+    """Цена тотала (Over/Under) на конкретной линии от букмекера."""
+    vals = []
+    nm = 'Over' if side == 'over' else 'Under'
+    for bk in m.get('bookmakers', []):
+        t = next((x for x in bk.get('markets', []) if x['key'] == 'totals'), None)
+        if t:
+            for o in t['outcomes']:
+                if o.get('name') == nm and abs((o.get('point') or 0) - line) < .26 and o.get('price', 0) > 1:
+                    vals.append(o['price'])
+    return statistics.median(vals) if vals else None
+
+
 # ==================== 2. FOOTBALL MODEL ====================
 def load_openfootball():
     rows = []
@@ -263,20 +276,24 @@ def build_football():
         mm = difflib.get_close_matches(n, list(att.keys()), n=1, cutoff=0.6)
         return mm[0] if mm else None
 
-    def grid(lh, la, n=11):
+    def full_grid(lh, la, n=11):
         ph = [pois(lh, i) for i in range(n)]
         pa = [pois(la, i) for i in range(n)]
-        P1 = X = P2 = o25 = o275 = btts = 0.0
+        g = {'P1': 0.0, 'X': 0.0, 'P2': 0.0, 'btts': 0.0, 'scores': {}}
+        for L in (1.5, 2.5, 3.5, 4.5):
+            g[f'ov{L}'] = 0.0
         for i in range(n):
             for j in range(n):
                 p = ph[i] * pa[j]
-                if i > j: P1 += p
-                elif i == j: X += p
-                else: P2 += p
-                if i + j >= 3: o25 += p
-                if i + j >= 3 and (i + j > 3 or i + j == 3): o275 += p
-                if i > 0 and j > 0: btts += p
-        return P1, X, P2, o25, btts
+                if i > j: g['P1'] += p
+                elif i == j: g['X'] += p
+                else: g['P2'] += p
+                if i > 0 and j > 0: g['btts'] += p
+                for L in (1.5, 2.5, 3.5, 4.5):
+                    if i + j > L: g[f'ov{L}'] += p
+                if i <= 5 and j <= 5:
+                    g['scores'][f'{i}:{j}'] = g['scores'].get(f'{i}:{j}', 0) + p
+        return g
 
     horizon = NOW + datetime.timedelta(days=DAYS_AHEAD)
 
@@ -324,24 +341,54 @@ def build_football():
             ch, ca = canon(home), canon(away)
             base = {'a': fav, 'b': dog, 'home': home, 'away': away, 'league': league,
                     'when': whenstr(iso), 'iso': iso, 'midweek': is_midweek(iso)}
-            if ch and ca:  # есть рейтинги → полная модель
+            if ch and ca:  # есть рейтинги → ПОЛНАЯ модель по всем рынкам
                 lh = LG_HOME * att[ch] * dfn[ca] * GOAL_CAL
                 la = LG_AWAY * att[ca] * dfn[ch] * GOAL_CAL
-                P1, X, P2, o25, btts = grid(lh, la)
-                s = P1 + X + P2
-                our_fav = (P1 if fav_home else P2) / s
-                mk = [{'key': '1x2', 'name': f'Победа: {fav}', 'our': round(our_fav, 4),
-                       'ext': round(ext_fav, 4), 'odds': odds_fav, 'modeled': True}]
-                o2 = med_over(m, 2.5)
-                mk.append({'key': 'ou', 'name': 'Тотал больше 2.5', 'our': round(o25, 4),
-                           'ext': round(1 / o2, 4) if o2 else None, 'odds': round(o2, 2) if o2 else None, 'modeled': True})
-                mk.append({'key': 'btts', 'name': 'Обе забьют — да', 'our': round(btts, 4),
-                           'ext': None, 'odds': None, 'modeled': True})
+                g = full_grid(lh, la)
+                sP = g['P1'] + g['X'] + g['P2']
+                p1, px, p2 = g['P1'] / sP, g['X'] / sP, g['P2'] / sP
+                btts = g['btts']
+
+                def row(key, grp, name, our, odds):
+                    r = {'key': key, 'grp': grp, 'name': name, 'our': round(our, 4)}
+                    if odds and odds > 1:
+                        r['odds'] = round(odds, 2); r['ext'] = round(1 / odds, 4)
+                    else:
+                        r['odds'] = None; r['ext'] = None
+                    return r
+                mk = []
+                # Исход (1X2) — есть линия
+                mk.append(row('1x2', 'Исход', f'Победа {home}', p1, med.get(home)))
+                mk.append(row('x', 'Исход', 'Ничья', px, med.get('Draw')))
+                mk.append(row('1x2', 'Исход', f'Победа {away}', p2, med.get(away)))
+                # Двойной шанс (наша оценка, линии обычно нет)
+                mk.append(row('dc', 'Двойной шанс', f'{home} не проиграет (1X)', p1 + px, None))
+                mk.append(row('dc', 'Двойной шанс', f'{away} не проиграет (X2)', px + p2, None))
+                mk.append(row('dc', 'Двойной шанс', 'без ничьей (12)', p1 + p2, None))
+                # Тоталы — линия есть
+                for L in (1.5, 2.5, 3.5):
+                    ov = g[f'ov{L}']
+                    mk.append(row('ou', 'Тотал', f'Больше {L}', ov, med_total(m, L, 'over')))
+                    mk.append(row('ou', 'Тотал', f'Меньше {L}', 1 - ov, med_total(m, L, 'under')))
+                # Обе забьют
+                mk.append(row('btts', 'Обе забьют', 'Да', btts, None))
+                mk.append(row('btts', 'Обе забьют', 'Нет', 1 - btts, None))
+                # Точный счёт — топ-3
+                top = sorted(g['scores'].items(), key=lambda x: -x[1])[:3]
+                for scname, pv in top:
+                    mk.append(row('cs', 'Точный счёт', scname.replace(':', '–'), pv, None))
                 base['markets'] = mk
                 base['modeled'] = True
-            else:            # нет рейтингов → β (только рынок)
-                base['markets'] = [{'key': '1x2', 'name': f'Победа: {fav}', 'our': round(ext_fav, 4),
-                                    'ext': round(ext_fav, 4), 'odds': odds_fav, 'modeled': False}]
+                base['topscore'] = top[0][0].replace(':', '–') if top else None
+            else:            # нет рейтингов → β (только рынок), но по всем 3 исходам
+                dv3 = devig([med.get(home), med.get('Draw', 0) or 99, med.get(away)])
+                mk = [{'key': '1x2', 'grp': 'Исход', 'name': f'Победа {home}', 'our': round((dv3[0] if dv3 else ext_fav), 4),
+                       'ext': round(1 / med[home], 4) if med.get(home) else None, 'odds': round(med[home], 2) if med.get(home) else None, 'modeled': False},
+                      {'key': 'x', 'grp': 'Исход', 'name': 'Ничья', 'our': round(dv3[1], 4) if dv3 else None,
+                       'ext': round(1 / med['Draw'], 4) if med.get('Draw') else None, 'odds': round(med['Draw'], 2) if med.get('Draw') else None, 'modeled': False},
+                      {'key': '1x2', 'grp': 'Исход', 'name': f'Победа {away}', 'our': round((dv3[2] if dv3 else 1 - ext_fav), 4),
+                       'ext': round(1 / med[away], 4) if med.get(away) else None, 'odds': round(med[away], 2) if med.get(away) else None, 'modeled': False}]
+                base['markets'] = mk
                 base['modeled'] = False
             events.append(base)
     events.sort(key=lambda e: e['iso'])
@@ -381,7 +428,9 @@ def add_injuries():
         ho = byteam.get(NAME2CODE.get(e.get('home'), ''), [])
         ao = byteam.get(NAME2CODE.get(e.get('away'), ''), [])
         haw, hdw = burden(ho); aaw, adw = burden(ao)
-        m1 = next((m for m in e['markets'] if m['key'] == '1x2'), None)
+        fav = e.get('a', '')
+        rows1 = [m for m in e['markets'] if m['key'] == '1x2']
+        m1 = next((m for m in rows1 if fav and fav in m['name']), rows1[0] if rows1 else None)
         base = m1['our'] if m1 else 0.5
         fav_home = (e.get('a') == e.get('home'))
         own_a, own_d = (haw, hdw) if fav_home else (aaw, adw)
@@ -435,43 +484,55 @@ def build_market_only(sportkeys, outfile, label, limit=12):
 def build_kupon():
     fm = json.load(open('football_markets.json', encoding='utf-8'))
     football = []
+    football_pool = []
+    SAFE_KEYS = ('dc', 'ou', '1x2')  # рынки, из которых выбираем «самую надёжную»
     for e in fm['events']:
         mw = e.get('midweek', False)
         intel = e.get('intel', {})
-        for mk in e['markets']:
-            our, ext, odds = mk.get('our'), mk.get('ext'), mk.get('odds')
+        markets = e.get('markets', [])
+        # компактный список всех рынков для витрины (наша оценка по каждому)
+        allmk = [{'grp': m.get('grp', ''), 'name': m['name'], 'our': round((m.get('our') or 0) * 100),
+                  'odds': m.get('odds'), 'val': (round((shrink(m['our'], m['ext'], m['key'], mw) * m['odds'] - 1) * 100)
+                                                 if m.get('odds') and m.get('ext') else None)}
+                 for m in markets if m.get('our') is not None]
+        # value-пики по всем рынкам с линией
+        best_val = None
+        for m in markets:
+            our, ext, odds = m.get('our'), m.get('ext'), m.get('odds')
             if not odds or not ext:
-                continue  # нет рыночной цены → не ставка, только справка в досье
-            shown = shrink(our, ext, mk['key'], mw)
-            val = shown * odds - 1
-            if val <= 0.005:
                 continue
-            edge = shown - 1 / odds
-            kelly = max(0.0, edge / (odds - 1))
-            stake = round(min(STAKE_CAP, kelly * 100 / 4), 2)  # четверть-Келли, % банка
-            # УРОК ПОСТ-МОРТЕМА: все проигрыши — это «монетки» (фаворит 45–58%).
-            # Направленную ставку (исход/фора) с уверенностью < COINFLIP не стейкаем.
-            coinflip = mk['key'] in ('1x2', 'ah') and shown < COINFLIP
+            shown = shrink(our, ext, m['key'], mw)
+            val = shown * odds - 1
+            coinflip = m['key'] in ('1x2', 'x', 'ah') and shown < COINFLIP
+            cand = {'name': m['name'], 'grp': m.get('grp', ''), 'our': round(shown * 100), 'odds': odds,
+                    'val': round(val * 100), 'coinflip': coinflip}
+            if val > 0.005 and not coinflip and (best_val is None or val > best_val['val'] / 100):
+                best_val = cand
+        # самая надёжная: максимальная наша вероятность среди «надёжных» рынков (без монеток)
+        safe = None
+        for m in markets:
+            if m['key'] not in SAFE_KEYS or m.get('our') is None:
+                continue
+            if m['key'] == '1x2' and m['our'] < 0.62:
+                continue
+            if safe is None or m['our'] > safe['our']:
+                safe = {'name': m['name'], 'grp': m.get('grp', ''), 'our': round(m['our'] * 100),
+                        'odds': m.get('odds')}
+        if best_val:
             football.append({
                 'sport': 'football', 'ev': f"{e['home']} — {e['away']}", 'when': e['when'], 'iso': e.get('iso'),
-                'league': e.get('league'), 'market': mk['name'], 'our': round(shown * 100), 'odds': odds,
-                'val': round(val * 100), 'stake': 0 if coinflip else stake,
+                'league': e.get('league'), 'market': best_val['name'], 'grp': best_val['grp'],
+                'our': best_val['our'], 'odds': best_val['odds'], 'val': best_val['val'],
+                'stake': round(min(STAKE_CAP, max(0.0, (best_val['our'] / 100 - 1 / best_val['odds']) / (best_val['odds'] - 1)) * 100 / 4), 2),
                 'homeOut': intel.get('homeOut', 0), 'awayOut': intel.get('awayOut', 0),
                 'adj': intel.get('adj'), 'homeKey': intel.get('homeKey', []), 'awayKey': intel.get('awayKey', []),
-                'midweek': mw, 'coinflip': coinflip, 'caution': (val > CAUTION_VAL) or mw or coinflip,
+                'midweek': mw, 'coinflip': False, 'caution': best_val['val'] > CAUTION_VAL * 100 or mw,
             })
-    football.sort(key=lambda x: x['val'], reverse=True)
-
-    # полный слейт футбола: ВСЕ ближайшие фикстуры (модель+β) как рыночные строки по дням
-    football_pool = []
-    for e in fm['events']:
-        m1 = next((m for m in e['markets'] if m['key'] == '1x2'), None)
-        if not m1:
-            continue
         football_pool.append({'sport': 'football', 'ev': f"{e['home']} — {e['away']}", 'when': e['when'],
                               'iso': e.get('iso'), 'league': e.get('league'), 'fav': e.get('a'),
-                              'odds': m1.get('odds'), 'ourm': round((m1.get('ext') or 0) * 100),
-                              'modeled': e.get('modeled', False)})
+                              'modeled': e.get('modeled', False), 'topscore': e.get('topscore'),
+                              'markets': allmk, 'safe': safe, 'bestval': best_val})
+    football.sort(key=lambda x: x['val'], reverse=True)
     football_pool.sort(key=lambda x: x['iso'] or '')
 
     def load_pool(f, sport):
@@ -532,10 +593,18 @@ def log_predictions():
         fm = json.load(open('football_markets.json', encoding='utf-8'))
         for e in fm['events']:
             mw = e.get('midweek', False)
-            m = {'home': e.get('home'), 'away': e.get('away'), 'fav': e.get('a')}
+            fav = e.get('a', '')
+            m = {'home': e.get('home'), 'away': e.get('away'), 'fav': fav}
             for mk in e['markets']:
+                # логируем только однозначно оцениваемые рынки: победа фаворита, тотал «больше», обе-да
+                nm = mk.get('name', '')
+                gradeable = ((mk['key'] == '1x2' and fav and fav in nm) or
+                             (mk['key'] == 'ou' and 'Больше' in nm) or
+                             (mk['key'] == 'btts' and nm == 'Да'))
+                if not gradeable:
+                    continue
                 shown = shrink(mk.get('our'), mk.get('ext'), mk['key'], mw)
-                added += add('football', f"{e['home']} — {e['away']}", mk['name'], shown,
+                added += add('football', f"{e['home']} — {e['away']}", nm, shown,
                              mk.get('ext'), mk.get('odds'), e.get('iso') or e.get('when'), {**m, 'key': mk['key']})
     except Exception as ex:
         print(f"  ! log football: {ex}")
