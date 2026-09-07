@@ -88,7 +88,7 @@ W_DIR, W_TOT = 0.12, 0.35               # вес модели: направле�
 MIDWEEK_MULT = 0.5                      # ротация: в будни усаживаем ещё сильнее
 STAKE_CAP = 1.5                         # потолок ставки, % банка (четверть-Келли)
 CAUTION_VAL = 0.18                      # порог «осторожно» по value
-COINFLIP = 0.58                         # ниже этой увер-ти направленную ставку не стейкаем
+COINFLIP = 0.60                         # ниже этой увер-ти не стейкаем (ретроспектива: 0.5-0.6 → 3/8, Brier 0.27 хуже монетки; 0.6+ → 13/13)
 W_MMA = 0.30                            # вес Elo-модели MMA против рынка (грубый Elo рынок не бьёт)
 
 NAME2CODE = {'Newcastle United': 'NEW', 'Bournemouth': 'BOU', 'Brentford': 'BRE', 'Sunderland': 'SUN',
@@ -576,65 +576,85 @@ def build_mma(sportkeys, outfile, limit=16):
 
 
 # ==================== ТЕННИС: surface-aware Elo ====================
-TENNIS_LFS = "https://media.githubusercontent.com/media/hikmatazimzade/tennis-ai/main/data"
-TENNIS_YEARS = list(range(2016, 2025))
-W_TENNIS = 0.55  # вес Elo против рынка (рейтинги по 2024, рынок несёт свежую форму)
+# ==================== TENNIS (surface-Elo, tennisabstract — ТЕКУЩИЕ) ====================
+# Живые surface-Elo рейтинги Джеффа Сакманна (обновляются после каждого турнира),
+# ATP + WTA, колонки Elo/hElo/cElo/gElo. Заменяют устаревшее зеркало 2024.
+# Параметры откалиброваны walk-forward бэктестом на ~45k матчей (2010-2026):
+#   блэнд поверхность/общий 0.5/0.5 (surface-only — хуже всех); temp 0.85 (сырой Elo переуверен);
+#   margin-of-victory НЕ улучшил (ворота бэктеста отклонили). log-loss 0.634 vs 0.693 coinflip, acc 63%.
+TENNIS_ELO_URLS = [
+    "https://tennisabstract.com/reports/atp_elo_ratings.html",
+    "https://tennisabstract.com/reports/wta_elo_ratings.html",
+]
+W_TENNIS = 0.55        # вес модели против рынка (бэктест: модель≈рынок, чуть слабее → блэнд)
+TENNIS_TEMP = 0.85     # калибровка уверенности: p = sig((diff/400)*TEMP)
+TENNIS_SURF_W = 0.5    # блэнд поверхность/общий
 
 
-def build_tennis_elo():
-    """Surface-aware Elo по истории ATP (Sackmann-зеркало, 2016–2024).
-    Возвращает dict: name -> {'o':overall, 'h':hard, 'c':clay, 'g':grass, 'n':matches, 'ns':{surf:cnt}}."""
-    import csv, io
-    matches = []
-    for y in TENNIS_YEARS:
+def build_tennis_ratings():
+    """Текущие surface-Elo (ATP+WTA) с tennisabstract. name -> {o,h,c,g,age}."""
+    import re, html as _html
+    R = {}
+    for url in TENNIS_ELO_URLS:
         try:
-            raw = fetch(f"{TENNIS_LFS}/atp_matches_{y}.csv", t=30)
-            for r in csv.DictReader(io.StringIO(raw)):
-                if r.get('winner_name') and r.get('loser_name'):
-                    matches.append((r.get('tourney_date', ''), r.get('match_num', '0'),
-                                    r['winner_name'].strip(), r['loser_name'].strip(),
-                                    (r.get('surface') or 'Hard').strip()))
+            h = fetch(url, t=40)
         except Exception as e:
-            print(f"  ! теннис {y}: {e}")
-    matches.sort(key=lambda x: (x[0], int(x[1]) if str(x[1]).isdigit() else 0))
-    SK = {'Hard': 'h', 'Clay': 'c', 'Grass': 'g'}
-    R = defaultdict(lambda: {'o': 1500.0, 'h': 1500.0, 'c': 1500.0, 'g': 1500.0, 'n': 0, 'ns': defaultdict(int)})
+            print(f"  ! теннис-рейтинги {url.split('/')[-1]}: {e}"); continue
+        cnt = 0
+        for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', h, re.S):
+            cells = re.findall(r'<td[^>]*>(.*?)</td>', tr, re.S)
+            if len(cells) < 11:
+                continue
+            nm = re.search(r'>([^<]+)</a>', cells[1])
+            if not nm:
+                continue
+            name = _html.unescape(nm.group(1)).replace('\xa0', ' ').strip()
 
-    def kf(n):
-        return 250.0 / ((n + 5) ** 0.4)
-    for _, _, w, l, surf in matches:
-        sk = SK.get(surf, 'h')
-        rw, rl = R[w], R[l]
-        # прогноз-блэнд поверхность+общий
-        do = rw['o'] - rl['o']; ds = rw[sk] - rl[sk]
-        diff = 0.6 * ds + 0.4 * do
-        Ew = 1 / (1 + 10 ** (-diff / 400))
-        kw, klv = kf(rw['n']), kf(rl['n'])
-        rw['o'] += kw * (1 - Ew); rl['o'] += klv * (0 - (1 - Ew))
-        rw[sk] += kw * (1 - Ew); rl[sk] += klv * (0 - (1 - Ew))
-        rw['n'] += 1; rl['n'] += 1; rw['ns'][sk] += 1; rl['ns'][sk] += 1
-    print(f"  Теннис Elo: {len(R)} игроков из {len(matches)} матчей (ATP 2016–2024)")
-    return {k: dict(o=v['o'], h=v['h'], c=v['c'], g=v['g'], n=v['n'], ns=dict(v['ns'])) for k, v in R.items()}
+            def num(x):
+                x = re.sub(r'<[^>]+>', '', x).replace(',', '').strip()
+                try: return float(x)
+                except: return None
+            elo = num(cells[3])
+            if not elo or not (1000 < elo < 2600):
+                continue
+            he, ce, ge = num(cells[6]), num(cells[8]), num(cells[10])
+            R[name] = dict(o=elo, h=he or elo, c=ce or elo, g=ge or elo, age=num(cells[2]))
+            cnt += 1
+        tour = 'ATP' if 'atp' in url else 'WTA'
+        print(f"  Теннис-рейтинги {tour}: {cnt} игроков (tennisabstract, текущие)")
+    print(f"  Теннис Elo всего: {len(R)} игроков (ATP+WTA, свежие surface-рейтинги)")
+    return R
 
 
 def _surface_of(sportkey):
     k = sportkey.lower()
     if 'french' in k or 'roland' in k: return 'c'
     if 'wimbledon' in k: return 'g'
-    return 'h'  # US Open, Australian, большинство — хард (грубо)
+    return 'h'
 
 
 def build_tennis(sportkeys, outfile, limit=20):
     if isinstance(sportkeys, str):
         sportkeys = [sportkeys]
-    elo = build_tennis_elo()
+    elo = build_tennis_ratings()
     keys = list(elo.keys())
+
+    lastidx = {}
+    for full in keys:
+        lastidx.setdefault(full.split()[-1].lower(), []).append(full)
 
     def rate(name):
         if name in elo:
             return elo[name]
-        mm = difflib.get_close_matches(name, keys, n=1, cutoff=0.84)
-        return elo[mm[0]] if mm else None
+        mm = difflib.get_close_matches(name, keys, n=1, cutoff=0.82)
+        if mm:
+            return elo[mm[0]]
+        toks = [t for t in name.replace('.', ' ').split() if len(t) > 1]
+        for tok in ([toks[-1], toks[0]] if toks else []):
+            cand = lastidx.get(tok.lower())
+            if cand and len(cand) == 1:
+                return elo[cand[0]]
+        return None
     picks, modeled = [], 0
     for k in sportkeys:
         surf = _surface_of(k)
@@ -650,10 +670,10 @@ def build_tennis(sportkeys, outfile, limit=20):
                 continue
             ra, rb = rate(a), rate(b)
             disagree = 0.0
-            if ra and rb and ra['n'] >= 10 and rb['n'] >= 10:
+            if ra and rb:
                 do = ra['o'] - rb['o']; ds = ra[surf] - rb[surf]
-                diff = 0.6 * ds + 0.4 * do
-                model_a = 1 / (1 + 10 ** (-diff / 400))
+                diff = TENNIS_SURF_W * ds + (1 - TENNIS_SURF_W) * do
+                model_a = 1 / (1 + 10 ** (-(diff / 400) * TENNIS_TEMP))
                 disagree = abs(model_a - dv[0])
                 our_a = W_TENNIS * model_a + (1 - W_TENNIS) * dv[0]
                 is_model = True
@@ -673,7 +693,6 @@ def build_tennis(sportkeys, outfile, limit=20):
     json.dump(picks, open(outfile, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f"  теннис: {len(picks)} матчей ({modeled} по модели surface-Elo, остальные β)")
     return picks
-
 
 # ==================== 4. BUILD KUPON ====================
 def build_kupon():
@@ -744,7 +763,7 @@ def build_kupon():
             dis = p.get('disagree', 0)
             modeled = p.get('modeled', False)
             # рекомендуем только вменяемое: модель, перевес есть, не андердог, модель не спорит с рынком
-            rec = bool(modeled and val is not None and val >= 3 and our >= 0.5 and dis <= 0.18)
+            rec = bool(modeled and val is not None and val >= 3 and our >= 0.60 and dis <= 0.18)
             caution = bool(modeled and (dis > 0.18) and val and val > 10)
             out.append({'sport': sport, 'ev': f"{p['a']} — {p['b']}", 'when': p['when'], 'iso': p.get('iso'),
                         'fav': p.get('fav'), 'odds': odds, 'ourm': round(our * 100),
