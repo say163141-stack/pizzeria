@@ -185,6 +185,7 @@
 
     <div class="call warn" style="margin-top:16px">
       <h4>Честно — как этим пользоваться</h4>
+      <p><b>Один букмекер.</b> Вся линия — от одной конторы (<b id="bookName">—</b>), чтобы коэффициенты совпадали с тем, где ты реально ставишь. Winline в источнике данных нет, 1xBet — ближайший аналог (Россия, широкое покрытие); линии близки, но перед ставкой сверь коэф с Winline.</p>
       <p><b>Зелёные «СТАВИТЬ»</b> — там, где у модели есть небольшой перевес: тоталы и «обе забьют» по футболу (её сильная сторона). Суммы микро — это дисциплина, а не азарт.</p>
       <p><b>«Монетки» и β‑пул</b> (теннис/MMA) — витрина рынка без выдуманного перевеса: показываю фаворита честно, но это не рекомендация ставить.</p>
       <p class="mono" style="font-size:11px;color:var(--muted)">Футбол на fallback‑модели (без xG). Не гарантия прибыли. Ставь только то, что не жалко.</p>
@@ -212,6 +213,7 @@ const KEY='pizzeria_shtab_v1';
 let st={};try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){st={}}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
 document.getElementById('hupd').textContent='обновлено\n'+(POOL.updated||'');
+try{if(POOL.book){document.querySelector('.htxt .s').textContent='линия букмекера '+POOL.book+' · футбол · теннис · MMA';var bn=document.getElementById('bookName');if(bn)bn.textContent=POOL.book;}}catch(e){}
 document.getElementById('cF').textContent=(POOL.football||[]).filter(p=>notPast(p)&&p.stake>0&&!p.caution).length+' ✓';
 document.getElementById('cM').textContent=(POOL.mma||[]).filter(notPast).length+' матч.';
 document.getElementById('cT').textContent=(POOL.tennis||[]).filter(notPast).length+' матч.';
