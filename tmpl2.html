@@ -74,6 +74,26 @@
   .sech.go{color:var(--green)} .sech.skip{color:var(--muted)}
   .sech .pill{font-family:var(--mono);font-size:10px;letter-spacing:0;text-transform:none;color:var(--muted);border:1px solid var(--line-soft);border-radius:20px;padding:1px 8px}
   .dayhdr{font-family:var(--disp);text-transform:uppercase;letter-spacing:.08em;font-size:10px;font-weight:600;color:var(--brass-hi);margin:12px 2px 6px;padding-bottom:4px;border-bottom:1px solid var(--line-soft)}
+  .fmatch{border:1px solid var(--line-soft);border-radius:var(--r-s);background:#0b1728;margin-bottom:8px;overflow:hidden}
+  .fmatch>summary{list-style:none;cursor:pointer;padding:11px 13px;position:relative}
+  .fmatch>summary::-webkit-details-marker{display:none}
+  .fmatch>summary::after{content:'▾ рынки';position:absolute;right:12px;top:11px;font-family:var(--disp);font-size:9px;letter-spacing:.05em;color:var(--brass);text-transform:uppercase}
+  .fmatch[open]>summary::after{content:'▴ скрыть'}
+  .fmatch summary .e{font-size:14px;font-weight:600;padding-right:60px}
+  .fmatch summary .w{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:2px}
+  .safeline{font-size:11.5px;color:var(--green);margin-top:6px}.safeline b{color:var(--ink)}
+  .valline{font-size:11.5px;color:var(--brass-hi);margin:0 0 8px}.valline b{color:var(--ink)}
+  .mtbl{padding:10px 13px;border-top:1px solid #ffffff0d}
+  .mhead,.mrow{display:grid;grid-template-columns:1fr 44px 46px 46px;gap:6px;align-items:center}
+  .mhead{font-family:var(--disp);text-transform:uppercase;font-size:8px;letter-spacing:.05em;color:var(--muted);padding-bottom:4px;border-bottom:1px solid #ffffff0d;margin-bottom:2px}
+  .mhead span:not(:first-child),.mrow .mo,.mrow .mk2,.mrow .mv{text-align:right}
+  .mrow{padding:4px 0;font-size:12px;border-bottom:1px solid #ffffff08}
+  .mrow .mn{color:var(--ink-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mrow .mo{font-family:var(--mono);color:var(--brass-hi);font-weight:600}
+  .mrow .mk2{font-family:var(--mono);color:var(--ink-dim);font-size:11px}
+  .mrow .mv{font-family:var(--mono);font-size:11px}.mrow .mv.pos{color:var(--green)}.mrow .mv.neg{color:var(--faint)}
+  .mgrp{font-family:var(--disp);text-transform:uppercase;font-size:9px;letter-spacing:.06em;color:var(--amber);margin:8px 0 2px}
+  .mnote{font-size:10px;color:var(--faint);margin-top:8px;line-height:1.4}
 
   /* pick card */
   .pick{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--panel),var(--panel2));padding:14px;margin-bottom:11px}
@@ -207,6 +227,18 @@ function dayLabel(p){const t=evMs(p);if(!isFinite(t))return 'позже';
 function timeLabel(p){const t=evMs(p);if(!isFinite(t))return p.when||'';return new Date(t).toLocaleTimeString('ru-RU',{hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
 function groupByDay(arr){const g={},ord=[];arr.forEach(p=>{const d=dayLabel(p);if(!g[d]){g[d]=[];ord.push(d);}g[d].push(p);});return ord.map(d=>[d,g[d]]);}
 function poolRow(p){return `<div class="poolrow"><div><div class="e">${p.ev}</div><div class="w">${p.league?p.league+' · ':''}${timeLabel(p)}</div></div><div class="rt"><div class="o">${p.odds||'—'}</div><div class="fv">${p.fav?('фаворит '+(p.ourm||'')+'% · '+(p.fav.length>16?p.fav.slice(0,16)+'…':p.fav)):''}</div></div></div>`;}
+function footPoolRow(p){
+  if(!p.markets||!p.markets.length) return poolRow(p);
+  const groups={};p.markets.forEach(m=>{(groups[m.grp]=groups[m.grp]||[]).push(m);});
+  const gorder=['Исход','Двойной шанс','Тотал','Обе забьют','Точный счёт'];
+  const tbl=gorder.filter(g=>groups[g]).map(g=>`<div class="mgrp">${g}</div>`+groups[g].map(m=>`<div class="mrow"><span class="mn">${m.name}</span><span class="mo">${m.our}%</span><span class="mk2">${m.odds?('@'+m.odds):'—'}</span><span class="mv ${m.val>0?'pos':(m.val!=null&&m.val<0?'neg':'')}">${m.val!=null?((m.val>0?'+':'')+m.val+'%'):''}</span></div>`).join('')).join('');
+  const safe=p.safe?`<div class="safeline">🛡 Надёжная: <b>${p.safe.name}</b> · наша ${p.safe.our}%${p.safe.odds?' @'+p.safe.odds:''}</div>`:'';
+  const bv=p.bestval?`<div class="valline">💰 Перевес: <b>${p.bestval.name}</b> @${p.bestval.odds} · +${p.bestval.val}%</div>`:'';
+  const top=p.topscore?' · вероятный счёт '+p.topscore:'';
+  return `<details class="fmatch"><summary><div class="e">${p.ev}</div><div class="w">${p.league?p.league+' · ':''}${timeLabel(p)}${top}</div>${safe}</summary>
+    <div class="mtbl">${bv}<div class="mhead"><span>рынок</span><span>наша</span><span>коэф</span><span>перевес</span></div>${tbl}
+    <div class="mnote">«наша» — вероятность нашей модели по каждому исходу. «перевес» — где модель выше цены ${POOL.book||'букмекера'}. Прочерк в коэф = этой ставки нет в фиде (оценка всё равно наша).</div></div></details>`;
+}
 const ZONES={football:{x:27,y:49,l:'Футбол'},mma:{x:52,y:48,l:'MMA'},tennis:{x:74,y:52,l:'Теннис'}};
 let sport='football',bank=0,revealed=false;
 const KEY='pizzeria_shtab_v1';
@@ -284,14 +316,15 @@ function render(){
     html+= go.length?go.map(fCard).join(''):`<div class="poolrow"><div class="e" style="color:var(--muted)">На ближайших матчах перевеса нет — это норм, пусто лучше, чем на удачу. Смотри полный слейт ниже.</div></div>`;
     if(skip.length){html+=`<div class="sech skip">▽ Рассмотрели, но пропускаем <span class="pill">${skip.length}</span></div>`+skip.sort((a,b)=>b.val-a.val).map(fCard).join('');}
     if(slate.length){
-      html+=`<div class="sech" style="color:var(--brass-hi)">📅 Все ближайшие матчи <span class="pill">${slate.length}</span></div>`;
-      html+=groupByDay(slate).map(([d,items])=>`<div class="dayhdr">${d}</div>`+items.map(poolRow).join('')).join('');
+      html+=`<div class="sech" style="color:var(--brass-hi)">📅 Все матчи · полный разбор <span class="pill">${slate.length}</span></div>`;
+      html+=`<div class="mnote" style="margin:0 2px 8px">Нажми на матч — раскроется наша оценка по <b>всем</b> ставкам: исход, двойной шанс, тоталы, обе забьют, вероятный счёт. 🛡 — самая надёжная, 💰 — лучший перевес.</div>`;
+      html+=groupByDay(slate).map(([d,items])=>`<div class="dayhdr">${d}</div>`+items.map(footPoolRow).join('')).join('');
     }
     c.innerHTML=html;
   } else {
     const pool=(POOL[sport]||[]).filter(notPast);
-    c.innerHTML=`<div class="sech skip">${sport==='tennis'?'Теннис · US Open':'MMA'} · β‑пул рынка <span class="pill">витрина</span></div>`+
-      `<div class="call warn" style="margin:0 0 10px"><p>Своей модели тут пока нет — показываю рыночного фаворита и его честную (де‑виг) вероятность. Это витрина матчей, <b>не рекомендация ставить</b>.</p></div>`+
+    c.innerHTML=`<div class="sech skip">${sport==='tennis'?'Теннис':'MMA'} · оценка по линии ${POOL.book||''} <span class="pill">${sport==='tennis'?'US Open':'бои'}</span></div>`+
+      `<div class="call warn" style="margin:0 0 10px"><p><b>Оценка = честная (де‑виг) вероятность из линии ${POOL.book||'букмекера'}</b> — это уже рабочая оценка, кого рынок считает фаворитом и насколько. Своя модель по ${sport==='tennis'?'игрокам (surface‑Elo)':'бойцам (Elo)'} — следующий шаг: ${sport==='mma'?'историю боёв UFC я уже нашёл, строю рейтинги':'источник истории матчей сейчас недоступен, ищу замену'}. Пока — не жёсткая рекомендация, а ориентир по рынку.</p></div>`+
       (pool.length?groupByDay(pool).map(([d,items])=>`<div class="dayhdr">${d}</div>`+items.map(poolRow).join('')).join(''):`<div class="poolrow"><div class="e" style="color:var(--muted)">Ближайших матчей в фиде нет.</div></div>`);
   }
   wire();updateSummary();
