@@ -10698,5 +10698,105 @@
   "status": "pending",
   "won": null,
   "actual": null
+ },
+ {
+  "id": "football|Sunderland — Arsenal|Победа Arsenal|2026-09-12",
+  "built": "2026-09-07T19:27:27.093480+00:00",
+  "sport": "football",
+  "ev": "Sunderland — Arsenal",
+  "market": "Победа Arsenal",
+  "shown": 0.644,
+  "ext": 0.6494,
+  "odds": 1.54,
+  "iso": "2026-09-12T19:00:00Z",
+  "match": {
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sunderland — Arsenal|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T19:27:27.093480+00:00",
+  "sport": "football",
+  "ev": "Sunderland — Arsenal",
+  "market": "Больше 1.5",
+  "shown": 0.6426,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T19:00:00Z",
+  "match": {
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sunderland — Arsenal|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T19:27:27.093480+00:00",
+  "sport": "football",
+  "ev": "Sunderland — Arsenal",
+  "market": "Больше 2.5",
+  "shown": 0.4375,
+  "ext": 0.4717,
+  "odds": 2.12,
+  "iso": "2026-09-12T19:00:00Z",
+  "match": {
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sunderland — Arsenal|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T19:27:27.093480+00:00",
+  "sport": "football",
+  "ev": "Sunderland — Arsenal",
+  "market": "Больше 3.5",
+  "shown": 0.1783,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T19:00:00Z",
+  "match": {
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sunderland — Arsenal|Да|2026-09-12",
+  "built": "2026-09-07T19:27:27.093480+00:00",
+  "sport": "football",
+  "ev": "Sunderland — Arsenal",
+  "market": "Да",
+  "shown": 0.3653,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T19:00:00Z",
+  "match": {
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
  }
 ]

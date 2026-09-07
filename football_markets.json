@@ -15,24 +15,24 @@
      "grp": "Исход",
      "name": "Победа Elche CF",
      "our": 0.6437,
-     "odds": 3.4,
-     "ext": 0.2941
+     "odds": 3.29,
+     "ext": 0.304
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.1992,
-     "odds": 3.58,
-     "ext": 0.2793
+     "odds": 3.5,
+     "ext": 0.2857
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Real Sociedad",
      "our": 0.1571,
-     "odds": 2.27,
-     "ext": 0.4405
+     "odds": 2.26,
+     "ext": 0.4425
     },
     {
      "key": "dc",
@@ -79,16 +79,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.5878,
-     "odds": 1.81,
-     "ext": 0.5525
+     "odds": 1.89,
+     "ext": 0.5291
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4122,
-     "odds": 2.17,
-     "ext": 0.4608
+     "odds": 2.0,
+     "ext": 0.5
     },
     {
      "key": "ou",
@@ -172,18 +172,18 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа AEK Athens",
-     "our": 0.5358,
-     "ext": 0.5495,
-     "odds": 1.82,
+     "our": 0.5328,
+     "ext": 0.5464,
+     "odds": 1.83,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.239,
-     "ext": 0.2451,
-     "odds": 4.08,
+     "our": 0.242,
+     "ext": 0.2481,
+     "odds": 4.03,
      "modeled": false
     },
     {
@@ -202,8 +202,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.536,
-    "adj": 0.536
+    "base": 0.533,
+    "adj": 0.533
    }
   },
   {
@@ -220,16 +220,16 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Club Brugge",
-     "our": 0.3563,
-     "ext": 0.365,
-     "odds": 2.74,
+     "our": 0.3571,
+     "ext": 0.3663,
+     "odds": 2.73,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2624,
+     "our": 0.2621,
      "ext": 0.2688,
      "odds": 3.72,
      "modeled": false
@@ -238,7 +238,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Aston Villa",
-     "our": 0.3813,
+     "our": 0.3808,
      "ext": 0.3906,
      "odds": 2.56,
      "modeled": false
@@ -255,7 +255,7 @@
      "Johan Manzambi (M, Knee)"
     ],
     "base": 0.381,
-    "adj": 0.349
+    "adj": 0.348
    }
   },
   {
@@ -2752,16 +2752,16 @@
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2267,
-     "odds": 4.22,
-     "ext": 0.237
+     "odds": 4.28,
+     "ext": 0.2336
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Atlético Madrid",
      "our": 0.3196,
-     "odds": 4.73,
-     "ext": 0.2114
+     "odds": 4.67,
+     "ext": 0.2141
     },
     {
      "key": "dc",
@@ -2904,25 +2904,25 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Sporting Lisbon",
-     "our": 0.5214,
-     "ext": 0.5348,
-     "odds": 1.87,
+     "our": 0.5234,
+     "ext": 0.5376,
+     "odds": 1.86,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2475,
-     "ext": 0.2538,
-     "odds": 3.94,
+     "our": 0.2459,
+     "ext": 0.2525,
+     "odds": 3.96,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Galatasaray",
-     "our": 0.2311,
+     "our": 0.2307,
      "ext": 0.237,
      "odds": 4.22,
      "modeled": false
@@ -2934,8 +2934,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.521,
-    "adj": 0.521
+    "base": 0.523,
+    "adj": 0.523
    }
   },
   {
@@ -2952,7 +2952,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Paris Saint Germain",
-     "our": 0.9235,
+     "our": 0.9249,
      "ext": 0.9524,
      "odds": 1.05,
      "modeled": false
@@ -2961,9 +2961,9 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.0554,
-     "ext": 0.0571,
-     "odds": 17.5,
+     "our": 0.054,
+     "ext": 0.0556,
+     "odds": 18.0,
      "modeled": false
     },
     {
@@ -2982,8 +2982,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.923,
-    "adj": 0.923
+    "base": 0.925,
+    "adj": 0.925
    }
   },
   {
@@ -3001,8 +3001,8 @@
      "grp": "Исход",
      "name": "Победа Charlton Athletic",
      "our": 0.4402,
-     "odds": 3.15,
-     "ext": 0.3175
+     "odds": 3.1,
+     "ext": 0.3226
     },
     {
      "key": "x",
@@ -3017,8 +3017,8 @@
      "grp": "Исход",
      "name": "Победа Queens Park Rangers",
      "our": 0.2996,
-     "odds": 2.18,
-     "ext": 0.4587
+     "odds": 2.21,
+     "ext": 0.4525
     },
     {
      "key": "dc",
@@ -3460,7 +3460,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Manchester United",
-     "our": 0.8484,
+     "our": 0.8472,
      "ext": 0.8696,
      "odds": 1.15,
      "modeled": false
@@ -3469,7 +3469,7 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.1155,
+     "our": 0.1153,
      "ext": 0.1183,
      "odds": 8.45,
      "modeled": false
@@ -3478,9 +3478,9 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Sabah FK",
-     "our": 0.0361,
-     "ext": 0.037,
-     "odds": 27.0,
+     "our": 0.0375,
+     "ext": 0.0385,
+     "odds": 26.0,
      "modeled": false
     }
    ],
@@ -3492,8 +3492,8 @@
      "Manuel Ugarte (M, Knee)"
     ],
     "awayKey": [],
-    "base": 0.848,
-    "adj": 0.84
+    "base": 0.847,
+    "adj": 0.839
    }
   },
   {
@@ -3606,7 +3606,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа AZ Alkmaar",
-     "our": 0.848,
+     "our": 0.8466,
      "ext": 0.885,
      "odds": 1.13,
      "modeled": false
@@ -3615,7 +3615,7 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.0973,
+     "our": 0.0971,
      "ext": 0.1015,
      "odds": 9.85,
      "modeled": false
@@ -3624,9 +3624,9 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Willem II",
-     "our": 0.0548,
-     "ext": 0.0571,
-     "odds": 17.5,
+     "our": 0.0563,
+     "ext": 0.0588,
+     "odds": 17.0,
      "modeled": false
     }
    ],
@@ -3636,8 +3636,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.848,
-    "adj": 0.848
+    "base": 0.847,
+    "adj": 0.847
    }
   },
   {
@@ -4193,8 +4193,8 @@
      "grp": "Исход",
      "name": "Победа Wrexham AFC",
      "our": 0.1813,
-     "odds": 5.39,
-     "ext": 0.1855
+     "odds": 5.44,
+     "ext": 0.1838
     },
     {
      "key": "dc",
@@ -6551,16 +6551,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.5279,
-     "odds": 1.88,
-     "ext": 0.5319
+     "odds": 1.87,
+     "ext": 0.5348
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4721,
-     "odds": 2.07,
-     "ext": 0.4831
+     "odds": 2.08,
+     "ext": 0.4808
     },
     {
      "key": "ou",
@@ -9992,6 +9992,168 @@
     "awayKey": [],
     "base": 0.374,
     "adj": 0.374
+   }
+  },
+  {
+   "a": "Arsenal",
+   "b": "Sunderland",
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "league": "АПЛ",
+   "when": "2026-09-12 19:00",
+   "iso": "2026-09-12T19:00:00Z",
+   "midweek": false,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Sunderland",
+     "our": 0.1448,
+     "odds": 7.31,
+     "ext": 0.1368
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2504,
+     "odds": 4.32,
+     "ext": 0.2315
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Arsenal",
+     "our": 0.6047,
+     "odds": 1.54,
+     "ext": 0.6494
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Sunderland не проиграет (1X)",
+     "our": 0.3953,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Arsenal не проиграет (X2)",
+     "our": 0.8552,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "без ничьей (12)",
+     "our": 0.7496,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 1.5",
+     "our": 0.6426,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 1.5",
+     "our": 0.3574,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 2.5",
+     "our": 0.3741,
+     "odds": 2.12,
+     "ext": 0.4717
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 2.5",
+     "our": 0.6259,
+     "odds": 1.84,
+     "ext": 0.5435
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 3.5",
+     "our": 0.1783,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 3.5",
+     "our": 0.8217,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Да",
+     "our": 0.3653,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Нет",
+     "our": 0.6347,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "0–1",
+     "our": 0.176,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "0–2",
+     "our": 0.1381,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "0–0",
+     "our": 0.1121,
+     "odds": null,
+     "ext": null
+    }
+   ],
+   "modeled": true,
+   "topscore": "0–1",
+   "intel": {
+    "homeOut": 1,
+    "awayOut": 1,
+    "homeKey": [
+     "Habib Diarra (M, Hamstring)"
+    ],
+    "awayKey": [
+     "William Saliba (D)"
+    ],
+    "base": 0.605,
+    "adj": 0.608
    }
   }
  ]

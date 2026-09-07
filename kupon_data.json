@@ -1,5 +1,5 @@
 {
- "updated": "07.09.2026 18:58 UTC",
+ "updated": "07.09.2026 19:27 UTC",
  "book": "1xBet",
  "football": [
   {
@@ -168,6 +168,52 @@
   },
   {
    "sport": "football",
+   "ev": "Sunderland — Arsenal",
+   "when": "2026-09-12 19:00",
+   "iso": "2026-09-12T19:00:00Z",
+   "league": "АПЛ",
+   "market": "Меньше 2.5",
+   "grp": "Тотал",
+   "our": 57,
+   "odds": 1.84,
+   "val": 5,
+   "stake": 0.79,
+   "homeOut": 1,
+   "awayOut": 1,
+   "adj": 0.608,
+   "homeKey": [
+    "Habib Diarra (M, Hamstring)"
+   ],
+   "awayKey": [
+    "William Saliba (D)"
+   ],
+   "midweek": false,
+   "coinflip": false,
+   "caution": false
+  },
+  {
+   "sport": "football",
+   "ev": "Elche CF — Real Sociedad",
+   "when": "2026-09-07 19:30",
+   "iso": "2026-09-07T19:30:00Z",
+   "league": "Ла Лига",
+   "market": "Больше 2.5",
+   "grp": "Тотал",
+   "our": 55,
+   "odds": 1.89,
+   "val": 4,
+   "stake": 0.59,
+   "homeOut": 0,
+   "awayOut": 0,
+   "adj": 0.157,
+   "homeKey": [],
+   "awayKey": [],
+   "midweek": false,
+   "coinflip": false,
+   "caution": false
+  },
+  {
+   "sport": "football",
    "ev": "Genoa — Frosinone",
    "when": "2026-09-12 13:00",
    "iso": "2026-09-12T13:00:00Z",
@@ -244,27 +290,6 @@
    "homeOut": 0,
    "awayOut": 0,
    "adj": 0.537,
-   "homeKey": [],
-   "awayKey": [],
-   "midweek": false,
-   "coinflip": false,
-   "caution": false
-  },
-  {
-   "sport": "football",
-   "ev": "Elche CF — Real Sociedad",
-   "when": "2026-09-07 19:30",
-   "iso": "2026-09-07T19:30:00Z",
-   "league": "Ла Лига",
-   "market": "Больше 2.5",
-   "grp": "Тотал",
-   "our": 56,
-   "odds": 1.81,
-   "val": 2,
-   "stake": 0.23,
-   "homeOut": 0,
-   "awayOut": 0,
-   "adj": 0.157,
    "homeKey": [],
    "awayKey": [],
    "midweek": false,
@@ -413,21 +438,21 @@
      "grp": "Исход",
      "name": "Победа Elche CF",
      "our": 64,
-     "odds": 3.4,
-     "val": 14
+     "odds": 3.29,
+     "val": 13
     },
     {
      "grp": "Исход",
      "name": "Ничья",
      "our": 20,
-     "odds": 3.58,
-     "val": -3
+     "odds": 3.5,
+     "val": -4
     },
     {
      "grp": "Исход",
      "name": "Победа Real Sociedad",
      "our": 16,
-     "odds": 2.27,
+     "odds": 2.26,
      "val": -8
     },
     {
@@ -469,15 +494,15 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 59,
-     "odds": 1.81,
-     "val": 2
+     "odds": 1.89,
+     "val": 4
     },
     {
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 41,
-     "odds": 2.17,
-     "val": -4
+     "odds": 2.0,
+     "val": -6
     },
     {
      "grp": "Тотал",
@@ -533,14 +558,14 @@
     "name": "Победа Elche CF",
     "grp": "Исход",
     "our": 64,
-    "odds": 3.4
+    "odds": 3.29
    },
    "bestval": {
     "name": "Больше 2.5",
     "grp": "Тотал",
-    "our": 56,
-    "odds": 1.81,
-    "val": 2,
+    "our": 55,
+    "odds": 1.89,
+    "val": 4,
     "coinflip": false
    }
   },
@@ -557,15 +582,15 @@
     {
      "grp": "Исход",
      "name": "Победа AEK Athens",
-     "our": 54,
-     "odds": 1.82,
+     "our": 53,
+     "odds": 1.83,
      "val": 0
     },
     {
      "grp": "Исход",
      "name": "Ничья",
      "our": 24,
-     "odds": 4.08,
+     "odds": 4.03,
      "val": 0
     },
     {
@@ -593,7 +618,7 @@
      "grp": "Исход",
      "name": "Победа Club Brugge",
      "our": 36,
-     "odds": 2.74,
+     "odds": 2.73,
      "val": 0
     },
     {
@@ -2787,14 +2812,14 @@
      "grp": "Исход",
      "name": "Ничья",
      "our": 23,
-     "odds": 4.22,
+     "odds": 4.28,
      "val": 0
     },
     {
      "grp": "Исход",
      "name": "Победа Atlético Madrid",
      "our": 32,
-     "odds": 4.73,
+     "odds": 4.67,
      "val": 3
     },
     {
@@ -2918,14 +2943,14 @@
      "grp": "Исход",
      "name": "Победа Sporting Lisbon",
      "our": 52,
-     "odds": 1.87,
+     "odds": 1.86,
      "val": 0
     },
     {
      "grp": "Исход",
      "name": "Ничья",
      "our": 25,
-     "odds": 3.94,
+     "odds": 3.96,
      "val": 0
     },
     {
@@ -2959,8 +2984,8 @@
     {
      "grp": "Исход",
      "name": "Ничья",
-     "our": 6,
-     "odds": 17.5,
+     "our": 5,
+     "odds": 18.0,
      "val": 0
     },
     {
@@ -2993,7 +3018,7 @@
      "grp": "Исход",
      "name": "Победа Charlton Athletic",
      "our": 44,
-     "odds": 3.15,
+     "odds": 3.1,
      "val": 2
     },
     {
@@ -3007,7 +3032,7 @@
      "grp": "Исход",
      "name": "Победа Queens Park Rangers",
      "our": 30,
-     "odds": 2.18,
+     "odds": 2.21,
      "val": -2
     },
     {
@@ -3398,7 +3423,7 @@
      "grp": "Исход",
      "name": "Победа Sabah FK",
      "our": 4,
-     "odds": 27.0,
+     "odds": 26.0,
      "val": 0
     }
    ],
@@ -3495,7 +3520,7 @@
      "name": "Победа AZ Alkmaar",
      "our": 85,
      "odds": 1.13,
-     "val": 0
+     "val": -1
     },
     {
      "grp": "Исход",
@@ -3507,8 +3532,8 @@
     {
      "grp": "Исход",
      "name": "Победа Willem II",
-     "our": 5,
-     "odds": 17.5,
+     "our": 6,
+     "odds": 17.0,
      "val": -1
     }
    ],
@@ -4018,7 +4043,7 @@
      "grp": "Исход",
      "name": "Победа Wrexham AFC",
      "our": 18,
-     "odds": 5.39,
+     "odds": 5.44,
      "val": 0
     },
     {
@@ -6090,14 +6115,14 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 53,
-     "odds": 1.88,
+     "odds": 1.87,
      "val": 0
     },
     {
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 47,
-     "odds": 2.07,
+     "odds": 2.08,
      "val": -1
     },
     {
@@ -9097,23 +9122,154 @@
    ],
    "safe": null,
    "bestval": null
+  },
+  {
+   "sport": "football",
+   "ev": "Sunderland — Arsenal",
+   "when": "2026-09-12 19:00",
+   "iso": "2026-09-12T19:00:00Z",
+   "league": "АПЛ",
+   "fav": "Arsenal",
+   "modeled": true,
+   "topscore": "0–1",
+   "markets": [
+    {
+     "grp": "Исход",
+     "name": "Победа Sunderland",
+     "our": 14,
+     "odds": 7.31,
+     "val": 1
+    },
+    {
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 25,
+     "odds": 4.32,
+     "val": 1
+    },
+    {
+     "grp": "Исход",
+     "name": "Победа Arsenal",
+     "our": 60,
+     "odds": 1.54,
+     "val": -1
+    },
+    {
+     "grp": "Двойной шанс",
+     "name": "Sunderland не проиграет (1X)",
+     "our": 40,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Двойной шанс",
+     "name": "Arsenal не проиграет (X2)",
+     "our": 86,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Двойной шанс",
+     "name": "без ничьей (12)",
+     "our": 75,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Тотал",
+     "name": "Больше 1.5",
+     "our": 64,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Тотал",
+     "name": "Меньше 1.5",
+     "our": 36,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Тотал",
+     "name": "Больше 2.5",
+     "our": 37,
+     "odds": 2.12,
+     "val": -7
+    },
+    {
+     "grp": "Тотал",
+     "name": "Меньше 2.5",
+     "our": 63,
+     "odds": 1.84,
+     "val": 5
+    },
+    {
+     "grp": "Тотал",
+     "name": "Больше 3.5",
+     "our": 18,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Тотал",
+     "name": "Меньше 3.5",
+     "our": 82,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Обе забьют",
+     "name": "Да",
+     "our": 37,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Обе забьют",
+     "name": "Нет",
+     "our": 63,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Точный счёт",
+     "name": "0–1",
+     "our": 18,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Точный счёт",
+     "name": "0–2",
+     "our": 14,
+     "odds": null,
+     "val": null
+    },
+    {
+     "grp": "Точный счёт",
+     "name": "0–0",
+     "our": 11,
+     "odds": null,
+     "val": null
+    }
+   ],
+   "safe": {
+    "name": "Sunderland не проиграет (1X)",
+    "grp": "Двойной шанс",
+    "our": 40,
+    "odds": null
+   },
+   "bestval": {
+    "name": "Меньше 2.5",
+    "grp": "Тотал",
+    "our": 57,
+    "odds": 1.84,
+    "val": 5,
+    "coinflip": false
+   }
   }
  ],
  "tennis": [
-  {
-   "sport": "tennis",
-   "ev": "Elena Rybakina — Naomi Osaka",
-   "when": "2026-09-07 19:40",
-   "iso": "2026-09-07T19:40:00Z",
-   "fav": "Elena Rybakina",
-   "odds": 1.72,
-   "ourm": 62,
-   "extm": 56,
-   "val": 6,
-   "modeled": true,
-   "rec": true,
-   "caution": false
-  },
   {
    "sport": "tennis",
    "ev": "Karen Khachanov — Learner Tien",
@@ -9162,10 +9318,10 @@
    "when": "2026-09-08 00:10",
    "iso": "2026-09-08T00:10:00Z",
    "fav": "Alexander Zverev",
-   "odds": 1.09,
-   "ourm": 84,
-   "extm": 88,
-   "val": -8,
+   "odds": 1.08,
+   "ourm": 85,
+   "extm": 89,
+   "val": -9,
    "modeled": true,
    "rec": false,
    "caution": false
@@ -9194,6 +9350,34 @@
    "ourm": 58,
    "extm": 57,
    "val": -3,
+   "modeled": true,
+   "rec": false,
+   "caution": false
+  },
+  {
+   "sport": "tennis",
+   "ev": "Emma Navarro — Jessica Pegula",
+   "when": "2026-09-08 23:00",
+   "iso": "2026-09-08T23:00:00Z",
+   "fav": "Jessica Pegula",
+   "odds": 1.25,
+   "ourm": 78,
+   "extm": 77,
+   "val": -2,
+   "modeled": true,
+   "rec": false,
+   "caution": false
+  },
+  {
+   "sport": "tennis",
+   "ev": "Ben Shelton — Carlos Alcaraz",
+   "when": "2026-09-09 00:10",
+   "iso": "2026-09-09T00:10:00Z",
+   "fav": "Carlos Alcaraz",
+   "odds": 1.27,
+   "ourm": 71,
+   "extm": 76,
+   "val": -10,
    "modeled": true,
    "rec": false,
    "caution": false

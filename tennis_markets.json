@@ -1,18 +1,5 @@
 [
  {
-  "a": "Elena Rybakina",
-  "b": "Naomi Osaka",
-  "mk": "Победа: Elena Rybakina",
-  "fav": "Elena Rybakina",
-  "our": 0.6174,
-  "ext": 0.5578,
-  "odds": 1.72,
-  "modeled": true,
-  "disagree": 0.108,
-  "when": "2026-09-07 19:40",
-  "iso": "2026-09-07T19:40:00Z"
- },
- {
   "a": "Karen Khachanov",
   "b": "Learner Tien",
   "mk": "Победа: Learner Tien",
@@ -56,11 +43,11 @@
   "b": "Luciano Darderi",
   "mk": "Победа: Alexander Zverev",
   "fav": "Alexander Zverev",
-  "our": 0.8425,
-  "ext": 0.8801,
-  "odds": 1.09,
+  "our": 0.8459,
+  "ext": 0.8879,
+  "odds": 1.08,
   "modeled": true,
-  "disagree": 0.068,
+  "disagree": 0.076,
   "when": "2026-09-08 00:10",
   "iso": "2026-09-08T00:10:00Z"
  },
@@ -89,5 +76,31 @@
   "disagree": 0.014,
   "when": "2026-09-08 17:00",
   "iso": "2026-09-08T17:00:00Z"
+ },
+ {
+  "a": "Emma Navarro",
+  "b": "Jessica Pegula",
+  "mk": "Победа: Jessica Pegula",
+  "fav": "Jessica Pegula",
+  "our": 0.782,
+  "ext": 0.7677,
+  "odds": 1.25,
+  "modeled": true,
+  "disagree": 0.026,
+  "when": "2026-09-08 23:00",
+  "iso": "2026-09-08T23:00:00Z"
+ },
+ {
+  "a": "Ben Shelton",
+  "b": "Carlos Alcaraz",
+  "mk": "Победа: Carlos Alcaraz",
+  "fav": "Carlos Alcaraz",
+  "our": 0.71,
+  "ext": 0.7558,
+  "odds": 1.27,
+  "modeled": true,
+  "disagree": 0.083,
+  "when": "2026-09-09 00:10",
+  "iso": "2026-09-09T00:10:00Z"
  }
 ]
