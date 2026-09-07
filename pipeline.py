@@ -39,6 +39,10 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36'}
 KEY = os.environ.get('ODDS_API_KEY', '').strip()
 ODDS = "https://api.the-odds-api.com/v4"
+# ОДИН букмекер — вся аналитика в рамках его линии. Winline в фиде нет → 1xBet (onexbet) как аналог.
+BOOKMAKER = os.environ.get('ODDS_BOOKMAKER', 'onexbet').strip()
+BOOKMAKER_NAME = {'onexbet': '1xBet', 'marathonbet': 'Marathonbet', 'pinnacle': 'Pinnacle',
+                  'williamhill': 'William Hill'}.get(BOOKMAKER, BOOKMAKER)
 
 # ---- football model params ----
 SEASONS = ['2023-24', '2024-25', '2025-26', '2026-27']
@@ -49,13 +53,34 @@ SCALE = {'en.1': 1.00, 'en.2': 0.80, 'en.3': 0.66, 'en.4': 0.54,
          'es.1': 1.00, 'es.2': 0.78, 'de.1': 0.98, 'de.2': 0.78,
          'it.1': 0.97, 'it.2': 0.76, 'fr.1': 0.95, 'fr.2': 0.74,
          'nl.1': 0.86, 'pt.1': 0.84}
-# соревнования the-odds-api для ежедневного покрытия (топ-лиги + еврокубки)
-SOCCER_COMPS = ['soccer_epl', 'soccer_spain_la_liga', 'soccer_italy_serie_a',
-                'soccer_germany_bundesliga', 'soccer_france_ligue_one',
-                'soccer_netherlands_eredivisie', 'soccer_portugal_primeira_liga',
-                'soccer_efl_champ', 'soccer_uefa_champs_league', 'soccer_uefa_europa_league']
+# Футбол: лиги с рейтингами openfootball → тянем h2h+totals (полная модель, 2 кредита).
+MODELED_COMPS = ['soccer_epl', 'soccer_spain_la_liga', 'soccer_italy_serie_a', 'soccer_germany_bundesliga']
+# β-лиги (без своей модели) → тянем только h2h (1 кредит), показываем в слейте.
+# Порядок = приоритет (при нехватке бюджета режется с конца). Пользователь просил Россию/Китай.
+BETA_COMPS = ['soccer_uefa_champs_league', 'soccer_uefa_europa_league',
+              'soccer_russia_premier_league', 'soccer_china_superleague',
+              'soccer_france_ligue_one', 'soccer_netherlands_eredivisie', 'soccer_portugal_primeira_liga',
+              'soccer_efl_champ', 'soccer_usa_mls', 'soccer_brazil_campeonato',
+              'soccer_argentina_primera_division', 'soccer_turkey_super_league',
+              'soccer_saudi_arabia_pro_league', 'soccer_mexico_ligamx',
+              'soccer_japan_j_league', 'soccer_korea_kleague1', 'soccer_belgium_first_div',
+              'soccer_spl', 'soccer_greece_super_league', 'soccer_netherlands_eredivisie']
+# Бюджет кредитов the-odds-api на один прогон. Free = 500/мес. При ежедневном прогоне держим ~16.
+# Апгрейд тарифа the-odds-api → подними это число, покрытие само расширится.
+MAX_CREDITS = int(os.environ.get('ODDS_MAX_CREDITS', '16'))
 DAYS_AHEAD = 5          # окно: ближайшие N дней (сегодня/завтра/послезавтра…)
-MAX_FOOT = 40           # потолок числа футбольных фикстур
+MAX_FOOT = 80           # потолок числа футбольных фикстур в слейте
+LG_NAMES = {'soccer_epl': 'АПЛ', 'soccer_spain_la_liga': 'Ла Лига', 'soccer_italy_serie_a': 'Серия A',
+            'soccer_germany_bundesliga': 'Бундеслига', 'soccer_france_ligue_one': 'Лига 1',
+            'soccer_netherlands_eredivisie': 'Эредивизи', 'soccer_portugal_primeira_liga': 'Примейра',
+            'soccer_efl_champ': 'Чемпионшип', 'soccer_uefa_champs_league': 'ЛЧ',
+            'soccer_uefa_europa_league': 'ЛЕ', 'soccer_russia_premier_league': 'РПЛ',
+            'soccer_china_superleague': 'Китай', 'soccer_usa_mls': 'MLS',
+            'soccer_brazil_campeonato': 'Бразилия', 'soccer_argentina_primera_division': 'Аргентина',
+            'soccer_turkey_super_league': 'Турция', 'soccer_saudi_arabia_pro_league': 'Саудия',
+            'soccer_mexico_ligamx': 'Мексика', 'soccer_japan_j_league': 'Япония',
+            'soccer_korea_kleague1': 'Корея', 'soccer_belgium_first_div': 'Бельгия',
+            'soccer_spl': 'Шотландия', 'soccer_greece_super_league': 'Греция'}
 ALPHA, GOAL_CAL = 0.06, 1.07
 LG_HOME, LG_AWAY = 1.50, 1.15           # средние голы дома/в гостях
 # ---- усадка к рынку (честность) ----
@@ -119,9 +144,23 @@ def is_midweek(iso):
 
 
 # ==================== 1. ODDS ====================
-def get_odds(sportkey, markets):
+def active_sports(prefix):
+    """Активные соревнования the-odds-api по префиксу ключа (tennis_, mma_) — /sports бесплатен.
+    Позволяет пулу самому подхватывать новые турниры (US Open кончился → следующий ATP появился)."""
     try:
-        return json.loads(fetch(f"{ODDS}/sports/{sportkey}/odds/?apiKey={KEY}&regions=eu&markets={markets}&oddsFormat=decimal"))
+        d = json.loads(fetch(f"{ODDS}/sports/?apiKey={KEY}"))
+        return [s['key'] for s in d if s.get('active') and s['key'].startswith(prefix)]
+    except Exception as e:
+        print(f"  ! active_sports {prefix}: {e}")
+        return []
+
+
+def get_odds(sportkey, markets):
+    # ВСЕ коэффициенты — от ОДНОГО букмекера (BOOKMAKER). Winline в фиде the-odds-api нет,
+    # ближайший доступный аналог (Россия, широкое покрытие) — 1xBet (onexbet).
+    bm = f"&bookmakers={BOOKMAKER}" if BOOKMAKER else ""
+    try:
+        return json.loads(fetch(f"{ODDS}/sports/{sportkey}/odds/?apiKey={KEY}&regions=eu&markets={markets}{bm}&oddsFormat=decimal"))
     except Exception as e:
         print(f"  ! odds {sportkey}: {e}")
         return []
@@ -248,14 +287,21 @@ def build_football():
         except Exception:
             return False
 
-    LG = {'soccer_epl': 'АПЛ', 'soccer_spain_la_liga': 'Ла Лига', 'soccer_italy_serie_a': 'Серия A',
-          'soccer_germany_bundesliga': 'Бундеслига', 'soccer_france_ligue_one': 'Лига 1',
-          'soccer_netherlands_eredivisie': 'Эредивизи', 'soccer_portugal_primeira_liga': 'Примейра',
-          'soccer_efl_champ': 'Чемпионшип', 'soccer_uefa_champs_league': 'ЛЧ', 'soccer_uefa_europa_league': 'ЛЕ'}
+    # план в рамках бюджета кредитов: сначала модельные (h2h+totals=2), потом β (h2h=1)
+    plan, credits, betas = [], 0, [b for b in dict.fromkeys(BETA_COMPS)]  # dedup β, keep order
+    for comp in MODELED_COMPS:
+        if credits + 2 > MAX_CREDITS:
+            break
+        plan.append((comp, 'h2h,totals')); credits += 2
+    for comp in betas:
+        if credits + 1 > MAX_CREDITS:
+            break
+        plan.append((comp, 'h2h')); credits += 1
+    print(f"  футбол: план {len(plan)} лиг, ~{credits} кредитов (лимит {MAX_CREDITS})")
     events, seen = [], set()
-    for comp in SOCCER_COMPS:
-        raw = get_odds(comp, 'h2h,totals')
-        league = LG.get(comp, comp)
+    for comp, markets in plan:
+        raw = get_odds(comp, markets)
+        league = LG_NAMES.get(comp, comp.replace('soccer_', ''))
         for m in raw:
             iso = m.get('commence_time', '')
             if not in_window(iso):
@@ -303,7 +349,7 @@ def build_football():
     out = {'events': events}
     json.dump(out, open('football_markets.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     nmod = sum(1 for e in events if e.get('modeled'))
-    print(f"  футбол: {len(events)} матчей в окне {DAYS_AHEAD}д ({nmod} с моделью, {len(events)-nmod} β) из {len(SOCCER_COMPS)} турниров")
+    print(f"  футбол: {len(events)} матчей в окне {DAYS_AHEAD}д ({nmod} с моделью, {len(events)-nmod} β) из {len(plan)} лиг")
     return out
 
 
@@ -441,6 +487,7 @@ def build_kupon():
 
     data = {
         'updated': NOW.strftime('%d.%m.%Y %H:%M UTC'),
+        'book': BOOKMAKER_NAME,
         'football': football,
         'football_pool': football_pool,
         'tennis': load_pool('tennis_markets.json', 'tennis'),
@@ -677,9 +724,11 @@ def main():
         build_football()
         print("[2/6] травмы")
         add_injuries()
-        print("[3/6] теннис/MMA (β)")
-        build_market_only(['tennis_atp_us_open', 'tennis_wta_us_open'], 'tennis_markets.json', 'теннис')
-        build_market_only('mma_mixed_martial_arts', 'mma_markets.json', 'MMA')
+        print("[3/6] теннис/MMA (β, авто-поиск активных турниров)")
+        tk = active_sports('tennis') or ['tennis_atp_us_open', 'tennis_wta_us_open']
+        mk = active_sports('mma') or ['mma_mixed_martial_arts']
+        build_market_only(tk, 'tennis_markets.json', 'теннис', limit=20)
+        build_market_only(mk, 'mma_markets.json', 'MMA', limit=16)
     if step in ('all', 'log', 'grade'):
         print("[4/6] журнал прогнозов + оценка по фактам")
         log_predictions()   # логируем текущий билд (dedup по id)
