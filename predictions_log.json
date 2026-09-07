@@ -4138,5 +4138,4005 @@
   "status": "pending",
   "won": null,
   "actual": null
+ },
+ {
+  "id": "football|Cagliari — Lecce|Победа Cagliari|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cagliari — Lecce",
+  "market": "Победа Cagliari",
+  "shown": 0.4616,
+  "ext": 0.463,
+  "odds": 2.16,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Cagliari",
+   "away": "Lecce",
+   "fav": "Cagliari",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cagliari — Lecce|Больше 1.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cagliari — Lecce",
+  "market": "Больше 1.5",
+  "shown": 0.5793,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Cagliari",
+   "away": "Lecce",
+   "fav": "Cagliari",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cagliari — Lecce|Больше 2.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cagliari — Lecce",
+  "market": "Больше 2.5",
+  "shown": 0.4035,
+  "ext": 0.4545,
+  "odds": 2.2,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Cagliari",
+   "away": "Lecce",
+   "fav": "Cagliari",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cagliari — Lecce|Больше 3.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cagliari — Lecce",
+  "market": "Больше 3.5",
+  "shown": 0.1333,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Cagliari",
+   "away": "Lecce",
+   "fav": "Cagliari",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cagliari — Lecce|Да|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cagliari — Lecce",
+  "market": "Да",
+  "shown": 0.3722,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Cagliari",
+   "away": "Lecce",
+   "fav": "Cagliari",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Rubin Kazan — FC Akhmat Grozny|Победа FC Akhmat Grozny|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Rubin Kazan — FC Akhmat Grozny",
+  "market": "Победа FC Akhmat Grozny",
+  "shown": 0.3465,
+  "ext": 0.3472,
+  "odds": 2.88,
+  "iso": "2026-09-07T16:30:00Z",
+  "match": {
+   "home": "Rubin Kazan",
+   "away": "FC Akhmat Grozny",
+   "fav": "FC Akhmat Grozny",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Getafe — Celta Vigo|Победа Getafe|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Getafe — Celta Vigo",
+  "market": "Победа Getafe",
+  "shown": 0.3762,
+  "ext": 0.3745,
+  "odds": 2.67,
+  "iso": "2026-09-07T17:00:00Z",
+  "match": {
+   "home": "Getafe",
+   "away": "Celta Vigo",
+   "fav": "Getafe",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Getafe — Celta Vigo|Больше 1.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Getafe — Celta Vigo",
+  "market": "Больше 1.5",
+  "shown": 0.5494,
+  "ext": 0.565,
+  "odds": 1.77,
+  "iso": "2026-09-07T17:00:00Z",
+  "match": {
+   "home": "Getafe",
+   "away": "Celta Vigo",
+   "fav": "Getafe",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Getafe — Celta Vigo|Больше 2.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Getafe — Celta Vigo",
+  "market": "Больше 2.5",
+  "shown": 0.2545,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T17:00:00Z",
+  "match": {
+   "home": "Getafe",
+   "away": "Celta Vigo",
+   "fav": "Getafe",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Getafe — Celta Vigo|Больше 3.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Getafe — Celta Vigo",
+  "market": "Больше 3.5",
+  "shown": 0.0999,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T17:00:00Z",
+  "match": {
+   "home": "Getafe",
+   "away": "Celta Vigo",
+   "fav": "Getafe",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Getafe — Celta Vigo|Да|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Getafe — Celta Vigo",
+  "market": "Да",
+  "shown": 0.3345,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T17:00:00Z",
+  "match": {
+   "home": "Getafe",
+   "away": "Celta Vigo",
+   "fav": "Getafe",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Udinese — Lazio|Победа Lazio|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Udinese — Lazio",
+  "market": "Победа Lazio",
+  "shown": 0.3396,
+  "ext": 0.3521,
+  "odds": 2.84,
+  "iso": "2026-09-07T18:45:00Z",
+  "match": {
+   "home": "Udinese",
+   "away": "Lazio",
+   "fav": "Lazio",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Udinese — Lazio|Больше 1.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Udinese — Lazio",
+  "market": "Больше 1.5",
+  "shown": 0.6885,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T18:45:00Z",
+  "match": {
+   "home": "Udinese",
+   "away": "Lazio",
+   "fav": "Lazio",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Udinese — Lazio|Больше 2.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Udinese — Lazio",
+  "market": "Больше 2.5",
+  "shown": 0.4295,
+  "ext": 0.431,
+  "odds": 2.32,
+  "iso": "2026-09-07T18:45:00Z",
+  "match": {
+   "home": "Udinese",
+   "away": "Lazio",
+   "fav": "Lazio",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Udinese — Lazio|Больше 3.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Udinese — Lazio",
+  "market": "Больше 3.5",
+  "shown": 0.2184,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T18:45:00Z",
+  "match": {
+   "home": "Udinese",
+   "away": "Lazio",
+   "fav": "Lazio",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Udinese — Lazio|Да|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Udinese — Lazio",
+  "market": "Да",
+  "shown": 0.4668,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T18:45:00Z",
+  "match": {
+   "home": "Udinese",
+   "away": "Lazio",
+   "fav": "Lazio",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Elche CF — Real Sociedad|Победа Real Sociedad|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Elche CF — Real Sociedad",
+  "market": "Победа Real Sociedad",
+  "shown": 0.4188,
+  "ext": 0.4545,
+  "odds": 2.2,
+  "iso": "2026-09-07T19:30:00Z",
+  "match": {
+   "home": "Elche CF",
+   "away": "Real Sociedad",
+   "fav": "Real Sociedad",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Elche CF — Real Sociedad|Больше 1.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Elche CF — Real Sociedad",
+  "market": "Больше 1.5",
+  "shown": 0.8081,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T19:30:00Z",
+  "match": {
+   "home": "Elche CF",
+   "away": "Real Sociedad",
+   "fav": "Real Sociedad",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Elche CF — Real Sociedad|Больше 2.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Elche CF — Real Sociedad",
+  "market": "Больше 2.5",
+  "shown": 0.5609,
+  "ext": 0.5464,
+  "odds": 1.83,
+  "iso": "2026-09-07T19:30:00Z",
+  "match": {
+   "home": "Elche CF",
+   "away": "Real Sociedad",
+   "fav": "Real Sociedad",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Elche CF — Real Sociedad|Больше 3.5|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Elche CF — Real Sociedad",
+  "market": "Больше 3.5",
+  "shown": 0.3638,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T19:30:00Z",
+  "match": {
+   "home": "Elche CF",
+   "away": "Real Sociedad",
+   "fav": "Real Sociedad",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Elche CF — Real Sociedad|Да|2026-09-07",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Elche CF — Real Sociedad",
+  "market": "Да",
+  "shown": 0.5347,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-07T19:30:00Z",
+  "match": {
+   "home": "Elche CF",
+   "away": "Real Sociedad",
+   "fav": "Real Sociedad",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|AEK Athens — LASK|Победа AEK Athens|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "AEK Athens — LASK",
+  "market": "Победа AEK Athens",
+  "shown": 0.5517,
+  "ext": 0.5525,
+  "odds": 1.81,
+  "iso": "2026-09-08T16:45:00Z",
+  "match": {
+   "home": "AEK Athens",
+   "away": "LASK",
+   "fav": "AEK Athens",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Club Brugge — Aston Villa|Победа Aston Villa|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Club Brugge — Aston Villa",
+  "market": "Победа Aston Villa",
+  "shown": 0.3994,
+  "ext": 0.4,
+  "odds": 2.5,
+  "iso": "2026-09-08T16:45:00Z",
+  "match": {
+   "home": "Club Brugge",
+   "away": "Aston Villa",
+   "fav": "Aston Villa",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|NEC Nijmegen — Excelsior|Победа NEC Nijmegen|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "NEC Nijmegen — Excelsior",
+  "market": "Победа NEC Nijmegen",
+  "shown": 0.6235,
+  "ext": 0.625,
+  "odds": 1.6,
+  "iso": "2026-09-08T16:45:00Z",
+  "match": {
+   "home": "NEC Nijmegen",
+   "away": "Excelsior",
+   "fav": "NEC Nijmegen",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Blackburn Rovers — Sheffield United|Победа Sheffield United|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Blackburn Rovers — Sheffield United",
+  "market": "Победа Sheffield United",
+  "shown": 0.4387,
+  "ext": 0.4464,
+  "odds": 2.24,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Blackburn Rovers",
+   "away": "Sheffield United",
+   "fav": "Sheffield United",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Blackburn Rovers — Sheffield United|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Blackburn Rovers — Sheffield United",
+  "market": "Больше 1.5",
+  "shown": 0.7536,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Blackburn Rovers",
+   "away": "Sheffield United",
+   "fav": "Sheffield United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Blackburn Rovers — Sheffield United|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Blackburn Rovers — Sheffield United",
+  "market": "Больше 2.5",
+  "shown": 0.5094,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Blackburn Rovers",
+   "away": "Sheffield United",
+   "fav": "Sheffield United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Blackburn Rovers — Sheffield United|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Blackburn Rovers — Sheffield United",
+  "market": "Больше 3.5",
+  "shown": 0.2886,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Blackburn Rovers",
+   "away": "Sheffield United",
+   "fav": "Sheffield United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Blackburn Rovers — Sheffield United|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Blackburn Rovers — Sheffield United",
+  "market": "Да",
+  "shown": 0.5476,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Blackburn Rovers",
+   "away": "Sheffield United",
+   "fav": "Sheffield United",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wrexham AFC — Burnley|Победа Wrexham AFC|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wrexham AFC — Burnley",
+  "market": "Победа Wrexham AFC",
+  "shown": 0.4968,
+  "ext": 0.495,
+  "odds": 2.02,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Wrexham AFC",
+   "away": "Burnley",
+   "fav": "Wrexham AFC",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wrexham AFC — Burnley|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wrexham AFC — Burnley",
+  "market": "Больше 1.5",
+  "shown": 0.8503,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Wrexham AFC",
+   "away": "Burnley",
+   "fav": "Wrexham AFC",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wrexham AFC — Burnley|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wrexham AFC — Burnley",
+  "market": "Больше 2.5",
+  "shown": 0.6555,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Wrexham AFC",
+   "away": "Burnley",
+   "fav": "Wrexham AFC",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wrexham AFC — Burnley|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wrexham AFC — Burnley",
+  "market": "Больше 3.5",
+  "shown": 0.4363,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Wrexham AFC",
+   "away": "Burnley",
+   "fav": "Wrexham AFC",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wrexham AFC — Burnley|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wrexham AFC — Burnley",
+  "market": "Да",
+  "shown": 0.645,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Wrexham AFC",
+   "away": "Burnley",
+   "fav": "Wrexham AFC",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cardiff City — Stoke City|Победа Cardiff City|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cardiff City — Stoke City",
+  "market": "Победа Cardiff City",
+  "shown": 0.4874,
+  "ext": 0.4695,
+  "odds": 2.13,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Cardiff City",
+   "away": "Stoke City",
+   "fav": "Cardiff City",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cardiff City — Stoke City|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cardiff City — Stoke City",
+  "market": "Больше 1.5",
+  "shown": 0.8021,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Cardiff City",
+   "away": "Stoke City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cardiff City — Stoke City|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cardiff City — Stoke City",
+  "market": "Больше 2.5",
+  "shown": 0.5787,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Cardiff City",
+   "away": "Stoke City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cardiff City — Stoke City|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cardiff City — Stoke City",
+  "market": "Больше 3.5",
+  "shown": 0.3546,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Cardiff City",
+   "away": "Stoke City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Cardiff City — Stoke City|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Cardiff City — Stoke City",
+  "market": "Да",
+  "shown": 0.4199,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Cardiff City",
+   "away": "Stoke City",
+   "fav": "Cardiff City",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Watford — Preston North End|Победа Watford|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Watford — Preston North End",
+  "market": "Победа Watford",
+  "shown": 0.4937,
+  "ext": 0.495,
+  "odds": 2.02,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Watford",
+   "away": "Preston North End",
+   "fav": "Watford",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Watford — Preston North End|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Watford — Preston North End",
+  "market": "Больше 1.5",
+  "shown": 0.7604,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Watford",
+   "away": "Preston North End",
+   "fav": "Watford",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Watford — Preston North End|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Watford — Preston North End",
+  "market": "Больше 2.5",
+  "shown": 0.5188,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Watford",
+   "away": "Preston North End",
+   "fav": "Watford",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Watford — Preston North End|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Watford — Preston North End",
+  "market": "Больше 3.5",
+  "shown": 0.2972,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Watford",
+   "away": "Preston North End",
+   "fav": "Watford",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Watford — Preston North End|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Watford — Preston North End",
+  "market": "Да",
+  "shown": 0.5466,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Watford",
+   "away": "Preston North End",
+   "fav": "Watford",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Southampton — Swansea City|Победа Southampton|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Southampton — Swansea City",
+  "market": "Победа Southampton",
+  "shown": 0.5422,
+  "ext": 0.5405,
+  "odds": 1.85,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Southampton",
+   "away": "Swansea City",
+   "fav": "Southampton",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Southampton — Swansea City|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Southampton — Swansea City",
+  "market": "Больше 1.5",
+  "shown": 0.8044,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Southampton",
+   "away": "Swansea City",
+   "fav": "Southampton",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Southampton — Swansea City|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Southampton — Swansea City",
+  "market": "Больше 2.5",
+  "shown": 0.5822,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Southampton",
+   "away": "Swansea City",
+   "fav": "Southampton",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Southampton — Swansea City|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Southampton — Swansea City",
+  "market": "Больше 3.5",
+  "shown": 0.3582,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Southampton",
+   "away": "Swansea City",
+   "fav": "Southampton",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Southampton — Swansea City|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Southampton — Swansea City",
+  "market": "Да",
+  "shown": 0.5682,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T18:45:00Z",
+  "match": {
+   "home": "Southampton",
+   "away": "Swansea City",
+   "fav": "Southampton",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — Villarreal|Победа Borussia Dortmund|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — Villarreal",
+  "market": "Победа Borussia Dortmund",
+  "shown": 0.5576,
+  "ext": 0.5556,
+  "odds": 1.8,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "fav": "Borussia Dortmund",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — Villarreal|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — Villarreal",
+  "market": "Больше 1.5",
+  "shown": 0.8369,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — Villarreal|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — Villarreal",
+  "market": "Больше 2.5",
+  "shown": 0.6332,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — Villarreal|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — Villarreal",
+  "market": "Больше 3.5",
+  "shown": 0.4116,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — Villarreal|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — Villarreal",
+  "market": "Да",
+  "shown": 0.6031,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "Villarreal",
+   "fav": "Borussia Dortmund",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Madrid — Inter Milan|Победа Real Madrid|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Madrid — Inter Milan",
+  "market": "Победа Real Madrid",
+  "shown": 0.6165,
+  "ext": 0.6135,
+  "odds": 1.63,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Real Madrid",
+   "away": "Inter Milan",
+   "fav": "Real Madrid",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Madrid — Inter Milan|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Madrid — Inter Milan",
+  "market": "Больше 1.5",
+  "shown": 0.7966,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Real Madrid",
+   "away": "Inter Milan",
+   "fav": "Real Madrid",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Madrid — Inter Milan|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Madrid — Inter Milan",
+  "market": "Больше 2.5",
+  "shown": 0.5705,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Real Madrid",
+   "away": "Inter Milan",
+   "fav": "Real Madrid",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Madrid — Inter Milan|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Madrid — Inter Milan",
+  "market": "Больше 3.5",
+  "shown": 0.3465,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Real Madrid",
+   "away": "Inter Milan",
+   "fav": "Real Madrid",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Madrid — Inter Milan|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Madrid — Inter Milan",
+  "market": "Да",
+  "shown": 0.5062,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Real Madrid",
+   "away": "Inter Milan",
+   "fav": "Real Madrid",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Lille — Real Betis|Победа Lille|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Lille — Real Betis",
+  "market": "Победа Lille",
+  "shown": 0.4494,
+  "ext": 0.4444,
+  "odds": 2.25,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Lille",
+   "away": "Real Betis",
+   "fav": "Lille",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Lille — Real Betis|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Lille — Real Betis",
+  "market": "Больше 1.5",
+  "shown": 0.7316,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Lille",
+   "away": "Real Betis",
+   "fav": "Lille",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Lille — Real Betis|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Lille — Real Betis",
+  "market": "Больше 2.5",
+  "shown": 0.4802,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Lille",
+   "away": "Real Betis",
+   "fav": "Lille",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Lille — Real Betis|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Lille — Real Betis",
+  "market": "Больше 3.5",
+  "shown": 0.2628,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Lille",
+   "away": "Real Betis",
+   "fav": "Lille",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Lille — Real Betis|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Lille — Real Betis",
+  "market": "Да",
+  "shown": 0.4982,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Lille",
+   "away": "Real Betis",
+   "fav": "Lille",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Porto — Manchester City|Победа Manchester City|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Porto — Manchester City",
+  "market": "Победа Manchester City",
+  "shown": 0.5566,
+  "ext": 0.5714,
+  "odds": 1.75,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Porto",
+   "away": "Manchester City",
+   "fav": "Manchester City",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Porto — Manchester City|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Porto — Manchester City",
+  "market": "Больше 1.5",
+  "shown": 0.6644,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Porto",
+   "away": "Manchester City",
+   "fav": "Manchester City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Porto — Manchester City|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Porto — Manchester City",
+  "market": "Больше 2.5",
+  "shown": 0.3986,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Porto",
+   "away": "Manchester City",
+   "fav": "Manchester City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Porto — Manchester City|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Porto — Manchester City",
+  "market": "Больше 3.5",
+  "shown": 0.1965,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Porto",
+   "away": "Manchester City",
+   "fav": "Manchester City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Porto — Manchester City|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Porto — Manchester City",
+  "market": "Да",
+  "shown": 0.4612,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Porto",
+   "away": "Manchester City",
+   "fav": "Manchester City",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — West Ham United|Победа West Ham United|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — West Ham United",
+  "market": "Победа West Ham United",
+  "shown": 0.6045,
+  "ext": 0.6173,
+  "odds": 1.62,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "fav": "West Ham United",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — West Ham United|Больше 1.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — West Ham United",
+  "market": "Больше 1.5",
+  "shown": 0.6784,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — West Ham United|Больше 2.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — West Ham United",
+  "market": "Больше 2.5",
+  "shown": 0.4146,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — West Ham United|Больше 3.5|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — West Ham United",
+  "market": "Больше 3.5",
+  "shown": 0.2089,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — West Ham United|Да|2026-09-08",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — West Ham United",
+  "market": "Да",
+  "shown": 0.4731,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-08T19:00:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "West Ham United",
+   "fav": "West Ham United",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Barcelona — Feyenoord|Победа Barcelona|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Barcelona — Feyenoord",
+  "market": "Победа Barcelona",
+  "shown": 0.9049,
+  "ext": 0.9091,
+  "odds": 1.1,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "Barcelona",
+   "away": "Feyenoord",
+   "fav": "Barcelona",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Barcelona — Feyenoord|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Barcelona — Feyenoord",
+  "market": "Больше 1.5",
+  "shown": 0.9295,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "Barcelona",
+   "away": "Feyenoord",
+   "fav": "Barcelona",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Barcelona — Feyenoord|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Barcelona — Feyenoord",
+  "market": "Больше 2.5",
+  "shown": 0.8067,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "Barcelona",
+   "away": "Feyenoord",
+   "fav": "Barcelona",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Barcelona — Feyenoord|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Barcelona — Feyenoord",
+  "market": "Больше 3.5",
+  "shown": 0.6291,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "Barcelona",
+   "away": "Feyenoord",
+   "fav": "Barcelona",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Barcelona — Feyenoord|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Barcelona — Feyenoord",
+  "market": "Да",
+  "shown": 0.5787,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "Barcelona",
+   "away": "Feyenoord",
+   "fav": "Barcelona",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|VfB Stuttgart — Viking FK|Победа VfB Stuttgart|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "VfB Stuttgart — Viking FK",
+  "market": "Победа VfB Stuttgart",
+  "shown": 0.7926,
+  "ext": 0.7937,
+  "odds": 1.26,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "VfB Stuttgart",
+   "away": "Viking FK",
+   "fav": "VfB Stuttgart",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Twente Enschede — SC Telstar|Победа FC Twente Enschede|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Twente Enschede — SC Telstar",
+  "market": "Победа FC Twente Enschede",
+  "shown": 0.7946,
+  "ext": 0.8,
+  "odds": 1.25,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "FC Twente Enschede",
+   "away": "SC Telstar",
+   "fav": "FC Twente Enschede",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Twente Enschede — SC Telstar|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Twente Enschede — SC Telstar",
+  "market": "Больше 1.5",
+  "shown": 0.8692,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "FC Twente Enschede",
+   "away": "SC Telstar",
+   "fav": "FC Twente Enschede",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Twente Enschede — SC Telstar|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Twente Enschede — SC Telstar",
+  "market": "Больше 2.5",
+  "shown": 0.6881,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "FC Twente Enschede",
+   "away": "SC Telstar",
+   "fav": "FC Twente Enschede",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Twente Enschede — SC Telstar|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Twente Enschede — SC Telstar",
+  "market": "Больше 3.5",
+  "shown": 0.4739,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "FC Twente Enschede",
+   "away": "SC Telstar",
+   "fav": "FC Twente Enschede",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Twente Enschede — SC Telstar|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Twente Enschede — SC Telstar",
+  "market": "Да",
+  "shown": 0.5818,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T16:45:00Z",
+  "match": {
+   "home": "FC Twente Enschede",
+   "away": "SC Telstar",
+   "fav": "FC Twente Enschede",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Norwich City — Birmingham City|Победа Norwich City|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Norwich City — Birmingham City",
+  "market": "Победа Norwich City",
+  "shown": 0.5135,
+  "ext": 0.5155,
+  "odds": 1.94,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "fav": "Norwich City",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Norwich City — Birmingham City|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Norwich City — Birmingham City",
+  "market": "Больше 1.5",
+  "shown": 0.6945,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "fav": "Norwich City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Norwich City — Birmingham City|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Norwich City — Birmingham City",
+  "market": "Больше 2.5",
+  "shown": 0.4339,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "fav": "Norwich City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Norwich City — Birmingham City|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Norwich City — Birmingham City",
+  "market": "Больше 3.5",
+  "shown": 0.2241,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "fav": "Norwich City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Norwich City — Birmingham City|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Norwich City — Birmingham City",
+  "market": "Да",
+  "shown": 0.4739,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Norwich City",
+   "away": "Birmingham City",
+   "fav": "Norwich City",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — West Bromwich Albion|Победа West Bromwich Albion|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — West Bromwich Albion",
+  "market": "Победа West Bromwich Albion",
+  "shown": 0.4098,
+  "ext": 0.4184,
+  "odds": 2.39,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "fav": "West Bromwich Albion",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — West Bromwich Albion|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — West Bromwich Albion",
+  "market": "Больше 1.5",
+  "shown": 0.7642,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — West Bromwich Albion|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — West Bromwich Albion",
+  "market": "Больше 2.5",
+  "shown": 0.524,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — West Bromwich Albion|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — West Bromwich Albion",
+  "market": "Больше 3.5",
+  "shown": 0.302,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — West Bromwich Albion|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — West Bromwich Albion",
+  "market": "Да",
+  "shown": 0.5498,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T18:45:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "West Bromwich Albion",
+   "fav": "West Bromwich Albion",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Napoli — Arsenal|Победа Arsenal|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Napoli — Arsenal",
+  "market": "Победа Arsenal",
+  "shown": 0.5521,
+  "ext": 0.5556,
+  "odds": 1.8,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Napoli",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Napoli — Arsenal|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Napoli — Arsenal",
+  "market": "Больше 1.5",
+  "shown": 0.6303,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Napoli",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Napoli — Arsenal|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Napoli — Arsenal",
+  "market": "Больше 2.5",
+  "shown": 0.3609,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Napoli",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Napoli — Arsenal|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Napoli — Arsenal",
+  "market": "Больше 3.5",
+  "shown": 0.1688,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Napoli",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Napoli — Arsenal|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Napoli — Arsenal",
+  "market": "Да",
+  "shown": 0.4055,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Napoli",
+   "away": "Arsenal",
+   "fav": "Arsenal",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Liverpool — Atlético Madrid|Победа Liverpool|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Liverpool — Atlético Madrid",
+  "market": "Победа Liverpool",
+  "shown": 0.5705,
+  "ext": 0.578,
+  "odds": 1.73,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Liverpool",
+   "away": "Atlético Madrid",
+   "fav": "Liverpool",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Liverpool — Atlético Madrid|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Liverpool — Atlético Madrid",
+  "market": "Больше 1.5",
+  "shown": 0.8432,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Liverpool",
+   "away": "Atlético Madrid",
+   "fav": "Liverpool",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Liverpool — Atlético Madrid|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Liverpool — Atlético Madrid",
+  "market": "Больше 2.5",
+  "shown": 0.6435,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Liverpool",
+   "away": "Atlético Madrid",
+   "fav": "Liverpool",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Liverpool — Atlético Madrid|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Liverpool — Atlético Madrid",
+  "market": "Больше 3.5",
+  "shown": 0.4229,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Liverpool",
+   "away": "Atlético Madrid",
+   "fav": "Liverpool",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Liverpool — Atlético Madrid|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Liverpool — Atlético Madrid",
+  "market": "Да",
+  "shown": 0.6501,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Liverpool",
+   "away": "Atlético Madrid",
+   "fav": "Liverpool",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sporting Lisbon — Galatasaray|Победа Sporting Lisbon|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sporting Lisbon — Galatasaray",
+  "market": "Победа Sporting Lisbon",
+  "shown": 0.534,
+  "ext": 0.5348,
+  "odds": 1.87,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Sporting Lisbon",
+   "away": "Galatasaray",
+   "fav": "Sporting Lisbon",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Paris Saint Germain — ŠK Slovan Bratislava|Победа Paris Saint Germain|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Paris Saint Germain — ŠK Slovan Bratislava",
+  "market": "Победа Paris Saint Germain",
+  "shown": 0.9509,
+  "ext": 0.9524,
+  "odds": 1.05,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Paris Saint Germain",
+   "away": "ŠK Slovan Bratislava",
+   "fav": "Paris Saint Germain",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Charlton Athletic — Queens Park Rangers|Победа Queens Park Rangers|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Charlton Athletic — Queens Park Rangers",
+  "market": "Победа Queens Park Rangers",
+  "shown": 0.4395,
+  "ext": 0.4484,
+  "odds": 2.23,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "fav": "Queens Park Rangers",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Charlton Athletic — Queens Park Rangers|Больше 1.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Charlton Athletic — Queens Park Rangers",
+  "market": "Больше 1.5",
+  "shown": 0.733,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "fav": "Queens Park Rangers",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Charlton Athletic — Queens Park Rangers|Больше 2.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Charlton Athletic — Queens Park Rangers",
+  "market": "Больше 2.5",
+  "shown": 0.4821,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "fav": "Queens Park Rangers",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Charlton Athletic — Queens Park Rangers|Больше 3.5|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Charlton Athletic — Queens Park Rangers",
+  "market": "Больше 3.5",
+  "shown": 0.2645,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "fav": "Queens Park Rangers",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Charlton Athletic — Queens Park Rangers|Да|2026-09-09",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Charlton Athletic — Queens Park Rangers",
+  "market": "Да",
+  "shown": 0.5235,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-09T19:00:00Z",
+  "match": {
+   "home": "Charlton Athletic",
+   "away": "Queens Park Rangers",
+   "fav": "Queens Park Rangers",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Fenerbahce — AS Roma|Победа AS Roma|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Fenerbahce — AS Roma",
+  "market": "Победа AS Roma",
+  "shown": 0.4477,
+  "ext": 0.4484,
+  "odds": 2.23,
+  "iso": "2026-09-10T16:45:00Z",
+  "match": {
+   "home": "Fenerbahce",
+   "away": "AS Roma",
+   "fav": "AS Roma",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|PSV Eindhoven — Shakhtar Donetsk|Победа PSV Eindhoven|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "PSV Eindhoven — Shakhtar Donetsk",
+  "market": "Победа PSV Eindhoven",
+  "shown": 0.6887,
+  "ext": 0.6897,
+  "odds": 1.45,
+  "iso": "2026-09-10T16:45:00Z",
+  "match": {
+   "home": "PSV Eindhoven",
+   "away": "Shakhtar Donetsk",
+   "fav": "PSV Eindhoven",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bayern Munich — Bodø/Glimt|Победа Bayern Munich|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bayern Munich — Bodø/Glimt",
+  "market": "Победа Bayern Munich",
+  "shown": 0.8916,
+  "ext": 0.8929,
+  "odds": 1.12,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Bayern Munich",
+   "away": "Bodø/Glimt",
+   "fav": "Bayern Munich",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Como — RB Leipzig|Победа Como|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Como — RB Leipzig",
+  "market": "Победа Como",
+  "shown": 0.5331,
+  "ext": 0.5263,
+  "odds": 1.9,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Como",
+   "away": "RB Leipzig",
+   "fav": "Como",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Como — RB Leipzig|Больше 1.5|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Como — RB Leipzig",
+  "market": "Больше 1.5",
+  "shown": 0.8,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Como",
+   "away": "RB Leipzig",
+   "fav": "Como",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Como — RB Leipzig|Больше 2.5|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Como — RB Leipzig",
+  "market": "Больше 2.5",
+  "shown": 0.5755,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Como",
+   "away": "RB Leipzig",
+   "fav": "Como",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Como — RB Leipzig|Больше 3.5|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Como — RB Leipzig",
+  "market": "Больше 3.5",
+  "shown": 0.3515,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Como",
+   "away": "RB Leipzig",
+   "fav": "Como",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Como — RB Leipzig|Да|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Como — RB Leipzig",
+  "market": "Да",
+  "shown": 0.5258,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Como",
+   "away": "RB Leipzig",
+   "fav": "Como",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Manchester United — Sabah FK|Победа Manchester United|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Manchester United — Sabah FK",
+  "market": "Победа Manchester United",
+  "shown": 0.8759,
+  "ext": 0.8772,
+  "odds": 1.14,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Manchester United",
+   "away": "Sabah FK",
+   "fav": "Manchester United",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Slavia Praha — RC Lens|Победа Slavia Praha|2026-09-10",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Slavia Praha — RC Lens",
+  "market": "Победа Slavia Praha",
+  "shown": 0.3768,
+  "ext": 0.3774,
+  "odds": 2.65,
+  "iso": "2026-09-10T19:00:00Z",
+  "match": {
+   "home": "Slavia Praha",
+   "away": "RC Lens",
+   "fav": "Slavia Praha",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Kryliya Sovetov — Rodina Moscow|Победа Kryliya Sovetov|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Kryliya Sovetov — Rodina Moscow",
+  "market": "Победа Kryliya Sovetov",
+  "shown": 0.4893,
+  "ext": 0.4902,
+  "odds": 2.04,
+  "iso": "2026-09-11T15:00:00Z",
+  "match": {
+   "home": "Kryliya Sovetov",
+   "away": "Rodina Moscow",
+   "fav": "Kryliya Sovetov",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|AZ Alkmaar — Willem II|Победа AZ Alkmaar|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "AZ Alkmaar — Willem II",
+  "market": "Победа AZ Alkmaar",
+  "shown": 0.8804,
+  "ext": 0.885,
+  "odds": 1.13,
+  "iso": "2026-09-11T18:00:00Z",
+  "match": {
+   "home": "AZ Alkmaar",
+   "away": "Willem II",
+   "fav": "AZ Alkmaar",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Union Berlin — FC Schalke 04|Победа Union Berlin|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Union Berlin — FC Schalke 04",
+  "market": "Победа Union Berlin",
+  "shown": 0.4483,
+  "ext": 0.4329,
+  "odds": 2.31,
+  "iso": "2026-09-11T18:30:00Z",
+  "match": {
+   "home": "Union Berlin",
+   "away": "FC Schalke 04",
+   "fav": "Union Berlin",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Union Berlin — FC Schalke 04|Больше 1.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Union Berlin — FC Schalke 04",
+  "market": "Больше 1.5",
+  "shown": 0.7939,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:30:00Z",
+  "match": {
+   "home": "Union Berlin",
+   "away": "FC Schalke 04",
+   "fav": "Union Berlin",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Union Berlin — FC Schalke 04|Больше 2.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Union Berlin — FC Schalke 04",
+  "market": "Больше 2.5",
+  "shown": 0.5875,
+  "ext": 0.5988,
+  "odds": 1.67,
+  "iso": "2026-09-11T18:30:00Z",
+  "match": {
+   "home": "Union Berlin",
+   "away": "FC Schalke 04",
+   "fav": "Union Berlin",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Union Berlin — FC Schalke 04|Больше 3.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Union Berlin — FC Schalke 04",
+  "market": "Больше 3.5",
+  "shown": 0.3425,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:30:00Z",
+  "match": {
+   "home": "Union Berlin",
+   "away": "FC Schalke 04",
+   "fav": "Union Berlin",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Union Berlin — FC Schalke 04|Да|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Union Berlin — FC Schalke 04",
+  "market": "Да",
+  "shown": 0.5581,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:30:00Z",
+  "match": {
+   "home": "Union Berlin",
+   "away": "FC Schalke 04",
+   "fav": "Union Berlin",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Venezia — Fiorentina|Победа Fiorentina|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Venezia — Fiorentina",
+  "market": "Победа Fiorentina",
+  "shown": 0.3954,
+  "ext": 0.4115,
+  "odds": 2.43,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "fav": "Fiorentina",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Venezia — Fiorentina|Больше 1.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Venezia — Fiorentina",
+  "market": "Больше 1.5",
+  "shown": 0.7134,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "fav": "Fiorentina",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Venezia — Fiorentina|Больше 2.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Venezia — Fiorentina",
+  "market": "Больше 2.5",
+  "shown": 0.5113,
+  "ext": 0.5405,
+  "odds": 1.85,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "fav": "Fiorentina",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Venezia — Fiorentina|Больше 3.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Venezia — Fiorentina",
+  "market": "Больше 3.5",
+  "shown": 0.2432,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "fav": "Fiorentina",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Venezia — Fiorentina|Да|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Venezia — Fiorentina",
+  "market": "Да",
+  "shown": 0.4993,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Venezia",
+   "away": "Fiorentina",
+   "fav": "Fiorentina",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Rennes — Marseille|Победа Rennes|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Rennes — Marseille",
+  "market": "Победа Rennes",
+  "shown": 0.4558,
+  "ext": 0.4566,
+  "odds": 2.19,
+  "iso": "2026-09-11T18:45:00Z",
+  "match": {
+   "home": "Rennes",
+   "away": "Marseille",
+   "fav": "Rennes",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sevilla — Valencia|Победа Sevilla|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sevilla — Valencia",
+  "market": "Победа Sevilla",
+  "shown": 0.4223,
+  "ext": 0.4202,
+  "odds": 2.38,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "Sevilla",
+   "away": "Valencia",
+   "fav": "Sevilla",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sevilla — Valencia|Больше 1.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sevilla — Valencia",
+  "market": "Больше 1.5",
+  "shown": 0.7583,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "Sevilla",
+   "away": "Valencia",
+   "fav": "Sevilla",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sevilla — Valencia|Больше 2.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sevilla — Valencia",
+  "market": "Больше 2.5",
+  "shown": 0.4459,
+  "ext": 0.4082,
+  "odds": 2.45,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "Sevilla",
+   "away": "Valencia",
+   "fav": "Sevilla",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sevilla — Valencia|Больше 3.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sevilla — Valencia",
+  "market": "Больше 3.5",
+  "shown": 0.2944,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "Sevilla",
+   "away": "Valencia",
+   "fav": "Sevilla",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Sevilla — Valencia|Да|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Sevilla — Valencia",
+  "market": "Да",
+  "shown": 0.551,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "Sevilla",
+   "away": "Valencia",
+   "fav": "Sevilla",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Ham United — Wrexham AFC|Победа West Ham United|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Ham United — Wrexham AFC",
+  "market": "Победа West Ham United",
+  "shown": 0.6427,
+  "ext": 0.6452,
+  "odds": 1.55,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "West Ham United",
+   "away": "Wrexham AFC",
+   "fav": "West Ham United",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Ham United — Wrexham AFC|Больше 1.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Ham United — Wrexham AFC",
+  "market": "Больше 1.5",
+  "shown": 0.8507,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "West Ham United",
+   "away": "Wrexham AFC",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Ham United — Wrexham AFC|Больше 2.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Ham United — Wrexham AFC",
+  "market": "Больше 2.5",
+  "shown": 0.6561,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "West Ham United",
+   "away": "Wrexham AFC",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Ham United — Wrexham AFC|Больше 3.5|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Ham United — Wrexham AFC",
+  "market": "Больше 3.5",
+  "shown": 0.437,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "West Ham United",
+   "away": "Wrexham AFC",
+   "fav": "West Ham United",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Ham United — Wrexham AFC|Да|2026-09-11",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Ham United — Wrexham AFC",
+  "market": "Да",
+  "shown": 0.6064,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-11T19:00:00Z",
+  "match": {
+   "home": "West Ham United",
+   "away": "Wrexham AFC",
+   "fav": "West Ham United",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FC Fakel Voronezh — FC Baltika Kaliningrad|Победа FC Baltika Kaliningrad|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FC Fakel Voronezh — FC Baltika Kaliningrad",
+  "market": "Победа FC Baltika Kaliningrad",
+  "shown": 0.4125,
+  "ext": 0.4132,
+  "odds": 2.42,
+  "iso": "2026-09-12T11:00:00Z",
+  "match": {
+   "home": "FC Fakel Voronezh",
+   "away": "FC Baltika Kaliningrad",
+   "fav": "FC Baltika Kaliningrad",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Tianjin Jinmen Tiger FC — Liaoning Tieren FC|Победа Tianjin Jinmen Tiger FC|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Tianjin Jinmen Tiger FC — Liaoning Tieren FC",
+  "market": "Победа Tianjin Jinmen Tiger FC",
+  "shown": 0.5074,
+  "ext": 0.5102,
+  "odds": 1.96,
+  "iso": "2026-09-12T11:00:00Z",
+  "match": {
+   "home": "Tianjin Jinmen Tiger FC",
+   "away": "Liaoning Tieren FC",
+   "fav": "Tianjin Jinmen Tiger FC",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — Birmingham City|Победа Birmingham City|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — Birmingham City",
+  "market": "Победа Birmingham City",
+  "shown": 0.4279,
+  "ext": 0.4464,
+  "odds": 2.24,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "Birmingham City",
+   "fav": "Birmingham City",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — Birmingham City|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — Birmingham City",
+  "market": "Больше 1.5",
+  "shown": 0.7097,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "Birmingham City",
+   "fav": "Birmingham City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — Birmingham City|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — Birmingham City",
+  "market": "Больше 2.5",
+  "shown": 0.4524,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "Birmingham City",
+   "fav": "Birmingham City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — Birmingham City|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — Birmingham City",
+  "market": "Больше 3.5",
+  "shown": 0.2393,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "Birmingham City",
+   "fav": "Birmingham City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Derby County — Birmingham City|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Derby County — Birmingham City",
+  "market": "Да",
+  "shown": 0.4989,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Derby County",
+   "away": "Birmingham City",
+   "fav": "Birmingham City",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — Cardiff City|Победа Cardiff City|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — Cardiff City",
+  "market": "Победа Cardiff City",
+  "shown": 0.4123,
+  "ext": 0.4132,
+  "odds": 2.42,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "Cardiff City",
+   "fav": "Cardiff City",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — Cardiff City|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — Cardiff City",
+  "market": "Больше 1.5",
+  "shown": 0.6055,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "Cardiff City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — Cardiff City|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — Cardiff City",
+  "market": "Больше 2.5",
+  "shown": 0.335,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "Cardiff City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — Cardiff City|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — Cardiff City",
+  "market": "Больше 3.5",
+  "shown": 0.1507,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "Cardiff City",
+   "fav": "Cardiff City",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Bolton Wanderers — Cardiff City|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Bolton Wanderers — Cardiff City",
+  "market": "Да",
+  "shown": 0.4052,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "Bolton Wanderers",
+   "away": "Cardiff City",
+   "fav": "Cardiff City",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Bromwich Albion — Queens Park Rangers|Победа West Bromwich Albion|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Bromwich Albion — Queens Park Rangers",
+  "market": "Победа West Bromwich Albion",
+  "shown": 0.509,
+  "ext": 0.5128,
+  "odds": 1.95,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "West Bromwich Albion",
+   "away": "Queens Park Rangers",
+   "fav": "West Bromwich Albion",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Bromwich Albion — Queens Park Rangers|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Bromwich Albion — Queens Park Rangers",
+  "market": "Больше 1.5",
+  "shown": 0.744,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "West Bromwich Albion",
+   "away": "Queens Park Rangers",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Bromwich Albion — Queens Park Rangers|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Bromwich Albion — Queens Park Rangers",
+  "market": "Больше 2.5",
+  "shown": 0.4966,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "West Bromwich Albion",
+   "away": "Queens Park Rangers",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Bromwich Albion — Queens Park Rangers|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Bromwich Albion — Queens Park Rangers",
+  "market": "Больше 3.5",
+  "shown": 0.2772,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "West Bromwich Albion",
+   "away": "Queens Park Rangers",
+   "fav": "West Bromwich Albion",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|West Bromwich Albion — Queens Park Rangers|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "West Bromwich Albion — Queens Park Rangers",
+  "market": "Да",
+  "shown": 0.5266,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T11:30:00Z",
+  "match": {
+   "home": "West Bromwich Albion",
+   "away": "Queens Park Rangers",
+   "fav": "West Bromwich Albion",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Wuhan Three Towns — Henan FC|Победа Henan FC|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Wuhan Three Towns — Henan FC",
+  "market": "Победа Henan FC",
+  "shown": 0.401,
+  "ext": 0.4032,
+  "odds": 2.48,
+  "iso": "2026-09-12T11:35:00Z",
+  "match": {
+   "home": "Wuhan Three Towns",
+   "away": "Henan FC",
+   "fav": "Henan FC",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Real Racing Club de Santander — Alavés|Победа Real Racing Club de Santander|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Real Racing Club de Santander — Alavés",
+  "market": "Победа Real Racing Club de Santander",
+  "shown": 0.4009,
+  "ext": 0.4016,
+  "odds": 2.49,
+  "iso": "2026-09-12T12:00:00Z",
+  "match": {
+   "home": "Real Racing Club de Santander",
+   "away": "Alavés",
+   "fav": "Real Racing Club de Santander",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Genoa — Frosinone|Победа Genoa|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Genoa — Frosinone",
+  "market": "Победа Genoa",
+  "shown": 0.4552,
+  "ext": 0.4695,
+  "odds": 2.13,
+  "iso": "2026-09-12T13:00:00Z",
+  "match": {
+   "home": "Genoa",
+   "away": "Frosinone",
+   "fav": "Genoa",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Genoa — Frosinone|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Genoa — Frosinone",
+  "market": "Больше 1.5",
+  "shown": 0.6767,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:00:00Z",
+  "match": {
+   "home": "Genoa",
+   "away": "Frosinone",
+   "fav": "Genoa",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Genoa — Frosinone|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Genoa — Frosinone",
+  "market": "Больше 2.5",
+  "shown": 0.4615,
+  "ext": 0.4878,
+  "odds": 2.05,
+  "iso": "2026-09-12T13:00:00Z",
+  "match": {
+   "home": "Genoa",
+   "away": "Frosinone",
+   "fav": "Genoa",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Genoa — Frosinone|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Genoa — Frosinone",
+  "market": "Больше 3.5",
+  "shown": 0.2074,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:00:00Z",
+  "match": {
+   "home": "Genoa",
+   "away": "Frosinone",
+   "fav": "Genoa",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Genoa — Frosinone|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Genoa — Frosinone",
+  "market": "Да",
+  "shown": 0.474,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:00:00Z",
+  "match": {
+   "home": "Genoa",
+   "away": "Frosinone",
+   "fav": "Genoa",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Zenit St Petersburg — Lokomotiv Moscow|Победа Zenit St Petersburg|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Zenit St Petersburg — Lokomotiv Moscow",
+  "market": "Победа Zenit St Petersburg",
+  "shown": 0.6744,
+  "ext": 0.6757,
+  "odds": 1.48,
+  "iso": "2026-09-12T13:15:00Z",
+  "match": {
+   "home": "Zenit St Petersburg",
+   "away": "Lokomotiv Moscow",
+   "fav": "Zenit St Petersburg",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Augsburg — Bayer Leverkusen|Победа Bayer Leverkusen|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Augsburg — Bayer Leverkusen",
+  "market": "Победа Bayer Leverkusen",
+  "shown": 0.5339,
+  "ext": 0.5495,
+  "odds": 1.82,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Augsburg",
+   "away": "Bayer Leverkusen",
+   "fav": "Bayer Leverkusen",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Augsburg — Bayer Leverkusen|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Augsburg — Bayer Leverkusen",
+  "market": "Больше 1.5",
+  "shown": 0.8567,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Augsburg",
+   "away": "Bayer Leverkusen",
+   "fav": "Bayer Leverkusen",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Augsburg — Bayer Leverkusen|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Augsburg — Bayer Leverkusen",
+  "market": "Больше 2.5",
+  "shown": 0.6664,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Augsburg",
+   "away": "Bayer Leverkusen",
+   "fav": "Bayer Leverkusen",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Augsburg — Bayer Leverkusen|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Augsburg — Bayer Leverkusen",
+  "market": "Больше 3.5",
+  "shown": 0.4695,
+  "ext": 0.4808,
+  "odds": 2.08,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Augsburg",
+   "away": "Bayer Leverkusen",
+   "fav": "Bayer Leverkusen",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Augsburg — Bayer Leverkusen|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Augsburg — Bayer Leverkusen",
+  "market": "Да",
+  "shown": 0.6717,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Augsburg",
+   "away": "Bayer Leverkusen",
+   "fav": "Bayer Leverkusen",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — SC Paderborn|Победа Borussia Dortmund|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — SC Paderborn",
+  "market": "Победа Borussia Dortmund",
+  "shown": 0.7778,
+  "ext": 0.7812,
+  "odds": 1.28,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "SC Paderborn",
+   "fav": "Borussia Dortmund",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — SC Paderborn|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — SC Paderborn",
+  "market": "Больше 1.5",
+  "shown": 0.8109,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "SC Paderborn",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — SC Paderborn|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — SC Paderborn",
+  "market": "Больше 2.5",
+  "shown": 0.592,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "SC Paderborn",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — SC Paderborn|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — SC Paderborn",
+  "market": "Больше 3.5",
+  "shown": 0.4674,
+  "ext": 0.5208,
+  "odds": 1.92,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "SC Paderborn",
+   "fav": "Borussia Dortmund",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|Borussia Dortmund — SC Paderborn|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "Borussia Dortmund — SC Paderborn",
+  "market": "Да",
+  "shown": 0.4494,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "Borussia Dortmund",
+   "away": "SC Paderborn",
+   "fav": "Borussia Dortmund",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|SC Freiburg — Borussia Monchengladbach|Победа SC Freiburg|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "SC Freiburg — Borussia Monchengladbach",
+  "market": "Победа SC Freiburg",
+  "shown": 0.5656,
+  "ext": 0.5714,
+  "odds": 1.75,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "SC Freiburg",
+   "away": "Borussia Monchengladbach",
+   "fav": "SC Freiburg",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|SC Freiburg — Borussia Monchengladbach|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "SC Freiburg — Borussia Monchengladbach",
+  "market": "Больше 1.5",
+  "shown": 0.7862,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "SC Freiburg",
+   "away": "Borussia Monchengladbach",
+   "fav": "SC Freiburg",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|SC Freiburg — Borussia Monchengladbach|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "SC Freiburg — Borussia Monchengladbach",
+  "market": "Больше 2.5",
+  "shown": 0.5907,
+  "ext": 0.6098,
+  "odds": 1.64,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "SC Freiburg",
+   "away": "Borussia Monchengladbach",
+   "fav": "SC Freiburg",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|SC Freiburg — Borussia Monchengladbach|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "SC Freiburg — Borussia Monchengladbach",
+  "market": "Больше 3.5",
+  "shown": 0.3315,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "SC Freiburg",
+   "away": "Borussia Monchengladbach",
+   "fav": "SC Freiburg",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|SC Freiburg — Borussia Monchengladbach|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "SC Freiburg — Borussia Monchengladbach",
+  "market": "Да",
+  "shown": 0.5627,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "SC Freiburg",
+   "away": "Borussia Monchengladbach",
+   "fav": "SC Freiburg",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FSV Mainz 05 — Eintracht Frankfurt|Победа FSV Mainz 05|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FSV Mainz 05 — Eintracht Frankfurt",
+  "market": "Победа FSV Mainz 05",
+  "shown": 0.486,
+  "ext": 0.4854,
+  "odds": 2.06,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "FSV Mainz 05",
+   "away": "Eintracht Frankfurt",
+   "fav": "FSV Mainz 05",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FSV Mainz 05 — Eintracht Frankfurt|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FSV Mainz 05 — Eintracht Frankfurt",
+  "market": "Больше 1.5",
+  "shown": 0.831,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "FSV Mainz 05",
+   "away": "Eintracht Frankfurt",
+   "fav": "FSV Mainz 05",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FSV Mainz 05 — Eintracht Frankfurt|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FSV Mainz 05 — Eintracht Frankfurt",
+  "market": "Больше 2.5",
+  "shown": 0.6237,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "FSV Mainz 05",
+   "away": "Eintracht Frankfurt",
+   "fav": "FSV Mainz 05",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FSV Mainz 05 — Eintracht Frankfurt|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FSV Mainz 05 — Eintracht Frankfurt",
+  "market": "Больше 3.5",
+  "shown": 0.4255,
+  "ext": 0.4386,
+  "odds": 2.28,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "FSV Mainz 05",
+   "away": "Eintracht Frankfurt",
+   "fav": "FSV Mainz 05",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|FSV Mainz 05 — Eintracht Frankfurt|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "FSV Mainz 05 — Eintracht Frankfurt",
+  "market": "Да",
+  "shown": 0.6276,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "FSV Mainz 05",
+   "away": "Eintracht Frankfurt",
+   "fav": "FSV Mainz 05",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|TSG Hoffenheim — VfB Stuttgart|Победа TSG Hoffenheim|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "TSG Hoffenheim — VfB Stuttgart",
+  "market": "Победа TSG Hoffenheim",
+  "shown": 0.3936,
+  "ext": 0.4049,
+  "odds": 2.47,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "TSG Hoffenheim",
+   "away": "VfB Stuttgart",
+   "fav": "TSG Hoffenheim",
+   "key": "1x2"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|TSG Hoffenheim — VfB Stuttgart|Больше 1.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "TSG Hoffenheim — VfB Stuttgart",
+  "market": "Больше 1.5",
+  "shown": 0.9151,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "TSG Hoffenheim",
+   "away": "VfB Stuttgart",
+   "fav": "TSG Hoffenheim",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|TSG Hoffenheim — VfB Stuttgart|Больше 2.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "TSG Hoffenheim — VfB Stuttgart",
+  "market": "Больше 2.5",
+  "shown": 0.7754,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "TSG Hoffenheim",
+   "away": "VfB Stuttgart",
+   "fav": "TSG Hoffenheim",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|TSG Hoffenheim — VfB Stuttgart|Больше 3.5|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "TSG Hoffenheim — VfB Stuttgart",
+  "market": "Больше 3.5",
+  "shown": 0.5202,
+  "ext": 0.4854,
+  "odds": 2.06,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "TSG Hoffenheim",
+   "away": "VfB Stuttgart",
+   "fav": "TSG Hoffenheim",
+   "key": "ou"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "football|TSG Hoffenheim — VfB Stuttgart|Да|2026-09-12",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "football",
+  "ev": "TSG Hoffenheim — VfB Stuttgart",
+  "market": "Да",
+  "shown": 0.7513,
+  "ext": null,
+  "odds": null,
+  "iso": "2026-09-12T13:30:00Z",
+  "match": {
+   "home": "TSG Hoffenheim",
+   "away": "VfB Stuttgart",
+   "fav": "TSG Hoffenheim",
+   "key": "btts"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Drakkar Klose — Thomas Gantt|Победа: Thomas Gantt|2026-09-13",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "mma",
+  "ev": "Drakkar Klose — Thomas Gantt",
+  "market": "Победа: Thomas Gantt",
+  "shown": 0.8086,
+  "ext": 0.8086,
+  "odds": 1.16,
+  "iso": "2026-09-13T00:00:00Z",
+  "match": {
+   "a": "Drakkar Klose",
+   "b": "Thomas Gantt",
+   "fav": "Thomas Gantt",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|J.J. Aldrich — Regina Tarin|Победа: Regina Tarin|2026-09-13",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "mma",
+  "ev": "J.J. Aldrich — Regina Tarin",
+  "market": "Победа: Regina Tarin",
+  "shown": 0.7068,
+  "ext": 0.7068,
+  "odds": 1.34,
+  "iso": "2026-09-13T00:00:00Z",
+  "match": {
+   "a": "J.J. Aldrich",
+   "b": "Regina Tarin",
+   "fav": "Regina Tarin",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Casey O'Neill — Eduarda Moura|Победа: Casey O'Neill|2026-09-19",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "mma",
+  "ev": "Casey O'Neill — Eduarda Moura",
+  "market": "Победа: Casey O'Neill",
+  "shown": 0.5824,
+  "ext": 0.5945,
+  "odds": 1.61,
+  "iso": "2026-09-19T22:15:00Z",
+  "match": {
+   "a": "Casey O'Neill",
+   "b": "Eduarda Moura",
+   "fav": "Casey O'Neill",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Giga Chikadze — Joanderson Brito|Победа: Joanderson Brito|2026-09-19",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "mma",
+  "ev": "Giga Chikadze — Joanderson Brito",
+  "market": "Победа: Joanderson Brito",
+  "shown": 0.6753,
+  "ext": 0.742,
+  "odds": 1.29,
+  "iso": "2026-09-19T22:45:00Z",
+  "match": {
+   "a": "Giga Chikadze",
+   "b": "Joanderson Brito",
+   "fav": "Joanderson Brito",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Brunno Ferreira — Edmen Shahbazyan|Победа: Edmen Shahbazyan|2026-09-19",
+  "built": "2026-09-07T13:58:14.043501+00:00",
+  "sport": "mma",
+  "ev": "Brunno Ferreira — Edmen Shahbazyan",
+  "market": "Победа: Edmen Shahbazyan",
+  "shown": 0.5652,
+  "ext": 0.5816,
+  "odds": 1.64,
+  "iso": "2026-09-19T23:15:00Z",
+  "match": {
+   "a": "Brunno Ferreira",
+   "b": "Edmen Shahbazyan",
+   "fav": "Edmen Shahbazyan",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
  }
 ]
