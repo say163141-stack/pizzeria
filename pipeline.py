@@ -575,6 +575,106 @@ def build_mma(sportkeys, outfile, limit=16):
     return picks
 
 
+# ==================== ТЕННИС: surface-aware Elo ====================
+TENNIS_LFS = "https://media.githubusercontent.com/media/hikmatazimzade/tennis-ai/main/data"
+TENNIS_YEARS = list(range(2016, 2025))
+W_TENNIS = 0.55  # вес Elo против рынка (рейтинги по 2024, рынок несёт свежую форму)
+
+
+def build_tennis_elo():
+    """Surface-aware Elo по истории ATP (Sackmann-зеркало, 2016–2024).
+    Возвращает dict: name -> {'o':overall, 'h':hard, 'c':clay, 'g':grass, 'n':matches, 'ns':{surf:cnt}}."""
+    import csv, io
+    matches = []
+    for y in TENNIS_YEARS:
+        try:
+            raw = fetch(f"{TENNIS_LFS}/atp_matches_{y}.csv", t=30)
+            for r in csv.DictReader(io.StringIO(raw)):
+                if r.get('winner_name') and r.get('loser_name'):
+                    matches.append((r.get('tourney_date', ''), r.get('match_num', '0'),
+                                    r['winner_name'].strip(), r['loser_name'].strip(),
+                                    (r.get('surface') or 'Hard').strip()))
+        except Exception as e:
+            print(f"  ! теннис {y}: {e}")
+    matches.sort(key=lambda x: (x[0], int(x[1]) if str(x[1]).isdigit() else 0))
+    SK = {'Hard': 'h', 'Clay': 'c', 'Grass': 'g'}
+    R = defaultdict(lambda: {'o': 1500.0, 'h': 1500.0, 'c': 1500.0, 'g': 1500.0, 'n': 0, 'ns': defaultdict(int)})
+
+    def kf(n):
+        return 250.0 / ((n + 5) ** 0.4)
+    for _, _, w, l, surf in matches:
+        sk = SK.get(surf, 'h')
+        rw, rl = R[w], R[l]
+        # прогноз-блэнд поверхность+общий
+        do = rw['o'] - rl['o']; ds = rw[sk] - rl[sk]
+        diff = 0.6 * ds + 0.4 * do
+        Ew = 1 / (1 + 10 ** (-diff / 400))
+        kw, klv = kf(rw['n']), kf(rl['n'])
+        rw['o'] += kw * (1 - Ew); rl['o'] += klv * (0 - (1 - Ew))
+        rw[sk] += kw * (1 - Ew); rl[sk] += klv * (0 - (1 - Ew))
+        rw['n'] += 1; rl['n'] += 1; rw['ns'][sk] += 1; rl['ns'][sk] += 1
+    print(f"  Теннис Elo: {len(R)} игроков из {len(matches)} матчей (ATP 2016–2024)")
+    return {k: dict(o=v['o'], h=v['h'], c=v['c'], g=v['g'], n=v['n'], ns=dict(v['ns'])) for k, v in R.items()}
+
+
+def _surface_of(sportkey):
+    k = sportkey.lower()
+    if 'french' in k or 'roland' in k: return 'c'
+    if 'wimbledon' in k: return 'g'
+    return 'h'  # US Open, Australian, большинство — хард (грубо)
+
+
+def build_tennis(sportkeys, outfile, limit=20):
+    if isinstance(sportkeys, str):
+        sportkeys = [sportkeys]
+    elo = build_tennis_elo()
+    keys = list(elo.keys())
+
+    def rate(name):
+        if name in elo:
+            return elo[name]
+        mm = difflib.get_close_matches(name, keys, n=1, cutoff=0.84)
+        return elo[mm[0]] if mm else None
+    picks, modeled = [], 0
+    for k in sportkeys:
+        surf = _surface_of(k)
+        for m in get_odds(k, 'h2h'):
+            if not fut(m.get('commence_time', '')):
+                continue
+            med = med_h2h(m)
+            if len(med) < 2:
+                continue
+            a, b = list(med.keys())[:2]
+            dv = devig([med[a], med[b]])
+            if not dv:
+                continue
+            ra, rb = rate(a), rate(b)
+            disagree = 0.0
+            if ra and rb and ra['n'] >= 10 and rb['n'] >= 10:
+                do = ra['o'] - rb['o']; ds = ra[surf] - rb[surf]
+                diff = 0.6 * ds + 0.4 * do
+                model_a = 1 / (1 + 10 ** (-diff / 400))
+                disagree = abs(model_a - dv[0])
+                our_a = W_TENNIS * model_a + (1 - W_TENNIS) * dv[0]
+                is_model = True
+            else:
+                our_a = dv[0]; is_model = False
+            our = [our_a, 1 - our_a]
+            fav_i = 0 if our[0] >= our[1] else 1
+            fav = [a, b][fav_i]
+            picks.append({'a': a, 'b': b, 'mk': f'Победа: {fav}', 'fav': fav,
+                          'our': round(our[fav_i], 4), 'ext': round(dv[fav_i], 4), 'odds': round(med[fav], 2),
+                          'modeled': is_model, 'disagree': round(disagree, 3),
+                          'when': whenstr(m['commence_time']), 'iso': m['commence_time']})
+            if is_model:
+                modeled += 1
+    picks.sort(key=lambda x: x['when'])
+    picks = picks[:limit]
+    json.dump(picks, open(outfile, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f"  теннис: {len(picks)} матчей ({modeled} по модели surface-Elo, остальные β)")
+    return picks
+
+
 # ==================== 4. BUILD KUPON ====================
 def build_kupon():
     fm = json.load(open('football_markets.json', encoding='utf-8'))
@@ -902,7 +1002,7 @@ def main():
         print("[3/6] теннис/MMA (β, авто-поиск активных турниров)")
         tk = active_sports('tennis') or ['tennis_atp_us_open', 'tennis_wta_us_open']
         mk = active_sports('mma') or ['mma_mixed_martial_arts']
-        build_market_only(tk, 'tennis_markets.json', 'теннис', limit=20)
+        build_tennis(tk, 'tennis_markets.json', limit=20)
         build_mma(mk, 'mma_markets.json', limit=16)
     if step in ('all', 'log', 'grade'):
         print("[4/6] журнал прогнозов + оценка по фактам")
