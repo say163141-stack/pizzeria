@@ -213,7 +213,7 @@
     <div class="card" id="calibBox">
       <h4>Табло калибровки · прогноз против факта</h4>
       <div id="calibGrid"></div>
-      <div class="cnote"><b>Как читать.</b> «зашло/ожид» — сыграло против ожидания модели (близко = честные вероятности). <b>Brier</b> — точность вероятностей (ниже лучше; 0.25 = «наугад», меньше = модель информативна). Табло растёт само: каждый прогноз авто‑сверяется с результатом.</div>
+      <div class="cnote"><b>Как читать.</b> «зашло/ожид» — сыграло против ожидания модели (близко = честные вероятности). <b>Brier</b> — точность вероятностей (ниже лучше; 0.25 = «наугад», меньше = модель информативна). <b>CLV</b> (перевес по линии закрытия) — брали ли мы цену <b>лучше</b>, чем в момент старта матча: плюс = поймали ценность до движения рынка. Это профи‑метрика edge — работает даже до результата. Табло растёт само: каждый прогноз авто‑сверяется.</div>
     </div>
 
     <div class="call warn" style="margin-top:16px">
@@ -398,6 +398,8 @@ function renderCalib(){
   const order=['all','ou','btts','1x2','tennis','mma'];
   grid.innerHTML=order.filter(k=>c[k]&&c[k].n).map(k=>{const b=c[k];const good=b.brier<0.25;
     return `<div class="crow ${k==='all'?'crow-all':''}"><div class="ck">${LBL[k]}</div><div class="cv">${b.hits}/${b.n}<span class="cs">зашло</span></div><div class="cv">${b.exp}<span class="cs">ожид</span></div><div class="cv ${good?'g':'a'}">${b.brier}<span class="cs">Brier</span></div></div>`;}).join('');
+  if(c.clv&&c.clv.n){const cl=c.clv;const good=cl.avg>0;
+    grid.innerHTML+=`<div class="crow crow-all" style="margin-top:6px"><div class="ck">CLV · линия закрытия</div><div class="cv ${good?'g':'a'}">${cl.avg>0?'+':''}${cl.avg}%<span class="cs">ср. перевес цены</span></div><div class="cv">${cl.pos}/${cl.n}<span class="cs">лучше закрытия</span></div><div class="cv"></div></div>`;}
 }
 document.getElementById('bank').addEventListener('input',e=>{bank=parseFloat(e.target.value)||0;render();});
 document.getElementById('copyBtn').addEventListener('click',()=>{const t=document.getElementById('report');t.select();try{navigator.clipboard.writeText(t.value)}catch(e){}try{document.execCommand('copy')}catch(e){}const b=document.getElementById('copyBtn');b.textContent='Скопировано ✓';setTimeout(()=>b.textContent='Скопировать отчёт',1400);});
