@@ -810,6 +810,7 @@ def log_predictions():
         log.append({'id': _id, 'built': NOW.isoformat(), 'sport': sport, 'ev': ev, 'market': market,
                     'shown': round(shown, 4) if shown is not None else None,
                     'ext': round(ext, 4) if ext else None, 'odds': odds, 'iso': iso,
+                    'open_odds': odds, 'close_odds': odds,
                     'match': match, 'status': 'pending', 'won': None, 'actual': None})
         seen.add(_id)
         return 1
@@ -842,6 +843,46 @@ def log_predictions():
             pass
     json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f"  журнал: +{added} прогнозов (всего {len(log)})")
+
+
+def update_closing_lines():
+    """CLV-ядро: пока матч не начался — на каждом прогоне обновляем close_odds свежей
+    линией. Последнее значение до старта ≈ линия закрытия. CLV = взяли ли мы цену лучше,
+    чем закрытие (профи-метрика edge, работает даже без результата матча)."""
+    log = _load_log()
+    cur = {}
+    try:
+        fm = json.load(open('football_markets.json', encoding='utf-8'))
+        for e in fm['events']:
+            fav = e.get('a', '')
+            iso = e.get('iso') or e.get('when')
+            for mk in e['markets']:
+                nm = mk.get('name', '')
+                ok = ((mk['key'] == '1x2' and fav and fav in nm) or
+                      (mk['key'] == 'ou' and 'Больше' in nm) or
+                      (mk['key'] == 'btts' and nm == 'Да'))
+                if ok and mk.get('odds'):
+                    cur[f"football|{e['home']} — {e['away']}|{nm}|{(iso or '')[:10]}"] = mk['odds']
+    except Exception:
+        pass
+    for f, sp in (('tennis_markets.json', 'tennis'), ('mma_markets.json', 'mma')):
+        try:
+            for p in json.load(open(f, encoding='utf-8')):
+                iso = p.get('iso') or p.get('when')
+                if p.get('odds'):
+                    cur[f"{sp}|{p['a']} — {p['b']}|{p['mk']}|{(iso or '')[:10]}"] = p['odds']
+        except Exception:
+            pass
+    upd = 0
+    for e in log:
+        if e['status'] != 'pending' or not fut(e.get('iso') or ''):
+            continue  # матч стартовал → close_odds заморожен на последнем значении
+        c = cur.get(e['id'])
+        if c and c != e.get('close_odds'):
+            e['close_odds'] = c
+            upd += 1
+    json.dump(log, open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f"  линии закрытия: обновлено {upd}")
 
 
 def _sim(a, b):
@@ -965,7 +1006,17 @@ def calib_summary():
         'tennis': [e for e in g if e['sport'] == 'tennis'],
         'mma': [e for e in g if e['sport'] == 'mma'],
     }
-    return {k: block(v) for k, v in groups.items()}
+    out = {k: block(v) for k, v in groups.items()}
+    # CLV: по матчам, где линия УЖЕ закрылась (матч стартовал), сравниваем нашу цену с закрытием
+    clvs = []
+    for e in log:
+        oo, co = e.get('open_odds'), e.get('close_odds')
+        if oo and co and oo > 1 and co > 1 and not fut(e.get('iso') or ''):
+            clvs.append(oo / co - 1.0)  # >0 = взяли цену лучше закрытия
+    if clvs:
+        out['clv'] = {'n': len(clvs), 'avg': round(100 * statistics.mean(clvs), 1),
+                      'pos': sum(1 for x in clvs if x > 0.002)}
+    return out
 
 
 def build_stab():
@@ -1025,7 +1076,8 @@ def main():
         build_mma(mk, 'mma_markets.json', limit=16)
     if step in ('all', 'log', 'grade'):
         print("[4/6] журнал прогнозов + оценка по фактам")
-        log_predictions()   # логируем текущий билд (dedup по id)
+        log_predictions()       # логируем текущий билд (dedup по id)
+        update_closing_lines()  # тянем линию к закрытию (CLV) — пока матч не начался
         if KEY:
             grade_predictions()   # оцениваем всё, что уже сыграло
     if step in ('all', 'kupon'):
