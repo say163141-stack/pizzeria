@@ -1,3 +1,148 @@
 {
- "events": []
+ "events": [
+  {
+   "a": "Beijing FC",
+   "b": "Qingdao Hainiu FC",
+   "home": "Qingdao Hainiu FC",
+   "away": "Beijing FC",
+   "league": "Китай",
+   "when": "2026-10-09 11:35",
+   "iso": "2026-10-09T11:35:00Z",
+   "midweek": false,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Qingdao Hainiu FC",
+     "our": 0.1781,
+     "ext": 0.1866,
+     "odds": 5.36,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.1937,
+     "ext": 0.2028,
+     "odds": 4.93,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Beijing FC",
+     "our": 0.6282,
+     "ext": 0.6579,
+     "odds": 1.52,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.628,
+    "adj": 0.628
+   }
+  },
+  {
+   "a": "Henan FC",
+   "b": "Shenzhen Peng City FC",
+   "home": "Shenzhen Peng City FC",
+   "away": "Henan FC",
+   "league": "Китай",
+   "when": "2026-10-09 11:35",
+   "iso": "2026-10-09T11:35:00Z",
+   "midweek": false,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Shenzhen Peng City FC",
+     "our": 0.3279,
+     "ext": 0.3436,
+     "odds": 2.91,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2422,
+     "ext": 0.2538,
+     "odds": 3.94,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Henan FC",
+     "our": 0.4299,
+     "ext": 0.4505,
+     "odds": 2.22,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.43,
+    "adj": 0.43
+   }
+  },
+  {
+   "a": "Shanghai SIPG FC",
+   "b": "Zhejiang",
+   "home": "Zhejiang",
+   "away": "Shanghai SIPG FC",
+   "league": "Китай",
+   "when": "2026-10-09 12:00",
+   "iso": "2026-10-09T12:00:00Z",
+   "midweek": false,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Zhejiang",
+     "our": 0.3686,
+     "ext": 0.3861,
+     "odds": 2.59,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2145,
+     "ext": 0.2247,
+     "odds": 4.45,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Shanghai SIPG FC",
+     "our": 0.4169,
+     "ext": 0.4367,
+     "odds": 2.29,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.417,
+    "adj": 0.417
+   }
+  }
+ ]
 }
