@@ -110,27 +110,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Zhejiang",
-     "our": 0.3567,
-     "ext": 0.3731,
-     "odds": 2.68,
+     "our": 0.3757,
+     "ext": 0.3937,
+     "odds": 2.54,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2366,
-     "ext": 0.2475,
-     "odds": 4.04,
+     "our": 0.241,
+     "ext": 0.2525,
+     "odds": 3.96,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Shanghai SIPG FC",
-     "our": 0.4067,
-     "ext": 0.4255,
-     "odds": 2.35,
+     "our": 0.3833,
+     "ext": 0.4016,
+     "odds": 2.49,
      "modeled": false
     }
    ],
@@ -140,8 +140,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.407,
-    "adj": 0.407
+    "base": 0.383,
+    "adj": 0.383
    }
   },
   {
@@ -158,27 +158,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа FK Rostov",
-     "our": 0.5301,
-     "ext": 0.5376,
-     "odds": 1.86,
+     "our": 0.5049,
+     "ext": 0.5128,
+     "odds": 1.95,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2541,
-     "ext": 0.2577,
-     "odds": 3.88,
+     "our": 0.2612,
+     "ext": 0.2653,
+     "odds": 3.77,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа FC Akron Tolyatti",
-     "our": 0.2158,
-     "ext": 0.2188,
-     "odds": 4.57,
+     "our": 0.2339,
+     "ext": 0.2375,
+     "odds": 4.21,
      "modeled": false
     }
    ],
@@ -188,8 +188,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.53,
-    "adj": 0.53
+    "base": 0.505,
+    "adj": 0.505
    }
   },
   {
@@ -255,24 +255,24 @@
      "grp": "Исход",
      "name": "Победа Borussia Dortmund",
      "our": 0.789,
-     "odds": 1.41,
-     "ext": 0.7092
+     "odds": 1.4,
+     "ext": 0.7143
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.139,
-     "odds": 5.7,
-     "ext": 0.1754
+     "odds": 5.74,
+     "ext": 0.1742
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Werder Bremen",
      "our": 0.072,
-     "odds": 7.7,
-     "ext": 0.1299
+     "odds": 7.8,
+     "ext": 0.1282
     },
     {
      "key": "dc",
@@ -412,7 +412,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа RC Lens",
-     "our": 0.3892,
+     "our": 0.389,
      "ext": 0.3953,
      "odds": 2.53,
      "modeled": false
@@ -421,16 +421,16 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2578,
-     "ext": 0.2618,
-     "odds": 3.82,
+     "our": 0.2583,
+     "ext": 0.2625,
+     "odds": 3.81,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Lyon",
-     "our": 0.353,
+     "our": 0.3527,
      "ext": 0.3584,
      "odds": 2.79,
      "modeled": false
@@ -460,7 +460,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Málaga",
-     "our": 0.3596,
+     "our": 0.3591,
      "ext": 0.365,
      "odds": 2.74,
      "modeled": false
@@ -469,7 +469,7 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2923,
+     "our": 0.292,
      "ext": 0.2967,
      "odds": 3.37,
      "modeled": false
@@ -478,9 +478,9 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Espanyol",
-     "our": 0.3481,
-     "ext": 0.3534,
-     "odds": 2.83,
+     "our": 0.3489,
+     "ext": 0.3546,
+     "odds": 2.82,
      "modeled": false
     }
    ],
@@ -490,8 +490,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.36,
-    "adj": 0.36
+    "base": 0.359,
+    "adj": 0.359
    }
   },
   {
@@ -723,16 +723,16 @@
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2585,
-     "odds": 5.03,
-     "ext": 0.1988
+     "odds": 5.08,
+     "ext": 0.1969
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Leeds United",
      "our": 0.1494,
-     "odds": 8.2,
-     "ext": 0.122
+     "odds": 8.1,
+     "ext": 0.1235
     },
     {
      "key": "dc",
@@ -779,16 +779,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.3568,
-     "odds": 1.83,
-     "ext": 0.5464
+     "odds": 1.89,
+     "ext": 0.5291
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.6432,
-     "odds": 2.14,
-     "ext": 0.4673
+     "odds": 2.05,
+     "ext": 0.4878
     },
     {
      "key": "ou",
@@ -850,14 +850,10 @@
    "modeled": true,
    "topscore": "1–0",
    "intel": {
-    "homeOut": 2,
-    "awayOut": 2,
-    "homeKey": [
-     "Christos Tzolis (F, Hamstring)"
-    ],
-    "awayKey": [
-     "Mateo Joseph (F, Knee)"
-    ],
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
     "base": 0.592,
     "adj": 0.592
    }
@@ -877,24 +873,24 @@
      "grp": "Исход",
      "name": "Победа West Bromwich Albion",
      "our": 0.3921,
-     "odds": 2.28,
-     "ext": 0.4386
+     "odds": 2.34,
+     "ext": 0.4274
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.3024,
-     "odds": 3.4,
-     "ext": 0.2941
+     "odds": 3.34,
+     "ext": 0.2994
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Birmingham City",
      "our": 0.3055,
-     "odds": 2.96,
-     "ext": 0.3378
+     "odds": 2.91,
+     "ext": 0.3436
     },
     {
      "key": "dc",
@@ -1193,24 +1189,24 @@
      "grp": "Исход",
      "name": "Победа Swansea City",
      "our": 0.5743,
-     "odds": 2.45,
-     "ext": 0.4082
+     "odds": 2.3,
+     "ext": 0.4348
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2084,
-     "odds": 3.38,
-     "ext": 0.2959
+     "odds": 3.42,
+     "ext": 0.2924
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Norwich City",
      "our": 0.2173,
-     "odds": 2.7,
-     "ext": 0.3704
+     "odds": 2.91,
+     "ext": 0.3436
     },
     {
      "key": "dc",
@@ -1350,27 +1346,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Chengdu Rongcheng FC",
-     "our": 0.5823,
-     "ext": 0.6098,
-     "odds": 1.64,
+     "our": 0.545,
+     "ext": 0.5714,
+     "odds": 1.75,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2221,
-     "ext": 0.2326,
-     "odds": 4.3,
+     "our": 0.2332,
+     "ext": 0.2445,
+     "odds": 4.09,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Tianjin Jinmen Tiger FC",
-     "our": 0.1957,
-     "ext": 0.2049,
-     "odds": 4.88,
+     "our": 0.2218,
+     "ext": 0.2326,
+     "odds": 4.3,
      "modeled": false
     }
    ],
@@ -1380,8 +1376,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.582,
-    "adj": 0.582
+    "base": 0.545,
+    "adj": 0.545
    }
   },
   {
@@ -1398,27 +1394,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Shanghai Shenhua FC",
-     "our": 0.6147,
-     "ext": 0.6452,
-     "odds": 1.55,
+     "our": 0.6052,
+     "ext": 0.6329,
+     "odds": 1.58,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.1876,
-     "ext": 0.1969,
-     "odds": 5.08,
+     "our": 0.1901,
+     "ext": 0.1988,
+     "odds": 5.03,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Yunnan Yukun",
-     "our": 0.1977,
-     "ext": 0.2075,
-     "odds": 4.82,
+     "our": 0.2047,
+     "ext": 0.2141,
+     "odds": 4.67,
      "modeled": false
     }
    ],
@@ -1428,8 +1424,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.615,
-    "adj": 0.615
+    "base": 0.605,
+    "adj": 0.605
    }
   },
   {
@@ -1811,24 +1807,24 @@
      "grp": "Исход",
      "name": "Победа Augsburg",
      "our": 0.1405,
-     "odds": 12.3,
-     "ext": 0.0813
+     "odds": 13.8,
+     "ext": 0.0725
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.1452,
-     "odds": 9.05,
-     "ext": 0.1105
+     "odds": 9.5,
+     "ext": 0.1053
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Bayern Munich",
      "our": 0.7143,
-     "odds": 1.21,
-     "ext": 0.8264
+     "odds": 1.19,
+     "ext": 0.8403
     },
     {
      "key": "dc",
@@ -2609,16 +2605,16 @@
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2409,
-     "odds": 3.6,
-     "ext": 0.2778
+     "odds": 3.58,
+     "ext": 0.2793
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Brentford",
      "our": 0.3953,
-     "odds": 2.67,
-     "ext": 0.3745
+     "odds": 2.68,
+     "ext": 0.3731
     },
     {
      "key": "dc",
@@ -2736,17 +2732,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 2,
-    "awayOut": 2,
-    "homeKey": [
-     "Amadou Onana (M, Knee)"
-    ],
-    "awayKey": [
-     "Kaye Furo (F, Foot)",
-     "Mathias Jensen (M, Strain)"
-    ],
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
     "base": 0.395,
-    "adj": 0.388
+    "adj": 0.395
    }
   },
   {
@@ -2899,18 +2890,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 1,
-    "awayOut": 4,
-    "homeKey": [
-     "Jamie Gittens (F, Ankle)"
-    ],
-    "awayKey": [
-     "Justin Kluivert (F/M, Strain)",
-     "Junior Kroupi (F, Foot)",
-     "Alex Scott (M, Quadriceps)"
-    ],
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
     "base": 0.351,
-    "adj": 0.38
+    "adj": 0.351
    }
   },
   {
@@ -2928,24 +2913,24 @@
      "grp": "Исход",
      "name": "Победа Sunderland",
      "our": 0.2516,
-     "odds": 3.01,
-     "ext": 0.3322
+     "odds": 3.16,
+     "ext": 0.3165
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2275,
-     "odds": 3.56,
-     "ext": 0.2809
+     "odds": 3.58,
+     "ext": 0.2793
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Brighton and Hove Albion",
      "our": 0.5209,
-     "odds": 2.49,
-     "ext": 0.4016
+     "odds": 2.38,
+     "ext": 0.4202
     },
     {
      "key": "dc",
@@ -3063,18 +3048,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 2,
-    "awayOut": 2,
-    "homeKey": [
-     "Habib Diarra (M, Hamstring)",
-     "Romaine Mundle (M, Knee)"
-    ],
-    "awayKey": [
-     "Evan Ferguson (F, Ankle)",
-     "Yankuba Minteh (F, Leg)"
-    ],
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
     "base": 0.521,
-    "adj": 0.514
+    "adj": 0.521
    }
   },
   {
@@ -4355,27 +4334,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Alavés",
-     "our": 0.228,
-     "ext": 0.2315,
-     "odds": 4.32,
+     "our": 0.2157,
+     "ext": 0.2188,
+     "odds": 4.57,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2565,
-     "ext": 0.2604,
-     "odds": 3.84,
+     "our": 0.2515,
+     "ext": 0.2551,
+     "odds": 3.92,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Atlético Madrid",
-     "our": 0.5156,
-     "ext": 0.5236,
-     "odds": 1.91,
+     "our": 0.5328,
+     "ext": 0.5405,
+     "odds": 1.85,
      "modeled": false
     }
    ],
@@ -4385,8 +4364,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.516,
-    "adj": 0.516
+    "base": 0.533,
+    "adj": 0.533
    }
   },
   {
@@ -4768,24 +4747,24 @@
      "grp": "Исход",
      "name": "Победа Inter Milan",
      "our": 0.6597,
-     "odds": 1.16,
-     "ext": 0.8621
+     "odds": 1.17,
+     "ext": 0.8547
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.194,
-     "odds": 9.85,
-     "ext": 0.1015
+     "odds": 9.6,
+     "ext": 0.1042
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Parma",
      "our": 0.1463,
-     "odds": 19.5,
-     "ext": 0.0513
+     "odds": 17.0,
+     "ext": 0.0588
     },
     {
      "key": "dc",
@@ -5061,18 +5040,12 @@
    "modeled": true,
    "topscore": "2–0",
    "intel": {
-    "homeOut": 1,
-    "awayOut": 4,
-    "homeKey": [
-     "Manuel Ugarte (M, Knee)"
-    ],
-    "awayKey": [
-     "Mykhailo Mudryk (F/M, Ankle)",
-     "Wilson Odobert (F/M, Knee)",
-     "Xavi Simons (F/M, Knee)"
-    ],
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
     "base": 0.734,
-    "adj": 0.773
+    "adj": 0.734
    }
   },
   {
@@ -5090,24 +5063,24 @@
      "grp": "Исход",
      "name": "Победа Barcelona",
      "our": 0.8076,
-     "odds": 1.07,
-     "ext": 0.9346
+     "odds": 1.08,
+     "ext": 0.9259
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.1397,
-     "odds": 16.5,
-     "ext": 0.0606
+     "odds": 15.0,
+     "ext": 0.0667
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Getafe",
      "our": 0.0527,
-     "odds": 40.0,
-     "ext": 0.025
+     "odds": 37.0,
+     "ext": 0.027
     },
     {
      "key": "dc",
@@ -5170,16 +5143,16 @@
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.3189,
-     "odds": 1.68,
-     "ext": 0.5952
+     "odds": 1.73,
+     "ext": 0.578
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.6811,
-     "odds": 2.38,
-     "ext": 0.4202
+     "odds": 2.28,
+     "ext": 0.4386
     },
     {
      "key": "btts",
@@ -5676,8 +5649,8 @@
      "grp": "Исход",
      "name": "Победа Frosinone",
      "our": 0.1878,
-     "odds": 7.0,
-     "ext": 0.1429
+     "odds": 6.85,
+     "ext": 0.146
     },
     {
      "key": "dc",
@@ -6607,7 +6580,7 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Ajax",
-     "our": 0.7335,
+     "our": 0.7312,
      "ext": 0.7634,
      "odds": 1.31,
      "modeled": false
@@ -6616,18 +6589,18 @@
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.1609,
-     "ext": 0.1675,
-     "odds": 5.97,
+     "our": 0.1599,
+     "ext": 0.1669,
+     "odds": 5.99,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа NEC Nijmegen",
-     "our": 0.1056,
-     "ext": 0.1099,
-     "odds": 9.1,
+     "our": 0.1089,
+     "ext": 0.1136,
+     "odds": 8.8,
      "modeled": false
     }
    ],
@@ -6637,8 +6610,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.734,
-    "adj": 0.734
+    "base": 0.731,
+    "adj": 0.731
    }
   },
   {
@@ -7931,14 +7904,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 1,
+    "homeOut": 0,
     "awayOut": 0,
-    "homeKey": [
-     "Chadi Riad (D)"
-    ],
+    "homeKey": [],
     "awayKey": [],
     "base": 0.283,
-    "adj": 0.28
+    "adj": 0.283
    }
   },
   {
@@ -8091,16 +8062,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 4,
+    "homeOut": 0,
     "awayOut": 0,
-    "homeKey": [
-     "Ilyas Ansah (F, Back)",
-     "Darko Gyabi (M, Groin)",
-     "Eliot Matazo (M, Knee)"
-    ],
+    "homeKey": [],
     "awayKey": [],
     "base": 0.41,
-    "adj": 0.439
+    "adj": 0.41
    }
   },
   {
@@ -8592,24 +8559,24 @@
      "grp": "Исход",
      "name": "Победа 1. FC Köln",
      "our": 0.4746,
-     "odds": 2.02,
-     "ext": 0.495
+     "odds": 2.07,
+     "ext": 0.4831
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2214,
-     "odds": 4.16,
-     "ext": 0.2404
+     "odds": 4.15,
+     "ext": 0.241
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Borussia Monchengladbach",
      "our": 0.3039,
-     "odds": 3.57,
-     "ext": 0.2801
+     "odds": 3.42,
+     "ext": 0.2924
     },
     {
      "key": "dc",
@@ -8672,16 +8639,16 @@
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.4433,
-     "odds": 2.28,
-     "ext": 0.4386
+     "odds": 2.27,
+     "ext": 0.4405
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.5567,
-     "odds": 1.73,
-     "ext": 0.578
+     "odds": 1.74,
+     "ext": 0.5747
     },
     {
      "key": "btts",
@@ -8798,24 +8765,24 @@
      "grp": "Исход",
      "name": "Победа Real Sociedad",
      "our": 0.3119,
-     "odds": 1.75,
-     "ext": 0.5714
+     "odds": 1.69,
+     "ext": 0.5917
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2489,
-     "odds": 3.98,
-     "ext": 0.2513
+     "odds": 4.08,
+     "ext": 0.2451
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Deportivo La Coruña",
      "our": 0.4391,
-     "odds": 5.23,
-     "ext": 0.1912
+     "odds": 5.54,
+     "ext": 0.1805
     },
     {
      "key": "dc",
@@ -8862,16 +8829,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.5353,
-     "odds": 1.86,
-     "ext": 0.5376
+     "odds": 1.84,
+     "ext": 0.5435
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4647,
-     "odds": 2.1,
-     "ext": 0.4762
+     "odds": 2.11,
+     "ext": 0.4739
     },
     {
      "key": "ou",
@@ -9297,14 +9264,12 @@
    "modeled": true,
    "topscore": "1–1",
    "intel": {
-    "homeOut": 4,
+    "homeOut": 0,
     "awayOut": 0,
-    "homeKey": [
-     "Hugo Ekitike (F, Achilles)"
-    ],
+    "homeKey": [],
     "awayKey": [],
     "base": 0.325,
-    "adj": 0.305
+    "adj": 0.325
    }
   },
   {
@@ -9638,24 +9603,24 @@
      "grp": "Исход",
      "name": "Победа Real Betis",
      "our": 0.6718,
-     "odds": 1.64,
-     "ext": 0.6098
+     "odds": 1.6,
+     "ext": 0.625
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.1962,
-     "odds": 4.32,
-     "ext": 0.2315
+     "odds": 4.42,
+     "ext": 0.2262
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа CA Osasuna",
      "our": 0.132,
-     "odds": 5.7,
-     "ext": 0.1754
+     "odds": 6.06,
+     "ext": 0.165
     },
     {
      "key": "dc",
@@ -9702,16 +9667,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.5478,
-     "odds": 1.84,
-     "ext": 0.5435
+     "odds": 1.81,
+     "ext": 0.5525
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4522,
-     "odds": 2.12,
-     "ext": 0.4717
+     "odds": 2.15,
+     "ext": 0.4651
     },
     {
      "key": "ou",
