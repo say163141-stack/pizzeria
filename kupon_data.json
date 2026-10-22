@@ -1,5 +1,5 @@
 {
- "updated": "21.10.2026 13:25 UTC",
+ "updated": "22.10.2026 13:27 UTC",
  "book": "1xBet",
  "football": [],
  "football_pool": [],
@@ -43,9 +43,9 @@
    "brier": 0.273
   },
   "clv": {
-   "n": 607,
+   "n": 618,
    "avg": 0.4,
-   "pos": 167
+   "pos": 173
   }
  }
 }
