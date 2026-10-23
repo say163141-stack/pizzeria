@@ -240,7 +240,7 @@
 </div>
 
 <script>
-const POOL={"updated": "22.10.2026 13:27 UTC", "book": "1xBet", "football": [], "football_pool": [], "tennis": [], "mma": [], "calib": {"all": {"n": 122, "hits": 74, "exp": 70.2, "brier": 0.22}, "1x2": {"n": 19, "hits": 9, "exp": 9.1, "brier": 0.211}, "ou": {"n": 47, "hits": 31, "exp": 26.5, "brier": 0.205}, "btts": {"n": 17, "hits": 12, "exp": 9.4, "brier": 0.259}, "tennis": {"n": 19, "hits": 13, "exp": 12.7, "brier": 0.177}, "mma": {"n": 20, "hits": 9, "exp": 12.5, "brier": 0.273}, "clv": {"n": 618, "avg": 0.4, "pos": 173}}};
+const POOL={"updated": "23.10.2026 13:04 UTC", "book": "1xBet", "football": [], "football_pool": [], "tennis": [], "mma": [], "calib": {"all": {"n": 122, "hits": 74, "exp": 70.2, "brier": 0.22}, "1x2": {"n": 19, "hits": 9, "exp": 9.1, "brier": 0.211}, "ou": {"n": 47, "hits": 31, "exp": 26.5, "brier": 0.205}, "btts": {"n": 17, "hits": 12, "exp": 9.4, "brier": 0.259}, "tennis": {"n": 19, "hits": 13, "exp": 12.7, "brier": 0.177}, "mma": {"n": 20, "hits": 9, "exp": 12.5, "brier": 0.273}, "clv": {"n": 636, "avg": 0.4, "pos": 178}}};
 const NOWMS=Date.now();
 function evMs(p){const t=p.iso?Date.parse(p.iso):(p.when?Date.parse(p.when.replace(' ','T')+':00Z'):NaN);return isNaN(t)?Infinity:t;}
 function notPast(p){return evMs(p)>NOWMS-90*60000;}
