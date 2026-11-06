@@ -1,41 +1,28 @@
 [
  {
-  "a": "Arthur Fils",
+  "a": "Carlos Alcaraz",
   "b": "Taylor Fritz",
-  "mk": "Победа: Arthur Fils",
-  "fav": "Arthur Fils",
-  "our": 0.5611,
-  "ext": 0.549,
-  "odds": 1.75,
+  "mk": "Победа: Carlos Alcaraz",
+  "fav": "Carlos Alcaraz",
+  "our": 0.7375,
+  "ext": 0.7115,
+  "odds": 1.35,
   "modeled": true,
-  "disagree": 0.022,
-  "when": "2026-11-05 18:00",
-  "iso": "2026-11-05T18:00:00Z"
+  "disagree": 0.047,
+  "when": "2026-11-06 18:00",
+  "iso": "2026-11-06T18:00:00Z"
  },
  {
   "a": "Casper Ruud",
-  "b": "Jan-Lennard Struff",
+  "b": "Nuno Borges",
   "mk": "Победа: Casper Ruud",
   "fav": "Casper Ruud",
-  "our": 0.6599,
-  "ext": 0.6565,
-  "odds": 1.46,
+  "our": 0.6412,
+  "ext": 0.662,
+  "odds": 1.45,
   "modeled": true,
-  "disagree": 0.006,
-  "when": "2026-11-05 19:30",
-  "iso": "2026-11-05T19:30:00Z"
- },
- {
-  "a": "Ben Shelton",
-  "b": "Tommy Paul",
-  "mk": "Победа: Ben Shelton",
-  "fav": "Ben Shelton",
-  "our": 0.5006,
-  "ext": 0.4753,
-  "odds": 2.02,
-  "modeled": true,
-  "disagree": 0.046,
-  "when": "2026-11-06 10:00",
-  "iso": "2026-11-06T10:00:00Z"
+  "disagree": 0.038,
+  "when": "2026-11-06 19:30",
+  "iso": "2026-11-06T19:30:00Z"
  }
 ]
