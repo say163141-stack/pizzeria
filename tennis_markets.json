@@ -1,28 +1,15 @@
 [
  {
   "a": "Carlos Alcaraz",
-  "b": "Taylor Fritz",
+  "b": "Casper Ruud",
   "mk": "Победа: Carlos Alcaraz",
   "fav": "Carlos Alcaraz",
-  "our": 0.7375,
-  "ext": 0.7115,
-  "odds": 1.35,
+  "our": 0.7779,
+  "ext": 0.7893,
+  "odds": 1.22,
   "modeled": true,
-  "disagree": 0.047,
-  "when": "2026-11-06 18:00",
-  "iso": "2026-11-06T18:00:00Z"
- },
- {
-  "a": "Casper Ruud",
-  "b": "Nuno Borges",
-  "mk": "Победа: Casper Ruud",
-  "fav": "Casper Ruud",
-  "our": 0.6412,
-  "ext": 0.662,
-  "odds": 1.45,
-  "modeled": true,
-  "disagree": 0.038,
-  "when": "2026-11-06 19:30",
-  "iso": "2026-11-06T19:30:00Z"
+  "disagree": 0.021,
+  "when": "2026-11-07 16:00",
+  "iso": "2026-11-07T16:00:00Z"
  }
 ]
