@@ -13201,7 +13201,7 @@
   "odds": 1.37,
   "iso": "2026-11-15T05:30:00Z",
   "open_odds": 1.37,
-  "close_odds": 1.37,
+  "close_odds": 1.41,
   "match": {
    "a": "Ciryl Gane",
    "b": "Josh Hokit",
@@ -26159,7 +26159,7 @@
   "odds": 1.51,
   "iso": "2026-12-13T03:30:00Z",
   "open_odds": 1.51,
-  "close_odds": 1.49,
+  "close_odds": 1.47,
   "match": {
    "a": "Alex Pereira",
    "b": "Sergey Pavlovich",
@@ -26181,7 +26181,7 @@
   "odds": 1.62,
   "iso": "2026-12-13T04:00:00Z",
   "open_odds": 1.62,
-  "close_odds": 1.62,
+  "close_odds": 1.7,
   "match": {
    "a": "Charles Oliveira",
    "b": "Diego Lopes",
@@ -45805,7 +45805,7 @@
   "odds": 1.11,
   "iso": "2026-11-15T02:00:00Z",
   "open_odds": 1.11,
-  "close_odds": 1.11,
+  "close_odds": 1.08,
   "match": {
    "a": "Bilal Hasan",
    "b": "Luis Gurule",
@@ -45827,7 +45827,7 @@
   "odds": 1.73,
   "iso": "2026-11-15T02:00:00Z",
   "open_odds": 1.73,
-  "close_odds": 1.73,
+  "close_odds": 1.59,
   "match": {
    "a": "Caio Borralho",
    "b": "Yousri Belgaroui",
@@ -45849,7 +45849,7 @@
   "odds": 1.65,
   "iso": "2026-11-15T02:00:00Z",
   "open_odds": 1.65,
-  "close_odds": 1.65,
+  "close_odds": 1.55,
   "match": {
    "a": "Kevin Holland",
    "b": "Uros Medic",
@@ -47836,9 +47836,9 @@
    "fav": "Arsenal",
    "key": "1x2"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Arsenal 1-0 Hull City"
  },
  {
   "id": "football|Arsenal — Hull City|Больше 1.5|2026-11-07",
@@ -47858,9 +47858,9 @@
    "fav": "Arsenal",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Arsenal 1-0 Hull City"
  },
  {
   "id": "football|Arsenal — Hull City|Больше 2.5|2026-11-07",
@@ -47880,9 +47880,9 @@
    "fav": "Arsenal",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Arsenal 1-0 Hull City"
  },
  {
   "id": "football|Arsenal — Hull City|Больше 3.5|2026-11-07",
@@ -47902,9 +47902,9 @@
    "fav": "Arsenal",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Arsenal 1-0 Hull City"
  },
  {
   "id": "football|Arsenal — Hull City|Да|2026-11-07",
@@ -47924,9 +47924,9 @@
    "fav": "Arsenal",
    "key": "btts"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Arsenal 1-0 Hull City"
  },
  {
   "id": "football|Fulham — Newcastle United|Победа Fulham|2026-11-07",
@@ -47946,9 +47946,9 @@
    "fav": "Fulham",
    "key": "1x2"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Fulham 1-1 Newcastle United"
  },
  {
   "id": "football|Fulham — Newcastle United|Больше 1.5|2026-11-07",
@@ -47968,9 +47968,9 @@
    "fav": "Fulham",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Fulham 1-1 Newcastle United"
  },
  {
   "id": "football|Fulham — Newcastle United|Больше 2.5|2026-11-07",
@@ -47990,9 +47990,9 @@
    "fav": "Fulham",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Fulham 1-1 Newcastle United"
  },
  {
   "id": "football|Fulham — Newcastle United|Больше 3.5|2026-11-07",
@@ -48012,9 +48012,9 @@
    "fav": "Fulham",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Fulham 1-1 Newcastle United"
  },
  {
   "id": "football|Fulham — Newcastle United|Да|2026-11-07",
@@ -48034,9 +48034,9 @@
    "fav": "Fulham",
    "key": "btts"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Fulham 1-1 Newcastle United"
  },
  {
   "id": "football|Birmingham City — Swansea City|Победа Birmingham City|2026-11-07",
@@ -48973,7 +48973,7 @@
   "odds": 1.47,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.47,
-  "close_odds": 1.47,
+  "close_odds": 1.43,
   "match": {
    "a": "Beatriz Mesquita",
    "b": "Macy Chiasson",
@@ -48995,7 +48995,7 @@
   "odds": 1.75,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.75,
-  "close_odds": 1.63,
+  "close_odds": 1.51,
   "match": {
    "a": "Cesar Almeida",
    "b": "Donte Johnson",
@@ -49017,7 +49017,7 @@
   "odds": 1.82,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.82,
-  "close_odds": 1.77,
+  "close_odds": 1.67,
   "match": {
    "a": "Charlie Radtke",
    "b": "Stephen Thompson",
@@ -49039,7 +49039,7 @@
   "odds": 1.72,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.72,
-  "close_odds": 1.68,
+  "close_odds": 1.58,
   "match": {
    "a": "Chris Duncan",
    "b": "Drew Dober",
@@ -49061,7 +49061,7 @@
   "odds": 1.81,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.81,
-  "close_odds": 1.82,
+  "close_odds": 1.8,
   "match": {
    "a": "Evan Elder",
    "b": "Samuel Sanches",
@@ -49838,9 +49838,9 @@
    "fav": "Manchester City",
    "key": "1x2"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Nottingham Forest 3-1 Manchester City"
  },
  {
   "id": "football|Nottingham Forest — Manchester City|Больше 1.5|2026-11-07",
@@ -49860,9 +49860,9 @@
    "fav": "Manchester City",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Nottingham Forest 3-1 Manchester City"
  },
  {
   "id": "football|Nottingham Forest — Manchester City|Больше 2.5|2026-11-07",
@@ -49882,9 +49882,9 @@
    "fav": "Manchester City",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Nottingham Forest 3-1 Manchester City"
  },
  {
   "id": "football|Nottingham Forest — Manchester City|Больше 3.5|2026-11-07",
@@ -49904,9 +49904,9 @@
    "fav": "Manchester City",
    "key": "ou"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Nottingham Forest 3-1 Manchester City"
  },
  {
   "id": "football|Nottingham Forest — Manchester City|Да|2026-11-07",
@@ -49926,9 +49926,9 @@
    "fav": "Manchester City",
    "key": "btts"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Nottingham Forest 3-1 Manchester City"
  },
  {
   "id": "football|CA Osasuna — Athletic Bilbao|Победа Athletic Bilbao|2026-11-07",
@@ -52603,7 +52603,7 @@
   "odds": 1.72,
   "iso": "2026-11-08T15:15:00Z",
   "open_odds": 1.72,
-  "close_odds": 1.76,
+  "close_odds": 1.87,
   "match": {
    "home": "Real Sociedad",
    "away": "Rayo Vallecano",
@@ -52647,7 +52647,7 @@
   "odds": 1.65,
   "iso": "2026-11-08T15:15:00Z",
   "open_odds": 1.65,
-  "close_odds": 1.64,
+  "close_odds": 1.67,
   "match": {
    "home": "Real Sociedad",
    "away": "Rayo Vallecano",
@@ -52713,7 +52713,7 @@
   "odds": 1.39,
   "iso": "2026-11-08T15:30:00Z",
   "open_odds": 1.39,
-  "close_odds": 1.39,
+  "close_odds": 1.45,
   "match": {
    "home": "Zenit St Petersburg",
    "away": "FK Rostov",
@@ -52735,7 +52735,7 @@
   "odds": 1.55,
   "iso": "2026-11-08T15:45:00Z",
   "open_odds": 1.55,
-  "close_odds": 1.55,
+  "close_odds": 1.5,
   "match": {
    "home": "AZ Alkmaar",
    "away": "Groningen",
@@ -52757,7 +52757,7 @@
   "odds": 1.4,
   "iso": "2026-11-08T15:45:00Z",
   "open_odds": 1.4,
-  "close_odds": 1.4,
+  "close_odds": 1.44,
   "match": {
    "home": "SC Cambuur",
    "away": "PSV Eindhoven",
@@ -52779,7 +52779,7 @@
   "odds": 1.8,
   "iso": "2026-11-08T16:15:00Z",
   "open_odds": 1.8,
-  "close_odds": 1.8,
+  "close_odds": 1.66,
   "match": {
    "home": "Le Mans FC",
    "away": "AS Monaco",
@@ -52889,7 +52889,7 @@
   "odds": 2.12,
   "iso": "2026-11-08T16:15:00Z",
   "open_odds": 2.12,
-  "close_odds": 2.12,
+  "close_odds": 2.06,
   "match": {
    "home": "Angers",
    "away": "Nice",
@@ -52999,7 +52999,7 @@
   "odds": 2.5,
   "iso": "2026-11-08T16:15:00Z",
   "open_odds": 2.5,
-  "close_odds": 2.5,
+  "close_odds": 2.54,
   "match": {
    "home": "Brest",
    "away": "Lyon",
@@ -53021,7 +53021,7 @@
   "odds": 2.64,
   "iso": "2026-11-08T16:15:00Z",
   "open_odds": 2.64,
-  "close_odds": 2.64,
+  "close_odds": 2.53,
   "match": {
    "home": "Le Havre",
    "away": "Lorient",
@@ -53131,7 +53131,7 @@
   "odds": 2.23,
   "iso": "2026-11-08T16:30:00Z",
   "open_odds": 2.23,
-  "close_odds": 2.23,
+  "close_odds": 2.21,
   "match": {
    "home": "Manchester United",
    "away": "Aston Villa",
@@ -53197,7 +53197,7 @@
   "odds": null,
   "iso": "2026-11-08T16:30:00Z",
   "open_odds": null,
-  "close_odds": null,
+  "close_odds": 2.42,
   "match": {
    "home": "Manchester United",
    "away": "Aston Villa",
@@ -53241,7 +53241,7 @@
   "odds": 1.56,
   "iso": "2026-11-08T16:30:00Z",
   "open_odds": 1.56,
-  "close_odds": 1.56,
+  "close_odds": 1.49,
   "match": {
    "home": "SC Freiburg",
    "away": "Union Berlin",
@@ -53285,7 +53285,7 @@
   "odds": 1.66,
   "iso": "2026-11-08T16:30:00Z",
   "open_odds": 1.66,
-  "close_odds": 1.66,
+  "close_odds": 1.72,
   "match": {
    "home": "SC Freiburg",
    "away": "Union Berlin",
@@ -53351,7 +53351,7 @@
   "odds": 1.96,
   "iso": "2026-11-08T17:00:00Z",
   "open_odds": 1.96,
-  "close_odds": 1.96,
+  "close_odds": 2.06,
   "match": {
    "home": "Inter Milan",
    "away": "Como",
@@ -53417,7 +53417,7 @@
   "odds": 2.29,
   "iso": "2026-11-08T17:00:00Z",
   "open_odds": 2.29,
-  "close_odds": 2.28,
+  "close_odds": 2.36,
   "match": {
    "home": "Inter Milan",
    "away": "Como",
@@ -53461,7 +53461,7 @@
   "odds": 1.94,
   "iso": "2026-11-08T17:30:00Z",
   "open_odds": 1.94,
-  "close_odds": 1.94,
+  "close_odds": 1.87,
   "match": {
    "home": "Celta Vigo",
    "away": "Levante",
@@ -53505,7 +53505,7 @@
   "odds": 1.97,
   "iso": "2026-11-08T17:30:00Z",
   "open_odds": 1.97,
-  "close_odds": 1.97,
+  "close_odds": 1.93,
   "match": {
    "home": "Celta Vigo",
    "away": "Levante",
@@ -53571,7 +53571,7 @@
   "odds": 1.5,
   "iso": "2026-11-08T17:30:00Z",
   "open_odds": 1.5,
-  "close_odds": 1.5,
+  "close_odds": 1.57,
   "match": {
    "home": "Villarreal",
    "away": "Getafe",
@@ -53615,7 +53615,7 @@
   "odds": 1.87,
   "iso": "2026-11-08T17:30:00Z",
   "open_odds": 1.87,
-  "close_odds": 1.87,
+  "close_odds": 1.88,
   "match": {
    "home": "Villarreal",
    "away": "Getafe",
@@ -53813,7 +53813,7 @@
   "odds": 2.32,
   "iso": "2026-11-08T18:30:00Z",
   "open_odds": 2.32,
-  "close_odds": 2.32,
+  "close_odds": 2.42,
   "match": {
    "home": "TSG Hoffenheim",
    "away": "FC Schalke 04",
@@ -53857,7 +53857,7 @@
   "odds": 2.47,
   "iso": "2026-11-08T19:00:00Z",
   "open_odds": 2.47,
-  "close_odds": 2.47,
+  "close_odds": 2.4,
   "match": {
    "home": "FC Utrecht",
    "away": "NEC Nijmegen",
@@ -53879,7 +53879,7 @@
   "odds": 2.1,
   "iso": "2026-11-08T19:45:00Z",
   "open_odds": 2.1,
-  "close_odds": 2.1,
+  "close_odds": 2.23,
   "match": {
    "home": "Fiorentina",
    "away": "Juventus",
@@ -53923,7 +53923,7 @@
   "odds": 1.84,
   "iso": "2026-11-08T19:45:00Z",
   "open_odds": 1.84,
-  "close_odds": 1.84,
+  "close_odds": 1.94,
   "match": {
    "home": "Fiorentina",
    "away": "Juventus",
@@ -53989,7 +53989,7 @@
   "odds": 2.27,
   "iso": "2026-11-08T19:45:00Z",
   "open_odds": 2.27,
-  "close_odds": 2.27,
+  "close_odds": 2.34,
   "match": {
    "home": "RC Lens",
    "away": "Marseille",
@@ -54011,7 +54011,7 @@
   "odds": 1.84,
   "iso": "2026-11-08T20:00:00Z",
   "open_odds": 1.84,
-  "close_odds": 1.84,
+  "close_odds": 2.05,
   "match": {
    "home": "Atlético Madrid",
    "away": "Barcelona",
@@ -54077,7 +54077,7 @@
   "odds": 1.87,
   "iso": "2026-11-08T20:00:00Z",
   "open_odds": 1.87,
-  "close_odds": 1.87,
+  "close_odds": 1.89,
   "match": {
    "home": "Atlético Madrid",
    "away": "Barcelona",
@@ -54170,6 +54170,72 @@
    "a": "Gabriella Fernandes",
    "b": "Karine Silva",
    "fav": "Karine Silva",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Jared Gordon — Melquizael Costa|Победа: Melquizael Costa|2026-11-15",
+  "built": "2026-11-08T14:45:32.316899+00:00",
+  "sport": "mma",
+  "ev": "Jared Gordon — Melquizael Costa",
+  "market": "Победа: Melquizael Costa",
+  "shown": 0.7071,
+  "ext": 0.763,
+  "odds": 1.23,
+  "iso": "2026-11-15T01:00:00Z",
+  "open_odds": 1.23,
+  "close_odds": 1.23,
+  "match": {
+   "a": "Jared Gordon",
+   "b": "Melquizael Costa",
+   "fav": "Melquizael Costa",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Jim Miller — Terrance Mckinney|Победа: Terrance Mckinney|2026-11-15",
+  "built": "2026-11-08T14:45:32.316899+00:00",
+  "sport": "mma",
+  "ev": "Jim Miller — Terrance Mckinney",
+  "market": "Победа: Terrance Mckinney",
+  "shown": 0.5916,
+  "ext": 0.6643,
+  "odds": 1.42,
+  "iso": "2026-11-15T01:00:00Z",
+  "open_odds": 1.42,
+  "close_odds": 1.42,
+  "match": {
+   "a": "Jim Miller",
+   "b": "Terrance Mckinney",
+   "fav": "Terrance Mckinney",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Jiri Prochazka — Navajo Stirling|Победа: Navajo Stirling|2026-11-21",
+  "built": "2026-11-08T14:45:32.316899+00:00",
+  "sport": "mma",
+  "ev": "Jiri Prochazka — Navajo Stirling",
+  "market": "Победа: Navajo Stirling",
+  "shown": 0.5537,
+  "ext": 0.5623,
+  "odds": 1.72,
+  "iso": "2026-11-21T17:00:00Z",
+  "open_odds": 1.72,
+  "close_odds": 1.72,
+  "match": {
+   "a": "Jiri Prochazka",
+   "b": "Navajo Stirling",
+   "fav": "Navajo Stirling",
    "key": "ml"
   },
   "status": "pending",
