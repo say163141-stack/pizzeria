@@ -1,1 +1,54 @@
-[]
+[
+ {
+  "a": "Jessica Pegula",
+  "b": "Marta Kostyuk",
+  "mk": "Победа: Jessica Pegula",
+  "fav": "Jessica Pegula",
+  "our": 0.6281,
+  "ext": 0.6307,
+  "odds": 1.54,
+  "modeled": true,
+  "disagree": 0.005,
+  "when": "2026-11-10 20:00",
+  "iso": "2026-11-10T20:00:00Z"
+ },
+ {
+  "a": "Coco Gauff",
+  "b": "Linda Noskova",
+  "mk": "Победа: Coco Gauff",
+  "fav": "Coco Gauff",
+  "our": 0.6021,
+  "ext": 0.6059,
+  "odds": 1.6,
+  "modeled": true,
+  "disagree": 0.007,
+  "when": "2026-11-10 21:10",
+  "iso": "2026-11-10T21:10:00Z"
+ },
+ {
+  "a": "Elina Svitolina",
+  "b": "Karolina Muchova",
+  "mk": "Победа: Karolina Muchova",
+  "fav": "Karolina Muchova",
+  "our": 0.5132,
+  "ext": 0.584,
+  "odds": 1.66,
+  "modeled": true,
+  "disagree": 0.129,
+  "when": "2026-11-11 20:00",
+  "iso": "2026-11-11T20:00:00Z"
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Mirra Andreeva",
+  "mk": "Победа: Aryna Sabalenka",
+  "fav": "Aryna Sabalenka",
+  "our": 0.6073,
+  "ext": 0.5422,
+  "odds": 1.79,
+  "modeled": true,
+  "disagree": 0.118,
+  "when": "2026-11-11 21:10",
+  "iso": "2026-11-11T21:10:00Z"
+ }
+]
