@@ -11771,7 +11771,7 @@
   "odds": 1.49,
   "iso": "2026-11-15T05:00:00Z",
   "open_odds": 1.49,
-  "close_odds": 1.55,
+  "close_odds": 1.58,
   "match": {
    "a": "Amanda Nunes",
    "b": "Kayla Harrison",
@@ -13201,7 +13201,7 @@
   "odds": 1.37,
   "iso": "2026-11-15T05:30:00Z",
   "open_odds": 1.37,
-  "close_odds": 1.51,
+  "close_odds": 1.49,
   "match": {
    "a": "Ciryl Gane",
    "b": "Josh Hokit",
@@ -45827,7 +45827,7 @@
   "odds": 1.73,
   "iso": "2026-11-15T02:00:00Z",
   "open_odds": 1.73,
-  "close_odds": 1.64,
+  "close_odds": 1.62,
   "match": {
    "a": "Caio Borralho",
    "b": "Yousri Belgaroui",
@@ -48995,7 +48995,7 @@
   "odds": 1.75,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.75,
-  "close_odds": 1.54,
+  "close_odds": 1.51,
   "match": {
    "a": "Cesar Almeida",
    "b": "Donte Johnson",
@@ -49017,7 +49017,7 @@
   "odds": 1.82,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.82,
-  "close_odds": 1.64,
+  "close_odds": 1.65,
   "match": {
    "a": "Charlie Radtke",
    "b": "Stephen Thompson",
@@ -54473,7 +54473,7 @@
   "odds": 1.81,
   "iso": "2026-11-14T22:15:00Z",
   "open_odds": 1.81,
-  "close_odds": 1.79,
+  "close_odds": 1.83,
   "match": {
    "a": "Evan Elder",
    "b": "Samuel Sanches",
@@ -54539,7 +54539,7 @@
   "odds": 1.41,
   "iso": "2026-11-13T20:00:00Z",
   "open_odds": 1.41,
-  "close_odds": 1.41,
+  "close_odds": 1.39,
   "match": {
    "a": "Karolina Muchova",
    "b": "Mirra Andreeva",
@@ -54561,11 +54561,77 @@
   "odds": 1.55,
   "iso": "2026-11-13T21:30:00Z",
   "open_odds": 1.55,
-  "close_odds": 1.55,
+  "close_odds": 1.49,
   "match": {
    "a": "Aryna Sabalenka",
    "b": "Elina Svitolina",
    "fav": "Aryna Sabalenka",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Jessica Pegula — Mirra Andreeva|Победа: Mirra Andreeva|2026-11-14",
+  "built": "2026-11-13T15:55:00.673240+00:00",
+  "sport": "tennis",
+  "ev": "Jessica Pegula — Mirra Andreeva",
+  "market": "Победа: Mirra Andreeva",
+  "shown": 0.5105,
+  "ext": 0.6223,
+  "odds": 1.56,
+  "iso": "2026-11-14T15:00:00Z",
+  "open_odds": 1.56,
+  "close_odds": 1.56,
+  "match": {
+   "a": "Jessica Pegula",
+   "b": "Mirra Andreeva",
+   "fav": "Mirra Andreeva",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Alessandro Costa — Amir Albazi|Победа: Alessandro Costa|2026-11-21",
+  "built": "2026-11-13T15:55:00.673240+00:00",
+  "sport": "mma",
+  "ev": "Alessandro Costa — Amir Albazi",
+  "market": "Победа: Alessandro Costa",
+  "shown": 0.5468,
+  "ext": 0.5808,
+  "odds": 1.66,
+  "iso": "2026-11-21T17:00:00Z",
+  "open_odds": 1.66,
+  "close_odds": 1.66,
+  "match": {
+   "a": "Alessandro Costa",
+   "b": "Amir Albazi",
+   "fav": "Alessandro Costa",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Asu Almabaev — Kyoji Horiguchi|Победа: Kyoji Horiguchi|2026-11-21",
+  "built": "2026-11-13T15:55:00.673240+00:00",
+  "sport": "mma",
+  "ev": "Asu Almabaev — Kyoji Horiguchi",
+  "market": "Победа: Kyoji Horiguchi",
+  "shown": 0.6022,
+  "ext": 0.6411,
+  "odds": 1.5,
+  "iso": "2026-11-21T17:00:00Z",
+  "open_odds": 1.5,
+  "close_odds": 1.5,
+  "match": {
+   "a": "Asu Almabaev",
+   "b": "Kyoji Horiguchi",
+   "fav": "Kyoji Horiguchi",
    "key": "ml"
   },
   "status": "pending",
