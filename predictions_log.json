@@ -11771,7 +11771,7 @@
   "odds": 1.49,
   "iso": "2026-11-15T05:00:00Z",
   "open_odds": 1.49,
-  "close_odds": 1.58,
+  "close_odds": 1.59,
   "match": {
    "a": "Amanda Nunes",
    "b": "Kayla Harrison",
@@ -13201,7 +13201,7 @@
   "odds": 1.37,
   "iso": "2026-11-15T05:30:00Z",
   "open_odds": 1.37,
-  "close_odds": 1.49,
+  "close_odds": 1.48,
   "match": {
    "a": "Ciryl Gane",
    "b": "Josh Hokit",
@@ -45849,7 +45849,7 @@
   "odds": 1.65,
   "iso": "2026-11-15T02:00:00Z",
   "open_odds": 1.65,
-  "close_odds": 1.62,
+  "close_odds": 1.61,
   "match": {
    "a": "Kevin Holland",
    "b": "Uros Medic",
@@ -48995,7 +48995,7 @@
   "odds": 1.75,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.75,
-  "close_odds": 1.51,
+  "close_odds": 1.47,
   "match": {
    "a": "Cesar Almeida",
    "b": "Donte Johnson",
@@ -49017,7 +49017,7 @@
   "odds": 1.82,
   "iso": "2026-11-15T01:00:00Z",
   "open_odds": 1.82,
-  "close_odds": 1.65,
+  "close_odds": 1.71,
   "match": {
    "a": "Charlie Radtke",
    "b": "Stephen Thompson",
@@ -54495,7 +54495,7 @@
   "odds": 1.34,
   "iso": "2026-11-14T23:15:00Z",
   "open_odds": 1.34,
-  "close_odds": 1.34,
+  "close_odds": 1.37,
   "match": {
    "a": "Beatriz Mesquita",
    "b": "Macy Chiasson",
@@ -54583,7 +54583,7 @@
   "odds": 1.56,
   "iso": "2026-11-14T15:00:00Z",
   "open_odds": 1.56,
-  "close_odds": 1.56,
+  "close_odds": 1.39,
   "match": {
    "a": "Jessica Pegula",
    "b": "Mirra Andreeva",
@@ -54605,7 +54605,7 @@
   "odds": 1.66,
   "iso": "2026-11-21T17:00:00Z",
   "open_odds": 1.66,
-  "close_odds": 1.66,
+  "close_odds": 1.73,
   "match": {
    "a": "Alessandro Costa",
    "b": "Amir Albazi",
@@ -54632,6 +54632,160 @@
    "a": "Asu Almabaev",
    "b": "Kyoji Horiguchi",
    "fav": "Kyoji Horiguchi",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Elina Svitolina — Linda Noskova|Победа: Linda Noskova|2026-11-14",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "tennis",
+  "ev": "Elina Svitolina — Linda Noskova",
+  "market": "Победа: Linda Noskova",
+  "shown": 0.5592,
+  "ext": 0.5955,
+  "odds": 1.63,
+  "iso": "2026-11-14T21:30:00Z",
+  "open_odds": 1.63,
+  "close_odds": 1.63,
+  "match": {
+   "a": "Elina Svitolina",
+   "b": "Linda Noskova",
+   "fav": "Linda Noskova",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Alexander Zverev — Rafael Jodar|Победа: Alexander Zverev|2026-11-15",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "tennis",
+  "ev": "Alexander Zverev — Rafael Jodar",
+  "market": "Победа: Alexander Zverev",
+  "shown": 0.6464,
+  "ext": 0.6697,
+  "odds": 1.45,
+  "iso": "2026-11-15T13:00:00Z",
+  "open_odds": 1.45,
+  "close_odds": 1.45,
+  "match": {
+   "a": "Alexander Zverev",
+   "b": "Rafael Jodar",
+   "fav": "Alexander Zverev",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Arthur Fils — Ben Shelton|Победа: Ben Shelton|2026-11-15",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "tennis",
+  "ev": "Arthur Fils — Ben Shelton",
+  "market": "Победа: Ben Shelton",
+  "shown": 0.556,
+  "ext": 0.6146,
+  "odds": 1.58,
+  "iso": "2026-11-15T19:30:00Z",
+  "open_odds": 1.58,
+  "close_odds": 1.58,
+  "match": {
+   "a": "Arthur Fils",
+   "b": "Ben Shelton",
+   "fav": "Ben Shelton",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Carlos Alcaraz — Frances Tiafoe|Победа: Carlos Alcaraz|2026-11-16",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "tennis",
+  "ev": "Carlos Alcaraz — Frances Tiafoe",
+  "market": "Победа: Carlos Alcaraz",
+  "shown": 0.8199,
+  "ext": 0.8591,
+  "odds": 1.13,
+  "iso": "2026-11-16T13:00:00Z",
+  "open_odds": 1.13,
+  "close_odds": 1.13,
+  "match": {
+   "a": "Carlos Alcaraz",
+   "b": "Frances Tiafoe",
+   "fav": "Carlos Alcaraz",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Daniil Medvedev — Flavio Cobolli|Победа: Daniil Medvedev|2026-11-16",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "tennis",
+  "ev": "Daniil Medvedev — Flavio Cobolli",
+  "market": "Победа: Daniil Medvedev",
+  "shown": 0.706,
+  "ext": 0.7562,
+  "odds": 1.28,
+  "iso": "2026-11-16T19:30:00Z",
+  "open_odds": 1.28,
+  "close_odds": 1.28,
+  "match": {
+   "a": "Daniil Medvedev",
+   "b": "Flavio Cobolli",
+   "fav": "Daniil Medvedev",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Jake Matthews — Tahir Abdullayev|Победа: Jake Matthews|2026-11-21",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "mma",
+  "ev": "Jake Matthews — Tahir Abdullayev",
+  "market": "Победа: Jake Matthews",
+  "shown": 0.5795,
+  "ext": 0.5795,
+  "odds": 1.64,
+  "iso": "2026-11-21T15:15:00Z",
+  "open_odds": 1.64,
+  "close_odds": 1.64,
+  "match": {
+   "a": "Jake Matthews",
+   "b": "Tahir Abdullayev",
+   "fav": "Jake Matthews",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Shamil Gaziev — Tallison Teixeira|Победа: Shamil Gaziev|2026-11-21",
+  "built": "2026-11-14T14:45:15.938213+00:00",
+  "sport": "mma",
+  "ev": "Shamil Gaziev — Tallison Teixeira",
+  "market": "Победа: Shamil Gaziev",
+  "shown": 0.6454,
+  "ext": 0.6984,
+  "odds": 1.36,
+  "iso": "2026-11-21T16:15:00Z",
+  "open_odds": 1.36,
+  "close_odds": 1.36,
+  "match": {
+   "a": "Shamil Gaziev",
+   "b": "Tallison Teixeira",
+   "fav": "Shamil Gaziev",
    "key": "ml"
   },
   "status": "pending",
