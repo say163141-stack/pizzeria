@@ -11778,9 +11778,9 @@
    "fav": "Kayla Harrison",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Kayla Harrison прошёл (1-0)"
  },
  {
   "id": "tennis|Alex de Minaur — Quentin Halys|Победа: Alex de Minaur|2026-10-03",
@@ -13208,9 +13208,9 @@
    "fav": "Ciryl Gane",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Ciryl Gane прошёл (1-0)"
  },
  {
   "id": "mma|Bo Nickal — Joseph Pyfer|Победа: Joseph Pyfer|2026-12-13",
@@ -45812,9 +45812,9 @@
    "fav": "Bilal Hasan",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Luis Gurule прошёл (1-0)"
  },
  {
   "id": "mma|Caio Borralho — Yousri Belgaroui|Победа: Caio Borralho|2026-11-15",
@@ -45834,9 +45834,9 @@
    "fav": "Caio Borralho",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Caio Borralho прошёл (1-0)"
  },
  {
   "id": "mma|Kevin Holland — Uros Medic|Победа: Uros Medic|2026-11-15",
@@ -45856,9 +45856,9 @@
    "fav": "Uros Medic",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Kevin Holland прошёл (0-0)"
  },
  {
   "id": "football|Lokomotiv Moscow — Rubin Kazan|Победа Lokomotiv Moscow|2026-11-06",
@@ -48980,9 +48980,9 @@
    "fav": "Beatriz Mesquita",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Beatriz Mesquita прошёл (0-1)"
  },
  {
   "id": "mma|Cesar Almeida — Donte Johnson|Победа: Donte Johnson|2026-11-15",
@@ -49002,9 +49002,9 @@
    "fav": "Donte Johnson",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Cesar Almeida прошёл (0-1)"
  },
  {
   "id": "mma|Charlie Radtke — Stephen Thompson|Победа: Stephen Thompson|2026-11-15",
@@ -49068,9 +49068,9 @@
    "fav": "Evan Elder",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Evan Elder прошёл (1-0)"
  },
  {
   "id": "football|Blackburn Rovers — Stoke City|Победа Stoke City|2026-11-03",
@@ -54194,9 +54194,9 @@
    "fav": "Melquizael Costa",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Melquizael Costa прошёл (0-1)"
  },
  {
   "id": "mma|Jim Miller — Terrance Mckinney|Победа: Terrance Mckinney|2026-11-15",
@@ -54216,9 +54216,9 @@
    "fav": "Terrance Mckinney",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Terrance Mckinney прошёл (0-1)"
  },
  {
   "id": "mma|Jiri Prochazka — Navajo Stirling|Победа: Navajo Stirling|2026-11-21",
@@ -54231,7 +54231,7 @@
   "odds": 1.72,
   "iso": "2026-11-21T17:00:00Z",
   "open_odds": 1.72,
-  "close_odds": 1.74,
+  "close_odds": 1.66,
   "match": {
    "a": "Jiri Prochazka",
    "b": "Navajo Stirling",
@@ -54348,9 +54348,9 @@
    "fav": "Juan Diaz",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Juan Diaz прошёл (0-1)"
  },
  {
   "id": "mma|Evan Elder — Samuel Sanches|Победа: Samuel Sanches|2026-11-15",
@@ -54370,9 +54370,9 @@
    "fav": "Samuel Sanches",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Evan Elder прошёл (1-0)"
  },
  {
   "id": "mma|Aljamain Sterling — Kevin Vallejos|Победа: Aljamain Sterling|2026-11-21",
@@ -54385,7 +54385,7 @@
   "odds": 2.1,
   "iso": "2026-11-21T17:00:00Z",
   "open_odds": 2.1,
-  "close_odds": 2.1,
+  "close_odds": 2.03,
   "match": {
    "a": "Aljamain Sterling",
    "b": "Kevin Vallejos",
@@ -54407,7 +54407,7 @@
   "odds": 1.6,
   "iso": "2026-12-05T17:00:00Z",
   "open_odds": 1.6,
-  "close_odds": 1.57,
+  "close_odds": 1.6,
   "match": {
    "a": "Ian Garry",
    "b": "Yaroslav Amosov",
@@ -54480,9 +54480,9 @@
    "fav": "Samuel Sanches",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": false,
+  "actual": "Evan Elder прошёл (1-0)"
  },
  {
   "id": "mma|Beatriz Mesquita — Macy Chiasson|Победа: Beatriz Mesquita|2026-11-14",
@@ -54502,9 +54502,9 @@
    "fav": "Beatriz Mesquita",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Beatriz Mesquita прошёл (0-1)"
  },
  {
   "id": "mma|Jared Gordon — Melquizael Costa|Победа: Melquizael Costa|2026-11-14",
@@ -54524,9 +54524,9 @@
    "fav": "Melquizael Costa",
    "key": "ml"
   },
-  "status": "pending",
-  "won": null,
-  "actual": null
+  "status": "graded",
+  "won": true,
+  "actual": "Melquizael Costa прошёл (0-1)"
  },
  {
   "id": "tennis|Karolina Muchova — Mirra Andreeva|Победа: Mirra Andreeva|2026-11-13",
@@ -54605,7 +54605,7 @@
   "odds": 1.66,
   "iso": "2026-11-21T17:00:00Z",
   "open_odds": 1.66,
-  "close_odds": 1.73,
+  "close_odds": 1.71,
   "match": {
    "a": "Alessandro Costa",
    "b": "Amir Albazi",
@@ -54627,7 +54627,7 @@
   "odds": 1.5,
   "iso": "2026-11-21T17:00:00Z",
   "open_odds": 1.5,
-  "close_odds": 1.5,
+  "close_odds": 1.54,
   "match": {
    "a": "Asu Almabaev",
    "b": "Kyoji Horiguchi",
@@ -54715,7 +54715,7 @@
   "odds": 1.13,
   "iso": "2026-11-16T13:00:00Z",
   "open_odds": 1.13,
-  "close_odds": 1.13,
+  "close_odds": 1.12,
   "match": {
    "a": "Carlos Alcaraz",
    "b": "Frances Tiafoe",
@@ -54737,7 +54737,7 @@
   "odds": 1.28,
   "iso": "2026-11-16T19:30:00Z",
   "open_odds": 1.28,
-  "close_odds": 1.28,
+  "close_odds": 1.31,
   "match": {
    "a": "Daniil Medvedev",
    "b": "Flavio Cobolli",
@@ -54759,7 +54759,7 @@
   "odds": 1.64,
   "iso": "2026-11-21T15:15:00Z",
   "open_odds": 1.64,
-  "close_odds": 1.64,
+  "close_odds": 1.53,
   "match": {
    "a": "Jake Matthews",
    "b": "Tahir Abdullayev",
@@ -54781,11 +54781,165 @@
   "odds": 1.36,
   "iso": "2026-11-21T16:15:00Z",
   "open_odds": 1.36,
-  "close_odds": 1.36,
+  "close_odds": 1.4,
   "match": {
    "a": "Shamil Gaziev",
    "b": "Tallison Teixeira",
    "fav": "Shamil Gaziev",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "tennis|Elina Svitolina — Mirra Andreeva|Победа: Mirra Andreeva|2026-11-15",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "tennis",
+  "ev": "Elina Svitolina — Mirra Andreeva",
+  "market": "Победа: Mirra Andreeva",
+  "shown": 0.6015,
+  "ext": 0.7032,
+  "odds": 1.38,
+  "iso": "2026-11-15T20:00:00Z",
+  "open_odds": 1.38,
+  "close_odds": 1.38,
+  "match": {
+   "a": "Elina Svitolina",
+   "b": "Mirra Andreeva",
+   "fav": "Mirra Andreeva",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Alik Lorenz — Diyar Nurgozhay|Победа: Diyar Nurgozhay|2026-11-21",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Alik Lorenz — Diyar Nurgozhay",
+  "market": "Победа: Diyar Nurgozhay",
+  "shown": 0.7064,
+  "ext": 0.7064,
+  "odds": 1.33,
+  "iso": "2026-11-21T17:00:00Z",
+  "open_odds": 1.33,
+  "close_odds": 1.33,
+  "match": {
+   "a": "Alik Lorenz",
+   "b": "Diyar Nurgozhay",
+   "fav": "Diyar Nurgozhay",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Dom Mar Fan — Nikolas Motta|Победа: Dom Mar Fan|2026-11-21",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Dom Mar Fan — Nikolas Motta",
+  "market": "Победа: Dom Mar Fan",
+  "shown": 0.5651,
+  "ext": 0.5651,
+  "odds": 1.67,
+  "iso": "2026-11-21T17:00:00Z",
+  "open_odds": 1.67,
+  "close_odds": 1.67,
+  "match": {
+   "a": "Dom Mar Fan",
+   "b": "Nikolas Motta",
+   "fav": "Dom Mar Fan",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Ikram Aliskerov — Jared Cannonier|Победа: Ikram Aliskerov|2026-11-21",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Ikram Aliskerov — Jared Cannonier",
+  "market": "Победа: Ikram Aliskerov",
+  "shown": 0.6977,
+  "ext": 0.7644,
+  "odds": 1.23,
+  "iso": "2026-11-21T18:15:00Z",
+  "open_odds": 1.23,
+  "close_odds": 1.23,
+  "match": {
+   "a": "Ikram Aliskerov",
+   "b": "Jared Cannonier",
+   "fav": "Ikram Aliskerov",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Brian Ortega — Daniel Hooker|Победа: Daniel Hooker|2026-11-21",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Brian Ortega — Daniel Hooker",
+  "market": "Победа: Daniel Hooker",
+  "shown": 0.545,
+  "ext": 0.5729,
+  "odds": 1.64,
+  "iso": "2026-11-21T19:15:00Z",
+  "open_odds": 1.64,
+  "close_odds": 1.64,
+  "match": {
+   "a": "Brian Ortega",
+   "b": "Daniel Hooker",
+   "fav": "Daniel Hooker",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Israel Adesanya — Shara Magomedov|Победа: Israel Adesanya|2026-12-05",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Israel Adesanya — Shara Magomedov",
+  "market": "Победа: Israel Adesanya",
+  "shown": 0.5633,
+  "ext": 0.5768,
+  "odds": 1.68,
+  "iso": "2026-12-05T17:00:00Z",
+  "open_odds": 1.68,
+  "close_odds": 1.68,
+  "match": {
+   "a": "Israel Adesanya",
+   "b": "Shara Magomedov",
+   "fav": "Israel Adesanya",
+   "key": "ml"
+  },
+  "status": "pending",
+  "won": null,
+  "actual": null
+ },
+ {
+  "id": "mma|Natalia Silva — Valentina Shevchenko|Победа: Valentina Shevchenko|2027-01-01",
+  "built": "2026-11-15T15:20:42.704512+00:00",
+  "sport": "mma",
+  "ev": "Natalia Silva — Valentina Shevchenko",
+  "market": "Победа: Valentina Shevchenko",
+  "shown": 0.6017,
+  "ext": 0.6224,
+  "odds": 1.48,
+  "iso": "2027-01-01T03:00:00Z",
+  "open_odds": 1.48,
+  "close_odds": 1.48,
+  "match": {
+   "a": "Natalia Silva",
+   "b": "Valentina Shevchenko",
+   "fav": "Valentina Shevchenko",
    "key": "ml"
   },
   "status": "pending",
