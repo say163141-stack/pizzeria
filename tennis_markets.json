@@ -1,31 +1,5 @@
 [
  {
-  "a": "Daniil Medvedev",
-  "b": "Flavio Cobolli",
-  "mk": "Победа: Daniil Medvedev",
-  "fav": "Daniil Medvedev",
-  "our": 0.7035,
-  "ext": 0.7505,
-  "odds": 1.29,
-  "modeled": true,
-  "disagree": 0.085,
-  "when": "2026-11-16 19:30",
-  "iso": "2026-11-16T19:30:00Z"
- },
- {
-  "a": "Arthur Fils",
-  "b": "Rafael Jodar",
-  "mk": "Победа: Arthur Fils",
-  "fav": "Arthur Fils",
-  "our": 0.5068,
-  "ext": 0.5,
-  "odds": 1.94,
-  "modeled": true,
-  "disagree": 0.012,
-  "when": "2026-11-17 13:00",
-  "iso": "2026-11-17T13:00:00Z"
- },
- {
   "a": "Alexander Zverev",
   "b": "Ben Shelton",
   "mk": "Победа: Alexander Zverev",
@@ -37,5 +11,31 @@
   "disagree": 0.022,
   "when": "2026-11-17 19:30",
   "iso": "2026-11-17T19:30:00Z"
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Daniil Medvedev",
+  "mk": "Победа: Carlos Alcaraz",
+  "fav": "Carlos Alcaraz",
+  "our": 0.7393,
+  "ext": 0.7622,
+  "odds": 1.27,
+  "modeled": true,
+  "disagree": 0.042,
+  "when": "2026-11-18 13:00",
+  "iso": "2026-11-18T13:00:00Z"
+ },
+ {
+  "a": "Flavio Cobolli",
+  "b": "Frances Tiafoe",
+  "mk": "Победа: Frances Tiafoe",
+  "fav": "Frances Tiafoe",
+  "our": 0.5667,
+  "ext": 0.551,
+  "odds": 1.76,
+  "modeled": true,
+  "disagree": 0.028,
+  "when": "2026-11-18 19:30",
+  "iso": "2026-11-18T19:30:00Z"
  }
 ]
