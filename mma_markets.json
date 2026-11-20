@@ -4,9 +4,9 @@
   "b": "Shoaib Yousaf",
   "mk": "Победа: John Mitchell",
   "fav": "John Mitchell",
-  "our": 0.5491,
-  "ext": 0.5491,
-  "odds": 1.7,
+  "our": 0.5399,
+  "ext": 0.5399,
+  "odds": 1.73,
   "modeled": false,
   "disagree": 0.0,
   "when": "2026-11-21 15:10",
@@ -17,9 +17,9 @@
   "b": "Diyar Nurgozhay",
   "mk": "Победа: Diyar Nurgozhay",
   "fav": "Diyar Nurgozhay",
-  "our": 0.6909,
-  "ext": 0.6909,
-  "odds": 1.36,
+  "our": 0.6851,
+  "ext": 0.6851,
+  "odds": 1.37,
   "modeled": false,
   "disagree": 0.0,
   "when": "2026-11-21 15:35",
@@ -69,26 +69,13 @@
   "b": "Tallison Teixeira",
   "mk": "Победа: Shamil Gaziev",
   "fav": "Shamil Gaziev",
-  "our": 0.6078,
-  "ext": 0.6447,
-  "odds": 1.51,
+  "our": 0.6037,
+  "ext": 0.6388,
+  "odds": 1.47,
   "modeled": true,
-  "disagree": 0.123,
+  "disagree": 0.117,
   "when": "2026-11-21 17:15",
   "iso": "2026-11-21T17:15:00Z"
- },
- {
-  "a": "Aljamain Sterling",
-  "b": "Kevin Vallejos",
-  "mk": "Победа: Aljamain Sterling",
-  "fav": "Aljamain Sterling",
-  "our": 0.5159,
-  "ext": 0.4543,
-  "odds": 2.09,
-  "modeled": true,
-  "disagree": 0.205,
-  "when": "2026-11-21 18:00",
-  "iso": "2026-11-21T18:00:00Z"
  },
  {
   "a": "Ikram Aliskerov",
@@ -117,19 +104,6 @@
   "iso": "2026-11-21T18:45:00Z"
  },
  {
-  "a": "Jiri Prochazka",
-  "b": "Navajo Stirling",
-  "mk": "Победа: Navajo Stirling",
-  "fav": "Navajo Stirling",
-  "our": 0.574,
-  "ext": 0.5914,
-  "odds": 1.61,
-  "modeled": true,
-  "disagree": 0.058,
-  "when": "2026-11-21 19:00",
-  "iso": "2026-11-21T19:00:00Z"
- },
- {
   "a": "Brian Ortega",
   "b": "Daniel Hooker",
   "mk": "Победа: Daniel Hooker",
@@ -143,17 +117,43 @@
   "iso": "2026-11-21T19:15:00Z"
  },
  {
+  "a": "Aljamain Sterling",
+  "b": "Kevin Vallejos",
+  "mk": "Победа: Aljamain Sterling",
+  "fav": "Aljamain Sterling",
+  "our": 0.5159,
+  "ext": 0.4543,
+  "odds": 2.09,
+  "modeled": true,
+  "disagree": 0.205,
+  "when": "2026-11-21 19:45",
+  "iso": "2026-11-21T19:45:00Z"
+ },
+ {
+  "a": "Jiri Prochazka",
+  "b": "Navajo Stirling",
+  "mk": "Победа: Navajo Stirling",
+  "fav": "Navajo Stirling",
+  "our": 0.574,
+  "ext": 0.5914,
+  "odds": 1.61,
+  "modeled": true,
+  "disagree": 0.058,
+  "when": "2026-11-21 20:15",
+  "iso": "2026-11-21T20:15:00Z"
+ },
+ {
   "a": "Ian Garry",
   "b": "Yaroslav Amosov",
   "mk": "Победа: Ian Garry",
   "fav": "Ian Garry",
-  "our": 0.6093,
-  "ext": 0.6093,
-  "odds": 1.59,
+  "our": 0.6118,
+  "ext": 0.6118,
+  "odds": 1.58,
   "modeled": false,
   "disagree": 0.0,
-  "when": "2026-12-05 17:00",
-  "iso": "2026-12-05T17:00:00Z"
+  "when": "2026-12-05 20:15",
+  "iso": "2026-12-05T20:15:00Z"
  },
  {
   "a": "Israel Adesanya",
@@ -165,8 +165,8 @@
   "odds": 1.68,
   "modeled": true,
   "disagree": 0.045,
-  "when": "2026-12-05 17:00",
-  "iso": "2026-12-05T17:00:00Z"
+  "when": "2026-12-05 20:45",
+  "iso": "2026-12-05T20:45:00Z"
  },
  {
   "a": "Alex Pereira",
@@ -178,8 +178,8 @@
   "odds": 1.49,
   "modeled": true,
   "disagree": 0.174,
-  "when": "2026-12-13 02:30",
-  "iso": "2026-12-13T02:30:00Z"
+  "when": "2026-12-13 03:30",
+  "iso": "2026-12-13T03:30:00Z"
  },
  {
   "a": "Charles Oliveira",
