@@ -1,15 +1,15 @@
 [
  {
   "a": "Alexander Zverev",
-  "b": "Daniil Medvedev",
-  "mk": "Победа: Alexander Zverev",
-  "fav": "Alexander Zverev",
-  "our": 0.6024,
-  "ext": 0.6025,
-  "odds": 1.61,
+  "b": "Carlos Alcaraz",
+  "mk": "Победа: Carlos Alcaraz",
+  "fav": "Carlos Alcaraz",
+  "our": 0.638,
+  "ext": 0.6479,
+  "odds": 1.5,
   "modeled": true,
-  "disagree": 0.0,
-  "when": "2026-11-21 19:30",
-  "iso": "2026-11-21T19:30:00Z"
+  "disagree": 0.018,
+  "when": "2026-11-22 17:00",
+  "iso": "2026-11-22T17:00:00Z"
  }
 ]

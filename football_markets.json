@@ -1,4354 +1,6 @@
 {
  "events": [
   {
-   "a": "Paris Saint Germain",
-   "b": "Nice",
-   "home": "Nice",
-   "away": "Paris Saint Germain",
-   "league": "Лига 1",
-   "when": "2026-11-21 16:15",
-   "iso": "2026-11-21T16:15:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Nice",
-     "our": 0.1471,
-     "odds": 6.14,
-     "ext": 0.1629
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2184,
-     "odds": 5.33,
-     "ext": 0.1876
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Paris Saint Germain",
-     "our": 0.6345,
-     "odds": 1.5,
-     "ext": 0.6667
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Nice не проиграет (1X)",
-     "our": 0.3655,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Paris Saint Germain не проиграет (X2)",
-     "our": 0.8529,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7816,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7367,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2633,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.4869,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.5131,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2687,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7313,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4501,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5499,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1352,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–2",
-     "our": 0.1257,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.103,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "0–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.634,
-    "adj": 0.634
-   }
-  },
-  {
-   "a": "CSKA Moscow",
-   "b": "FC Akhmat Grozny",
-   "home": "CSKA Moscow",
-   "away": "FC Akhmat Grozny",
-   "league": "РПЛ",
-   "when": "2026-11-21 16:45",
-   "iso": "2026-11-21T16:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа CSKA Moscow",
-     "our": 0.5625,
-     "ext": 0.5714,
-     "odds": 1.75,
-     "modeled": false
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2263,
-     "ext": 0.2299,
-     "odds": 4.35,
-     "modeled": false
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Akhmat Grozny",
-     "our": 0.2112,
-     "ext": 0.2146,
-     "odds": 4.66,
-     "modeled": false
-    }
-   ],
-   "modeled": false,
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.562,
-    "adj": 0.562
-   }
-  },
-  {
-   "a": "AS Roma",
-   "b": "Parma",
-   "home": "Parma",
-   "away": "AS Roma",
-   "league": "Серия A",
-   "when": "2026-11-21 17:00",
-   "iso": "2026-11-21T17:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Parma",
-     "our": 0.1034,
-     "odds": 13.6,
-     "ext": 0.0735
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1717,
-     "odds": 7.29,
-     "ext": 0.1372
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа AS Roma",
-     "our": 0.7249,
-     "odds": 1.24,
-     "ext": 0.8065
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Parma не проиграет (1X)",
-     "our": 0.2751,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "AS Roma не проиграет (X2)",
-     "our": 0.8966,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8283,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8047,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1953,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5827,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4173,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.3587,
-     "odds": 2.17,
-     "ext": 0.4608
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.6413,
-     "odds": 1.8,
-     "ext": 0.5556
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4679,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5321,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–2",
-     "our": 0.1273,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1111,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–3",
-     "our": 0.0972,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "0–2",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.725,
-    "adj": 0.725
-   }
-  },
-  {
-   "a": "Arsenal",
-   "b": "Newcastle United",
-   "home": "Newcastle United",
-   "away": "Arsenal",
-   "league": "АПЛ",
-   "when": "2026-11-21 17:30",
-   "iso": "2026-11-21T17:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Newcastle United",
-     "our": 0.1926,
-     "odds": 6.19,
-     "ext": 0.1616
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2318,
-     "odds": 4.4,
-     "ext": 0.2273
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Arsenal",
-     "our": 0.5755,
-     "odds": 1.59,
-     "ext": 0.6289
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Newcastle United не проиграет (1X)",
-     "our": 0.4245,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Arsenal не проиграет (X2)",
-     "our": 0.8074,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7682,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7506,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2494,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5054,
-     "odds": 1.89,
-     "ext": 0.5291
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4946,
-     "odds": 2.05,
-     "ext": 0.4878
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.285,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.715,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4996,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5004,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1198,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1103,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–2",
-     "our": 0.1064,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "0–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.576,
-    "adj": 0.576
-   }
-  },
-  {
-   "a": "Real Betis",
-   "b": "Sevilla",
-   "home": "Sevilla",
-   "away": "Real Betis",
-   "league": "Ла Лига",
-   "when": "2026-11-21 17:30",
-   "iso": "2026-11-21T17:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Sevilla",
-     "our": 0.3489,
-     "odds": 3.13,
-     "ext": 0.3195
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2675,
-     "odds": 3.48,
-     "ext": 0.2874
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Real Betis",
-     "our": 0.3836,
-     "odds": 2.45,
-     "ext": 0.4082
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Sevilla не проиграет (1X)",
-     "our": 0.6164,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Real Betis не проиграет (X2)",
-     "our": 0.6511,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7325,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7202,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2798,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.4656,
-     "odds": 1.97,
-     "ext": 0.5076
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.5344,
-     "odds": 1.97,
-     "ext": 0.5076
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2504,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7496,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5162,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4838,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1272,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1032,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.0974,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.384,
-    "adj": 0.384
-   }
-  },
-  {
-   "a": "VfB Stuttgart",
-   "b": "FC Schalke 04",
-   "home": "FC Schalke 04",
-   "away": "VfB Stuttgart",
-   "league": "Бундеслига",
-   "when": "2026-11-21 17:30",
-   "iso": "2026-11-21T17:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Schalke 04",
-     "our": 0.2238,
-     "odds": 4.03,
-     "ext": 0.2481
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2377,
-     "odds": 4.26,
-     "ext": 0.2347
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа VfB Stuttgart",
-     "our": 0.5385,
-     "odds": 1.88,
-     "ext": 0.5319
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "FC Schalke 04 не проиграет (1X)",
-     "our": 0.4615,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "VfB Stuttgart не проиграет (X2)",
-     "our": 0.7762,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7623,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7605,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2395,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5188,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4812,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2972,
-     "odds": 2.31,
-     "ext": 0.4329
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7028,
-     "odds": 1.72,
-     "ext": 0.5814
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5269,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4731,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1129,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1103,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–2",
-     "our": 0.0975,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.538,
-    "adj": 0.538
-   }
-  },
-  {
-   "a": "Feyenoord",
-   "b": "Excelsior",
-   "home": "Feyenoord",
-   "away": "Excelsior",
-   "league": "Эредивизи",
-   "when": "2026-11-21 17:45",
-   "iso": "2026-11-21T17:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Feyenoord",
-     "our": 0.6576,
-     "odds": 1.18,
-     "ext": 0.8475
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1754,
-     "odds": 8.4,
-     "ext": 0.119
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Excelsior",
-     "our": 0.167,
-     "odds": 13.3,
-     "ext": 0.0752
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Feyenoord не проиграет (1X)",
-     "our": 0.833,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Excelsior не проиграет (X2)",
-     "our": 0.3424,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8246,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8893,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1107,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.7248,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.2752,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.5186,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.4814,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6507,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3493,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0916,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–1",
-     "our": 0.0774,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.0747,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.658,
-    "adj": 0.658
-   }
-  },
-  {
-   "a": "FC Utrecht",
-   "b": "SC Cambuur",
-   "home": "FC Utrecht",
-   "away": "SC Cambuur",
-   "league": "Эредивизи",
-   "when": "2026-11-21 17:45",
-   "iso": "2026-11-21T17:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Utrecht",
-     "our": 0.6056,
-     "odds": 1.91,
-     "ext": 0.5236
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1876,
-     "odds": 4.04,
-     "ext": 0.2475
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа SC Cambuur",
-     "our": 0.2068,
-     "odds": 3.69,
-     "ext": 0.271
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "FC Utrecht не проиграет (1X)",
-     "our": 0.7932,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "SC Cambuur не проиграет (X2)",
-     "our": 0.3944,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8124,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8932,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1068,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.7323,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.2677,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.528,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.472,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6823,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3177,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0903,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.0744,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–1",
-     "our": 0.0731,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.606,
-    "adj": 0.606
-   }
-  },
-  {
-   "a": "Napoli",
-   "b": "Torino",
-   "home": "Napoli",
-   "away": "Torino",
-   "league": "Серия A",
-   "when": "2026-11-21 19:45",
-   "iso": "2026-11-21T19:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Napoli",
-     "our": 0.6529,
-     "odds": 1.55,
-     "ext": 0.6452
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2028,
-     "odds": 4.62,
-     "ext": 0.2165
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Torino",
-     "our": 0.1443,
-     "odds": 6.4,
-     "ext": 0.1562
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Napoli не проиграет (1X)",
-     "our": 0.8557,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Torino не проиграет (X2)",
-     "our": 0.3471,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7972,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7797,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2203,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5457,
-     "odds": 1.76,
-     "ext": 0.5682
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4543,
-     "odds": 2.23,
-     "ext": 0.4484
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.3224,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.6776,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4909,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5091,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1177,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.1159,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.098,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.653,
-    "adj": 0.653
-   }
-  },
-  {
-   "a": "AS Monaco",
-   "b": "Auxerre",
-   "home": "AS Monaco",
-   "away": "Auxerre",
-   "league": "Лига 1",
-   "when": "2026-11-21 19:45",
-   "iso": "2026-11-21T19:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа AS Monaco",
-     "our": 0.6588,
-     "odds": 1.43,
-     "ext": 0.6993
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1787,
-     "odds": 5.18,
-     "ext": 0.1931
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Auxerre",
-     "our": 0.1626,
-     "odds": 8.2,
-     "ext": 0.122
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "AS Monaco не проиграет (1X)",
-     "our": 0.8374,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Auxerre не проиграет (X2)",
-     "our": 0.3412,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8213,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8753,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1247,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.6991,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.3009,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.487,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.513,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6263,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3737,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0941,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.0815,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–1",
-     "our": 0.0771,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.659,
-    "adj": 0.659
-   }
-  },
-  {
-   "a": "Strasbourg",
-   "b": "Brest",
-   "home": "Strasbourg",
-   "away": "Brest",
-   "league": "Лига 1",
-   "when": "2026-11-21 19:45",
-   "iso": "2026-11-21T19:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Strasbourg",
-     "our": 0.9632,
-     "odds": 2.29,
-     "ext": 0.4367
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.0276,
-     "odds": 3.66,
-     "ext": 0.2732
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Brest",
-     "our": 0.0092,
-     "odds": 3.27,
-     "ext": 0.3058
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Strasbourg не проиграет (1X)",
-     "our": 0.9908,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Brest не проиграет (X2)",
-     "our": 0.0368,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.9724,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.9589,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.0411,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.89,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.11,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.7678,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.2322,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4011,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5989,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "4–0",
-     "our": 0.1075,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "5–0",
-     "our": 0.1033,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.0895,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "4–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.963,
-    "adj": 0.963
-   }
-  },
-  {
-   "a": "Lille",
-   "b": "Lyon",
-   "home": "Lille",
-   "away": "Lyon",
-   "league": "Лига 1",
-   "when": "2026-11-21 19:45",
-   "iso": "2026-11-21T19:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Lille",
-     "our": 0.4136,
-     "ext": 0.4202,
-     "odds": 2.38,
-     "modeled": false
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2853,
-     "ext": 0.2899,
-     "odds": 3.45,
-     "modeled": false
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Lyon",
-     "our": 0.301,
-     "ext": 0.3058,
-     "odds": 3.27,
-     "modeled": false
-    }
-   ],
-   "modeled": false,
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.414,
-    "adj": 0.414
-   }
-  },
-  {
-   "a": "RC Lens",
-   "b": "Toulouse",
-   "home": "RC Lens",
-   "away": "Toulouse",
-   "league": "Лига 1",
-   "when": "2026-11-21 19:45",
-   "iso": "2026-11-21T19:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа RC Lens",
-     "our": 0.3697,
-     "odds": 2.17,
-     "ext": 0.4608
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2793,
-     "odds": 3.78,
-     "ext": 0.2646
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Toulouse",
-     "our": 0.3509,
-     "odds": 3.45,
-     "ext": 0.2899
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "RC Lens не проиграет (1X)",
-     "our": 0.6491,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Toulouse не проиграет (X2)",
-     "our": 0.6303,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7207,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.6827,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.3173,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.4198,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.5802,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2129,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7871,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4797,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5203,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1314,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.1132,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1096,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.37,
-    "adj": 0.37
-   }
-  },
-  {
-   "a": "Real Madrid",
-   "b": "Celta Vigo",
-   "home": "Real Madrid",
-   "away": "Celta Vigo",
-   "league": "Ла Лига",
-   "when": "2026-11-21 20:00",
-   "iso": "2026-11-21T20:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Real Madrid",
-     "our": 0.7226,
-     "odds": 1.21,
-     "ext": 0.8264
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1645,
-     "odds": 7.95,
-     "ext": 0.1258
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Celta Vigo",
-     "our": 0.1129,
-     "odds": 16.5,
-     "ext": 0.0606
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Real Madrid не проиграет (1X)",
-     "our": 0.8871,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Celta Vigo не проиграет (X2)",
-     "our": 0.2774,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8355,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8451,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1549,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.6467,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.3533,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.4265,
-     "odds": 1.99,
-     "ext": 0.5025
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.5735,
-     "odds": 1.95,
-     "ext": 0.5128
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5315,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4685,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1083,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0942,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.0888,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.723,
-    "adj": 0.723
-   }
-  },
-  {
-   "a": "SC Telstar",
-   "b": "FC Zwolle",
-   "home": "SC Telstar",
-   "away": "FC Zwolle",
-   "league": "Эредивизи",
-   "when": "2026-11-21 20:00",
-   "iso": "2026-11-21T20:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа SC Telstar",
-     "our": 0.5986,
-     "odds": 2.07,
-     "ext": 0.4831
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2112,
-     "odds": 3.73,
-     "ext": 0.2681
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Zwolle",
-     "our": 0.1902,
-     "odds": 3.42,
-     "ext": 0.2924
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "SC Telstar не проиграет (1X)",
-     "our": 0.8098,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "FC Zwolle не проиграет (X2)",
-     "our": 0.4014,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7888,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8104,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1896,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5912,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4088,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.3673,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.6327,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5626,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4374,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0995,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.0985,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.095,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.599,
-    "adj": 0.599
-   }
-  },
-  {
-   "a": "Heerenveen",
-   "b": "Groningen",
-   "home": "Groningen",
-   "away": "Heerenveen",
-   "league": "Эредивизи",
-   "when": "2026-11-21 20:00",
-   "iso": "2026-11-21T20:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Groningen",
-     "our": 0.4674,
-     "odds": 2.73,
-     "ext": 0.3663
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2355,
-     "odds": 3.78,
-     "ext": 0.2646
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Heerenveen",
-     "our": 0.2971,
-     "odds": 2.44,
-     "ext": 0.4098
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Groningen не проиграет (1X)",
-     "our": 0.7029,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Heerenveen не проиграет (X2)",
-     "our": 0.5326,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7645,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8093,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1907,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5896,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4104,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.3657,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.6343,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.605,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.395,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.108,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0932,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.0811,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.297,
-    "adj": 0.297
-   }
-  },
-  {
-   "a": "Dinamo Moscow",
-   "b": "FC Krasnodar",
-   "home": "Dinamo Moscow",
-   "away": "FC Krasnodar",
-   "league": "РПЛ",
-   "when": "2026-11-22 11:00",
-   "iso": "2026-11-22T11:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Dinamo Moscow",
-     "our": 0.4475,
-     "ext": 0.4545,
-     "odds": 2.2,
-     "modeled": false
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2612,
-     "ext": 0.2653,
-     "odds": 3.77,
-     "modeled": false
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Krasnodar",
-     "our": 0.2913,
-     "ext": 0.2959,
-     "odds": 3.38,
-     "modeled": false
-    }
-   ],
-   "modeled": false,
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.448,
-    "adj": 0.447
-   }
-  },
-  {
-   "a": "FC Twente Enschede",
-   "b": "Willem II",
-   "home": "FC Twente Enschede",
-   "away": "Willem II",
-   "league": "Эредивизи",
-   "when": "2026-11-22 11:15",
-   "iso": "2026-11-22T11:15:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Twente Enschede",
-     "our": 0.8613,
-     "odds": 1.05,
-     "ext": 0.9524
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.0965,
-     "odds": 16.5,
-     "ext": 0.0606
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Willem II",
-     "our": 0.0421,
-     "odds": 34.0,
-     "ext": 0.0294
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "FC Twente Enschede не проиграет (1X)",
-     "our": 0.9579,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Willem II не проиграет (X2)",
-     "our": 0.1387,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.9035,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8814,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1186,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.7105,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.2895,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.501,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.499,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4233,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5767,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.1245,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1208,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "4–0",
-     "our": 0.0962,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "3–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.861,
-    "adj": 0.861
-   }
-  },
-  {
-   "a": "Juventus",
-   "b": "Venezia",
-   "home": "Juventus",
-   "away": "Venezia",
-   "league": "Серия A",
-   "when": "2026-11-22 11:30",
-   "iso": "2026-11-22T11:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Juventus",
-     "our": 0.759,
-     "odds": 1.4,
-     "ext": 0.7143
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1519,
-     "odds": 5.39,
-     "ext": 0.1855
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Venezia",
-     "our": 0.0891,
-     "odds": 8.8,
-     "ext": 0.1136
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Juventus не проиграет (1X)",
-     "our": 0.9109,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Venezia не проиграет (X2)",
-     "our": 0.241,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8481,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8362,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1638,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.632,
-     "odds": 1.68,
-     "ext": 0.5952
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.368,
-     "odds": 2.39,
-     "ext": 0.4184
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.4103,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.5897,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4822,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5178,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1216,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.1019,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.0967,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.759,
-    "adj": 0.759
-   }
-  },
-  {
-   "a": "Burnley",
-   "b": "Blackburn Rovers",
-   "home": "Burnley",
-   "away": "Blackburn Rovers",
-   "league": "Чемпионшип",
-   "when": "2026-11-22 12:00",
-   "iso": "2026-11-22T12:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Burnley",
-     "our": 0.4122,
-     "odds": 1.83,
-     "ext": 0.5464
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2578,
-     "odds": 3.7,
-     "ext": 0.2703
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Blackburn Rovers",
-     "our": 0.33,
-     "odds": 3.94,
-     "ext": 0.2538
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Burnley не проиграет (1X)",
-     "our": 0.67,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Blackburn Rovers не проиграет (X2)",
-     "our": 0.5878,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7422,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7486,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2514,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5026,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4974,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2826,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7174,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5437,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4563,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1224,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.0977,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0876,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.412,
-    "adj": 0.412
-   }
-  },
-  {
-   "a": "Barcelona",
-   "b": "Villarreal",
-   "home": "Barcelona",
-   "away": "Villarreal",
-   "league": "Ла Лига",
-   "when": "2026-11-22 13:00",
-   "iso": "2026-11-22T13:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Barcelona",
-     "our": 0.841,
-     "odds": 1.25,
-     "ext": 0.8
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.0916,
-     "odds": 7.6,
-     "ext": 0.1316
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Villarreal",
-     "our": 0.0674,
-     "odds": 11.9,
-     "ext": 0.084
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Barcelona не проиграет (1X)",
-     "our": 0.9326,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Villarreal не проиграет (X2)",
-     "our": 0.159,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.9084,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.9599,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.0401,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.8798,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.1202,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.744,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.256,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.68,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.32,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–1",
-     "our": 0.0726,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "4–1",
-     "our": 0.0706,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.061,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "3–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.841,
-    "adj": 0.841
-   }
-  },
-  {
-   "a": "Spartak Moscow",
-   "b": "FC Dynamo Makhachkala",
-   "home": "FC Dynamo Makhachkala",
-   "away": "Spartak Moscow",
-   "league": "РПЛ",
-   "when": "2026-11-22 13:30",
-   "iso": "2026-11-22T13:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FC Dynamo Makhachkala",
-     "our": 0.1404,
-     "ext": 0.1425,
-     "odds": 7.02,
-     "modeled": false
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.207,
-     "ext": 0.2101,
-     "odds": 4.76,
-     "modeled": false
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Spartak Moscow",
-     "our": 0.6526,
-     "ext": 0.6623,
-     "odds": 1.51,
-     "modeled": false
-    }
-   ],
-   "modeled": false,
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.653,
-    "adj": 0.653
-   }
-  },
-  {
-   "a": "Ajax",
-   "b": "ADO Den Haag",
-   "home": "Ajax",
-   "away": "ADO Den Haag",
-   "league": "Эредивизи",
-   "when": "2026-11-22 13:30",
-   "iso": "2026-11-22T13:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Ajax",
-     "our": 0.7806,
-     "odds": 1.16,
-     "ext": 0.8621
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1355,
-     "odds": 8.7,
-     "ext": 0.1149
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа ADO Den Haag",
-     "our": 0.0838,
-     "odds": 15.0,
-     "ext": 0.0667
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Ajax не проиграет (1X)",
-     "our": 0.9162,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "ADO Den Haag не проиграет (X2)",
-     "our": 0.2194,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8645,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8751,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1249,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.6987,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.3013,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.4866,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.5134,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5269,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4731,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1049,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–0",
-     "our": 0.0974,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0866,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.781,
-    "adj": 0.781
-   }
-  },
-  {
-   "a": "AZ Alkmaar",
-   "b": "Sparta Rotterdam",
-   "home": "Sparta Rotterdam",
-   "away": "AZ Alkmaar",
-   "league": "Эредивизи",
-   "when": "2026-11-22 13:30",
-   "iso": "2026-11-22T13:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Sparta Rotterdam",
-     "our": 0.2224,
-     "ext": 0.2315,
-     "odds": 4.32,
-     "modeled": false
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2224,
-     "ext": 0.2315,
-     "odds": 4.32,
-     "modeled": false
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа AZ Alkmaar",
-     "our": 0.5553,
-     "ext": 0.578,
-     "odds": 1.73,
-     "modeled": false
-    }
-   ],
-   "modeled": false,
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.555,
-    "adj": 0.555
-   }
-  },
-  {
-   "a": "Brighton and Hove Albion",
-   "b": "Hull City",
-   "home": "Hull City",
-   "away": "Brighton and Hove Albion",
-   "league": "АПЛ",
-   "when": "2026-11-22 14:00",
-   "iso": "2026-11-22T14:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Hull City",
-     "our": 0.1765,
-     "odds": 6.73,
-     "ext": 0.1486
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2123,
-     "odds": 4.67,
-     "ext": 0.2141
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Brighton and Hove Albion",
-     "our": 0.6111,
-     "odds": 1.53,
-     "ext": 0.6536
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Hull City не проиграет (1X)",
-     "our": 0.3889,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Brighton and Hove Albion не проиграет (X2)",
-     "our": 0.8235,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7877,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7923,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2077,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.564,
-     "odds": 1.76,
-     "ext": 0.5682
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.436,
-     "odds": 2.23,
-     "ext": 0.4484
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.3401,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.6599,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5326,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4674,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–1",
-     "our": 0.1044,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–2",
-     "our": 0.1035,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1004,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "0–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.611,
-    "adj": 0.611
-   }
-  },
-  {
-   "a": "Bologna",
-   "b": "Udinese",
-   "home": "Bologna",
-   "away": "Udinese",
-   "league": "Серия A",
-   "when": "2026-11-22 14:00",
-   "iso": "2026-11-22T14:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Bologna",
-     "our": 0.4023,
-     "odds": 1.75,
-     "ext": 0.5714
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2576,
-     "odds": 4.04,
-     "ext": 0.2475
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Udinese",
-     "our": 0.3401,
-     "odds": 5.09,
-     "ext": 0.1965
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Bologna не проиграет (1X)",
-     "our": 0.6599,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Udinese не проиграет (X2)",
-     "our": 0.5977,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7424,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.751,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.249,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.5059,
-     "odds": 1.98,
-     "ext": 0.5051
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.4941,
-     "odds": 1.97,
-     "ext": 0.5076
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2855,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7145,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.5472,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.4528,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1222,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.0954,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0866,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.402,
-    "adj": 0.402
-   }
-  },
-  {
-   "a": "Genoa",
-   "b": "Sassuolo",
-   "home": "Sassuolo",
-   "away": "Genoa",
-   "league": "Серия A",
-   "when": "2026-11-22 14:00",
-   "iso": "2026-11-22T14:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Sassuolo",
-     "our": 0.5623,
-     "odds": 2.76,
-     "ext": 0.3623
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2367,
-     "odds": 3.58,
-     "ext": 0.2793
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Genoa",
-     "our": 0.201,
-     "odds": 2.68,
-     "ext": 0.3731
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Sassuolo не проиграет (1X)",
-     "our": 0.799,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Genoa не проиграет (X2)",
-     "our": 0.4377,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7633,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.7442,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.2558,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.4968,
-     "odds": 2.0,
-     "ext": 0.5
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.5032,
-     "odds": 1.94,
-     "ext": 0.5155
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.2773,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.7227,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.4983,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.5017,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.1209,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.1125,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1046,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.201,
-    "adj": 0.201
-   }
-  },
-  {
-   "a": "Paris FC",
-   "b": "Angers",
-   "home": "Paris FC",
-   "away": "Angers",
-   "league": "Лига 1",
-   "when": "2026-11-22 14:00",
-   "iso": "2026-11-22T14:00:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Paris FC",
-     "our": 0.609,
-     "odds": 1.36,
-     "ext": 0.7353
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2492,
-     "odds": 5.63,
-     "ext": 0.1776
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Angers",
-     "our": 0.1417,
-     "odds": 9.6,
-     "ext": 0.1042
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Paris FC не проиграет (1X)",
-     "our": 0.8583,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Angers не проиграет (X2)",
-     "our": 0.391,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7508,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.6418,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.3582,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.3734,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.6266,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.1778,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.8222,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.3619,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.6381,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–0",
-     "our": 0.1772,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.1397,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "0–0",
-     "our": 0.1124,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–0",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.609,
-    "adj": 0.609
-   }
-  },
-  {
-   "a": "FSV Mainz 05",
-   "b": "Augsburg",
-   "home": "Augsburg",
-   "away": "FSV Mainz 05",
-   "league": "Бундеслига",
-   "when": "2026-11-22 14:30",
-   "iso": "2026-11-22T14:30:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Augsburg",
-     "our": 0.4231,
-     "odds": 2.67,
-     "ext": 0.3745
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.2222,
-     "odds": 4.16,
-     "ext": 0.2404
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа FSV Mainz 05",
-     "our": 0.3546,
-     "odds": 2.5,
-     "ext": 0.4
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Augsburg не проиграет (1X)",
-     "our": 0.6454,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "FSV Mainz 05 не проиграет (X2)",
-     "our": 0.5769,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.7778,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8636,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1364,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.6782,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.3218,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.4623,
-     "odds": 2.1,
-     "ext": 0.4762
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.5377,
-     "odds": 1.86,
-     "ext": 0.5376
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6807,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3193,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.0925,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0847,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–2",
-     "our": 0.0769,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "1–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.355,
-    "adj": 0.355
-   }
-  },
-  {
-   "a": "Real Sociedad",
-   "b": "Real Racing Club de Santander",
-   "home": "Real Racing Club de Santander",
-   "away": "Real Sociedad",
-   "league": "Ла Лига",
-   "when": "2026-11-22 15:15",
-   "iso": "2026-11-22T15:15:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Real Racing Club de Santander",
-     "our": 0.652,
-     "odds": 3.33,
-     "ext": 0.3003
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1827,
-     "odds": 4.21,
-     "ext": 0.2375
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Real Sociedad",
-     "our": 0.1653,
-     "odds": 2.1,
-     "ext": 0.4762
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Real Racing Club de Santander не проиграет (1X)",
-     "our": 0.8347,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Real Sociedad не проиграет (X2)",
-     "our": 0.348,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8173,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8669,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1331,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.6841,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.3159,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.4692,
-     "odds": 1.97,
-     "ext": 0.5076
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.5308,
-     "odds": 1.97,
-     "ext": 0.5076
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6165,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3835,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0954,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–0",
-     "our": 0.0841,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.0798,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.165,
-    "adj": 0.165
-   }
-  },
-  {
-   "a": "Go Ahead Eagles",
-   "b": "Fortuna Sittard",
-   "home": "Go Ahead Eagles",
-   "away": "Fortuna Sittard",
-   "league": "Эредивизи",
-   "when": "2026-11-22 15:45",
-   "iso": "2026-11-22T15:45:00Z",
-   "midweek": false,
-   "markets": [
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Go Ahead Eagles",
-     "our": 0.6049,
-     "odds": 1.71,
-     "ext": 0.5848
-    },
-    {
-     "key": "x",
-     "grp": "Исход",
-     "name": "Ничья",
-     "our": 0.1908,
-     "odds": 4.22,
-     "ext": 0.237
-    },
-    {
-     "key": "1x2",
-     "grp": "Исход",
-     "name": "Победа Fortuna Sittard",
-     "our": 0.2043,
-     "odds": 4.54,
-     "ext": 0.2203
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Go Ahead Eagles не проиграет (1X)",
-     "our": 0.7957,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "Fortuna Sittard не проиграет (X2)",
-     "our": 0.3951,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "dc",
-     "grp": "Двойной шанс",
-     "name": "без ничьей (12)",
-     "our": 0.8092,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 1.5",
-     "our": 0.8827,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 1.5",
-     "our": 0.1173,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 2.5",
-     "our": 0.7125,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 2.5",
-     "our": 0.2875,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Больше 3.5",
-     "our": 0.5033,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "ou",
-     "grp": "Тотал",
-     "name": "Меньше 3.5",
-     "our": 0.4967,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Да",
-     "our": 0.6651,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "btts",
-     "grp": "Обе забьют",
-     "name": "Нет",
-     "our": 0.3349,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "2–1",
-     "our": 0.0926,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "1–1",
-     "our": 0.0784,
-     "odds": null,
-     "ext": null
-    },
-    {
-     "key": "cs",
-     "grp": "Точный счёт",
-     "name": "3–1",
-     "our": 0.0729,
-     "odds": null,
-     "ext": null
-    }
-   ],
-   "modeled": true,
-   "topscore": "2–1",
-   "intel": {
-    "homeOut": 0,
-    "awayOut": 0,
-    "homeKey": [],
-    "awayKey": [],
-    "base": 0.605,
-    "adj": 0.605
-   }
-  },
-  {
    "a": "Lokomotiv Moscow",
    "b": "Rodina Moscow",
    "home": "Rodina Moscow",
@@ -4362,27 +14,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Rodina Moscow",
-     "our": 0.3581,
-     "ext": 0.3636,
-     "odds": 2.75,
+     "our": 0.3179,
+     "ext": 0.3311,
+     "odds": 3.02,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2571,
-     "ext": 0.2611,
-     "odds": 3.83,
+     "our": 0.2682,
+     "ext": 0.2793,
+     "odds": 3.58,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Lokomotiv Moscow",
-     "our": 0.3847,
-     "ext": 0.3906,
-     "odds": 2.56,
+     "our": 0.4139,
+     "ext": 0.431,
+     "odds": 2.32,
      "modeled": false
     }
    ],
@@ -4392,8 +44,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.385,
-    "adj": 0.385
+    "base": 0.414,
+    "adj": 0.414
    }
   },
   {
@@ -4410,27 +62,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Lorient",
-     "our": 0.3329,
-     "ext": 0.3378,
-     "odds": 2.96,
+     "our": 0.2567,
+     "ext": 0.2604,
+     "odds": 3.84,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2714,
-     "ext": 0.2755,
-     "odds": 3.63,
+     "our": 0.2738,
+     "ext": 0.2778,
+     "odds": 3.6,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Rennes",
-     "our": 0.3957,
-     "ext": 0.4016,
-     "odds": 2.49,
+     "our": 0.4694,
+     "ext": 0.4762,
+     "odds": 2.1,
      "modeled": false
     }
    ],
@@ -4440,8 +92,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.396,
-    "adj": 0.396
+    "base": 0.469,
+    "adj": 0.469
    }
   },
   {
@@ -4459,24 +111,24 @@
      "grp": "Исход",
      "name": "Победа Liverpool",
      "our": 0.4675,
-     "odds": 1.75,
-     "ext": 0.5714
+     "odds": 1.83,
+     "ext": 0.5464
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2287,
-     "odds": 4.38,
-     "ext": 0.2283
+     "odds": 4.22,
+     "ext": 0.237
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Manchester United",
      "our": 0.3038,
-     "odds": 4.59,
-     "ext": 0.2179
+     "odds": 4.28,
+     "ext": 0.2336
     },
     {
      "key": "dc",
@@ -4539,16 +191,16 @@
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.4034,
-     "odds": 2.31,
-     "ext": 0.4329
+     "odds": 2.36,
+     "ext": 0.4237
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.5966,
-     "odds": 1.72,
-     "ext": 0.5814
+     "odds": 1.69,
+     "ext": 0.5917
     },
     {
      "key": "btts",
@@ -4617,24 +269,24 @@
      "grp": "Исход",
      "name": "Победа Werder Bremen",
      "our": 0.5367,
-     "odds": 1.66,
-     "ext": 0.6024
+     "odds": 1.63,
+     "ext": 0.6135
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2324,
-     "odds": 4.57,
-     "ext": 0.2188
+     "odds": 4.52,
+     "ext": 0.2212
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Hamburger SV",
      "our": 0.231,
-     "odds": 5.18,
-     "ext": 0.1931
+     "odds": 5.58,
+     "ext": 0.1792
     },
     {
      "key": "dc",
@@ -4681,32 +333,32 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.5496,
-     "odds": null,
-     "ext": null
+     "odds": 1.7,
+     "ext": 0.5882
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4504,
-     "odds": null,
-     "ext": null
+     "odds": 2.35,
+     "ext": 0.4255
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.3261,
-     "odds": 2.42,
-     "ext": 0.4132
+     "odds": null,
+     "ext": null
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.6739,
-     "odds": 1.66,
-     "ext": 0.6024
+     "odds": null,
+     "ext": null
     },
     {
      "key": "btts",
@@ -4775,24 +427,24 @@
      "grp": "Исход",
      "name": "Победа AC Milan",
      "our": 0.5749,
-     "odds": 1.58,
-     "ext": 0.6329
+     "odds": 1.64,
+     "ext": 0.6098
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2163,
-     "odds": 5.08,
-     "ext": 0.1969
+     "odds": 4.83,
+     "ext": 0.207
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Frosinone",
      "our": 0.2088,
-     "odds": 5.43,
-     "ext": 0.1842
+     "odds": 5.08,
+     "ext": 0.1969
     },
     {
      "key": "dc",
@@ -4855,16 +507,16 @@
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.3712,
-     "odds": 1.97,
-     "ext": 0.5076
+     "odds": 2.12,
+     "ext": 0.4717
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.6288,
-     "odds": 1.97,
-     "ext": 0.5076
+     "odds": 1.84,
+     "ext": 0.5435
     },
     {
      "key": "btts",
@@ -5091,24 +743,24 @@
      "grp": "Исход",
      "name": "Победа Atalanta BC",
      "our": 0.4106,
-     "odds": 5.03,
-     "ext": 0.1988
+     "odds": 5.28,
+     "ext": 0.1894
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2646,
-     "odds": 4.83,
-     "ext": 0.207
+     "odds": 4.92,
+     "ext": 0.2033
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Inter Milan",
      "our": 0.3248,
-     "odds": 1.64,
-     "ext": 0.6098
+     "odds": 1.6,
+     "ext": 0.625
     },
     {
      "key": "dc",
@@ -5171,16 +823,16 @@
      "grp": "Тотал",
      "name": "Больше 3.5",
      "our": 0.2567,
-     "odds": 2.08,
-     "ext": 0.4808
+     "odds": 2.03,
+     "ext": 0.4926
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 3.5",
      "our": 0.7433,
-     "odds": 1.87,
-     "ext": 0.5348
+     "odds": 1.91,
+     "ext": 0.5236
     },
     {
      "key": "btts",
@@ -5297,24 +949,24 @@
      "grp": "Исход",
      "name": "Победа Getafe",
      "our": 0.2325,
-     "odds": 6.19,
-     "ext": 0.1616
+     "odds": 7.11,
+     "ext": 0.1406
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.3319,
-     "odds": 4.0,
-     "ext": 0.25
+     "odds": 4.17,
+     "ext": 0.2398
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Atlético Madrid",
      "our": 0.4355,
-     "odds": 1.66,
-     "ext": 0.6024
+     "odds": 1.57,
+     "ext": 0.6369
     },
     {
      "key": "dc",
@@ -5361,16 +1013,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.2429,
-     "odds": 2.08,
-     "ext": 0.4808
+     "odds": 2.12,
+     "ext": 0.4717
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.7571,
-     "odds": 1.87,
-     "ext": 0.5348
+     "odds": 1.84,
+     "ext": 0.5435
     },
     {
      "key": "ou",
@@ -5455,24 +1107,24 @@
      "grp": "Исход",
      "name": "Победа Monza",
      "our": 0.4219,
-     "odds": 3.92,
-     "ext": 0.2551
+     "odds": 3.9,
+     "ext": 0.2564
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.243,
-     "odds": 4.06,
-     "ext": 0.2463
+     "odds": 4.11,
+     "ext": 0.2433
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Fiorentina",
      "our": 0.3351,
-     "odds": 1.95,
-     "ext": 0.5128
+     "odds": 1.94,
+     "ext": 0.5155
     },
     {
      "key": "dc",
@@ -5527,8 +1179,8 @@
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.4295,
-     "odds": 2.4,
-     "ext": 0.4167
+     "odds": 2.41,
+     "ext": 0.4149
     },
     {
      "key": "ou",
@@ -5613,24 +1265,24 @@
      "grp": "Исход",
      "name": "Победа Brentford",
      "our": 0.5019,
-     "odds": 2.16,
-     "ext": 0.463
+     "odds": 2.32,
+     "ext": 0.431
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2546,
-     "odds": 3.82,
-     "ext": 0.2618
+     "odds": 3.72,
+     "ext": 0.2688
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Everton",
      "our": 0.2435,
-     "odds": 3.45,
-     "ext": 0.2899
+     "odds": 3.17,
+     "ext": 0.3155
     },
     {
      "key": "dc",
@@ -5677,16 +1329,16 @@
      "grp": "Тотал",
      "name": "Больше 2.5",
      "our": 0.4696,
-     "odds": 1.83,
-     "ext": 0.5464
+     "odds": 1.88,
+     "ext": 0.5319
     },
     {
      "key": "ou",
      "grp": "Тотал",
      "name": "Меньше 2.5",
      "our": 0.5304,
-     "odds": 2.14,
-     "ext": 0.4673
+     "odds": 2.07,
+     "ext": 0.4831
     },
     {
      "key": "ou",
@@ -5928,27 +1580,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Galatasaray",
-     "our": 0.3648,
-     "ext": 0.3704,
-     "odds": 2.7,
+     "our": 0.3635,
+     "ext": 0.369,
+     "odds": 2.71,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.2475,
-     "ext": 0.2513,
-     "odds": 3.98,
+     "our": 0.2409,
+     "ext": 0.2445,
+     "odds": 4.09,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Aston Villa",
-     "our": 0.3878,
-     "ext": 0.3937,
-     "odds": 2.54,
+     "our": 0.3956,
+     "ext": 0.4016,
+     "odds": 2.49,
      "modeled": false
     }
    ],
@@ -5958,8 +1610,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.388,
-    "adj": 0.388
+    "base": 0.396,
+    "adj": 0.396
    }
   },
   {
@@ -6341,24 +1993,24 @@
      "grp": "Исход",
      "name": "Победа Charlton Athletic",
      "our": 0.3545,
-     "odds": 2.44,
-     "ext": 0.4098
+     "odds": 2.58,
+     "ext": 0.3876
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.3271,
-     "odds": 3.3,
-     "ext": 0.303
+     "odds": 3.32,
+     "ext": 0.3012
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Lincoln City",
      "our": 0.3184,
-     "odds": 2.76,
-     "ext": 0.3623
+     "odds": 2.59,
+     "ext": 0.3861
     },
     {
      "key": "dc",
@@ -6499,24 +2151,24 @@
      "grp": "Исход",
      "name": "Победа Middlesbrough",
      "our": 0.4338,
-     "odds": 1.51,
-     "ext": 0.6623
+     "odds": 1.44,
+     "ext": 0.6944
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.258,
-     "odds": 4.4,
-     "ext": 0.2273
+     "odds": 4.65,
+     "ext": 0.2151
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Swansea City",
      "our": 0.3082,
-     "odds": 5.52,
-     "ext": 0.1812
+     "odds": 6.21,
+     "ext": 0.161
     },
     {
      "key": "dc",
@@ -7130,27 +2782,27 @@
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Como",
-     "our": 0.7174,
-     "ext": 0.7299,
-     "odds": 1.37,
+     "our": 0.7406,
+     "ext": 0.7519,
+     "odds": 1.33,
      "modeled": false
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
-     "our": 0.1813,
-     "ext": 0.1845,
-     "odds": 5.42,
+     "our": 0.1647,
+     "ext": 0.1672,
+     "odds": 5.98,
      "modeled": false
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа AEK Athens",
-     "our": 0.1013,
-     "ext": 0.1031,
-     "odds": 9.7,
+     "our": 0.0947,
+     "ext": 0.0962,
+     "odds": 10.4,
      "modeled": false
     }
    ],
@@ -7160,8 +2812,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.717,
-    "adj": 0.717
+    "base": 0.741,
+    "adj": 0.741
    }
   },
   {
@@ -7701,24 +3353,24 @@
      "grp": "Исход",
      "name": "Победа RB Leipzig",
      "our": 0.6288,
-     "odds": 1.48,
-     "ext": 0.6757
+     "odds": 1.44,
+     "ext": 0.6944
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2196,
-     "odds": 5.49,
-     "ext": 0.1821
+     "odds": 5.75,
+     "ext": 0.1739
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа RC Lens",
      "our": 0.1517,
-     "odds": 6.36,
-     "ext": 0.1572
+     "odds": 6.83,
+     "ext": 0.1464
     },
     {
      "key": "dc",
@@ -7907,24 +3559,24 @@
      "grp": "Исход",
      "name": "Победа Wolverhampton Wanderers",
      "our": 0.5549,
-     "odds": 1.32,
-     "ext": 0.7576
+     "odds": 1.29,
+     "ext": 0.7752
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.23,
-     "odds": 5.2,
-     "ext": 0.1923
+     "odds": 5.45,
+     "ext": 0.1835
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Derby County",
      "our": 0.2151,
-     "odds": 8.35,
-     "ext": 0.1198
+     "odds": 9.0,
+     "ext": 0.1111
     },
     {
      "key": "dc",
@@ -8147,8 +3799,8 @@
    }
   },
   {
-   "a": "Burnley",
-   "b": "Birmingham City",
+   "a": "Birmingham City",
+   "b": "Burnley",
    "home": "Burnley",
    "away": "Birmingham City",
    "league": "Чемпионшип",
@@ -8161,24 +3813,24 @@
      "grp": "Исход",
      "name": "Победа Burnley",
      "our": 0.3762,
-     "odds": 2.55,
-     "ext": 0.3922
+     "odds": 2.65,
+     "ext": 0.3774
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.262,
-     "odds": 3.35,
-     "ext": 0.2985
+     "odds": 3.58,
+     "ext": 0.2793
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Birmingham City",
      "our": 0.3617,
-     "odds": 2.55,
-     "ext": 0.3922
+     "odds": 2.39,
+     "ext": 0.4184
     },
     {
      "key": "dc",
@@ -8300,8 +3952,8 @@
     "awayOut": 0,
     "homeKey": [],
     "awayKey": [],
-    "base": 0.376,
-    "adj": 0.376
+    "base": 0.362,
+    "adj": 0.362
    }
   },
   {
@@ -8327,16 +3979,16 @@
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2828,
-     "odds": 3.2,
-     "ext": 0.3125
+     "odds": 3.38,
+     "ext": 0.2959
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Blackburn Rovers",
      "our": 0.4363,
-     "odds": 2.75,
-     "ext": 0.3636
+     "odds": 2.69,
+     "ext": 0.3717
     },
     {
      "key": "dc",
@@ -8477,24 +4129,24 @@
      "grp": "Исход",
      "name": "Победа Bolton Wanderers",
      "our": 0.4444,
-     "odds": 3.35,
-     "ext": 0.2985
+     "odds": 3.5,
+     "ext": 0.2857
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.283,
-     "odds": 3.62,
-     "ext": 0.2762
+     "odds": 3.68,
+     "ext": 0.2717
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа West Bromwich Albion",
      "our": 0.2726,
-     "odds": 2.02,
-     "ext": 0.495
+     "odds": 1.95,
+     "ext": 0.5128
     },
     {
      "key": "dc",
@@ -8635,24 +4287,24 @@
      "grp": "Исход",
      "name": "Победа Paris Saint Germain",
      "our": 0.3372,
-     "odds": 1.37,
-     "ext": 0.7299
+     "odds": 1.41,
+     "ext": 0.7092
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2669,
-     "odds": 6.05,
-     "ext": 0.1653
+     "odds": 5.79,
+     "ext": 0.1727
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа AS Roma",
      "our": 0.3959,
-     "odds": 8.15,
-     "ext": 0.1227
+     "odds": 7.55,
+     "ext": 0.1325
     },
     {
      "key": "dc",
@@ -8841,24 +4493,24 @@
      "grp": "Исход",
      "name": "Победа Lille",
      "our": 0.2631,
-     "odds": 5.33,
-     "ext": 0.1876
+     "odds": 5.34,
+     "ext": 0.1873
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2272,
-     "odds": 4.57,
-     "ext": 0.2188
+     "odds": 4.47,
+     "ext": 0.2237
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Bayern Munich",
      "our": 0.5097,
-     "odds": 1.64,
-     "ext": 0.6098
+     "odds": 1.65,
+     "ext": 0.6061
     },
     {
      "key": "dc",
@@ -9411,24 +5063,24 @@
      "grp": "Исход",
      "name": "Победа Stoke City",
      "our": 0.3068,
-     "odds": 2.37,
-     "ext": 0.4219
+     "odds": 2.27,
+     "ext": 0.4405
     },
     {
      "key": "x",
      "grp": "Исход",
      "name": "Ничья",
      "our": 0.2435,
-     "odds": 3.38,
-     "ext": 0.2959
+     "odds": 3.4,
+     "ext": 0.2941
     },
     {
      "key": "1x2",
      "grp": "Исход",
      "name": "Победа Millwall",
      "our": 0.4497,
-     "odds": 2.84,
-     "ext": 0.3521
+     "odds": 2.98,
+     "ext": 0.3356
     },
     {
      "key": "dc",
@@ -9552,6 +5204,1090 @@
     "awayKey": [],
     "base": 0.307,
     "adj": 0.307
+   }
+  },
+  {
+   "a": "Olympiakos Piraeus",
+   "b": "AC Milan",
+   "home": "Olympiakos Piraeus",
+   "away": "AC Milan",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Olympiakos Piraeus",
+     "our": 0.3875,
+     "ext": 0.4,
+     "odds": 2.5,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2784,
+     "ext": 0.2874,
+     "odds": 3.48,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа AC Milan",
+     "our": 0.3341,
+     "ext": 0.3448,
+     "odds": 2.9,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.388,
+    "adj": 0.387
+   }
+  },
+  {
+   "a": "Bayer Leverkusen",
+   "b": "Dinamo Zagreb",
+   "home": "Dinamo Zagreb",
+   "away": "Bayer Leverkusen",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Dinamo Zagreb",
+     "our": 0.2173,
+     "ext": 0.2242,
+     "odds": 4.46,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2223,
+     "ext": 0.2294,
+     "odds": 4.36,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Bayer Leverkusen",
+     "our": 0.5603,
+     "ext": 0.578,
+     "odds": 1.73,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.56,
+    "adj": 0.56
+   }
+  },
+  {
+   "a": "Benfica",
+   "b": "Viktoria Plzeň",
+   "home": "Viktoria Plzeň",
+   "away": "Benfica",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Viktoria Plzeň",
+     "our": 0.1677,
+     "ext": 0.173,
+     "odds": 5.78,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.199,
+     "ext": 0.2053,
+     "odds": 4.87,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Benfica",
+     "our": 0.6334,
+     "ext": 0.6536,
+     "odds": 1.53,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.633,
+    "adj": 0.633
+   }
+  },
+  {
+   "a": "Besiktas JK",
+   "b": "Hapoel Be'er Sheva",
+   "home": "Besiktas JK",
+   "away": "Hapoel Be'er Sheva",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Besiktas JK",
+     "our": 0.7836,
+     "ext": 0.8065,
+     "odds": 1.24,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.138,
+     "ext": 0.142,
+     "odds": 7.04,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Hapoel Be'er Sheva",
+     "our": 0.0784,
+     "ext": 0.0806,
+     "odds": 12.4,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.784,
+    "adj": 0.784
+   }
+  },
+  {
+   "a": "Bournemouth",
+   "b": "Celta Vigo",
+   "home": "Celta Vigo",
+   "away": "Bournemouth",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Celta Vigo",
+     "our": 0.3196,
+     "odds": 3.92,
+     "ext": 0.2551
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.254,
+     "odds": 3.63,
+     "ext": 0.2755
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Bournemouth",
+     "our": 0.4264,
+     "odds": 2.0,
+     "ext": 0.5
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Celta Vigo не проиграет (1X)",
+     "our": 0.5736,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Bournemouth не проиграет (X2)",
+     "our": 0.6804,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "без ничьей (12)",
+     "our": 0.746,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 1.5",
+     "our": 0.7584,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 1.5",
+     "our": 0.2416,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 2.5",
+     "our": 0.516,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 2.5",
+     "our": 0.484,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 3.5",
+     "our": 0.2946,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 3.5",
+     "our": 0.7054,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Да",
+     "our": 0.5528,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Нет",
+     "our": 0.4472,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "1–1",
+     "our": 0.1203,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "0–1",
+     "our": 0.096,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "1–2",
+     "our": 0.0894,
+     "odds": null,
+     "ext": null
+    }
+   ],
+   "modeled": true,
+   "topscore": "1–1",
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.426,
+    "adj": 0.426
+   }
+  },
+  {
+   "a": "Salzburg",
+   "b": "FC Ararat-Armenia",
+   "home": "Salzburg",
+   "away": "FC Ararat-Armenia",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Salzburg",
+     "our": 0.8163,
+     "ext": 0.8403,
+     "odds": 1.19,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.123,
+     "ext": 0.1266,
+     "odds": 7.9,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа FC Ararat-Armenia",
+     "our": 0.0607,
+     "ext": 0.0625,
+     "odds": 16.0,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.816,
+    "adj": 0.816
+   }
+  },
+  {
+   "a": "Union Saint-Gilloise",
+   "b": "Lech Poznań",
+   "home": "Union Saint-Gilloise",
+   "away": "Lech Poznań",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Union Saint-Gilloise",
+     "our": 0.6981,
+     "ext": 0.7194,
+     "odds": 1.39,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.179,
+     "ext": 0.1845,
+     "odds": 5.42,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Lech Poznań",
+     "our": 0.1228,
+     "ext": 0.1266,
+     "odds": 7.9,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.698,
+    "adj": 0.698
+   }
+  },
+  {
+   "a": "Marseille",
+   "b": "PFC Levski Sofia",
+   "home": "Marseille",
+   "away": "PFC Levski Sofia",
+   "league": "ЛЕ",
+   "when": "2026-11-26 17:45",
+   "iso": "2026-11-26T17:45:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Marseille",
+     "our": 0.6637,
+     "ext": 0.6849,
+     "odds": 1.46,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2036,
+     "ext": 0.2101,
+     "odds": 4.76,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа PFC Levski Sofia",
+     "our": 0.1327,
+     "ext": 0.137,
+     "odds": 7.3,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.664,
+    "adj": 0.664
+   }
+  },
+  {
+   "a": "AZ Alkmaar",
+   "b": "Sparta Prague",
+   "home": "Sparta Prague",
+   "away": "AZ Alkmaar",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Sparta Prague",
+     "our": 0.3622,
+     "ext": 0.3731,
+     "odds": 2.68,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2659,
+     "ext": 0.274,
+     "odds": 3.65,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа AZ Alkmaar",
+     "our": 0.3719,
+     "ext": 0.3831,
+     "odds": 2.61,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.372,
+    "adj": 0.372
+   }
+  },
+  {
+   "a": "Anderlecht",
+   "b": "OFI Crete",
+   "home": "OFI Crete",
+   "away": "Anderlecht",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа OFI Crete",
+     "our": 0.2258,
+     "ext": 0.2326,
+     "odds": 4.3,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2522,
+     "ext": 0.2597,
+     "odds": 3.85,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Anderlecht",
+     "our": 0.522,
+     "ext": 0.5376,
+     "odds": 1.86,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.522,
+    "adj": 0.522
+   }
+  },
+  {
+   "a": "Celtic",
+   "b": "Torreense",
+   "home": "Torreense",
+   "away": "Celtic",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Torreense",
+     "our": 0.2057,
+     "ext": 0.2123,
+     "odds": 4.71,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2279,
+     "ext": 0.2353,
+     "odds": 4.25,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Celtic",
+     "our": 0.5664,
+     "ext": 0.5848,
+     "odds": 1.71,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.566,
+    "adj": 0.566
+   }
+  },
+  {
+   "a": "Crystal Palace",
+   "b": "Real Sociedad",
+   "home": "Crystal Palace",
+   "away": "Real Sociedad",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Crystal Palace",
+     "our": 0.6271,
+     "odds": 2.13,
+     "ext": 0.4695
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2073,
+     "odds": 3.88,
+     "ext": 0.2577
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Real Sociedad",
+     "our": 0.1656,
+     "odds": 3.29,
+     "ext": 0.304
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Crystal Palace не проиграет (1X)",
+     "our": 0.8344,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "Real Sociedad не проиграет (X2)",
+     "our": 0.3729,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "dc",
+     "grp": "Двойной шанс",
+     "name": "без ничьей (12)",
+     "our": 0.7927,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 1.5",
+     "our": 0.7946,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 1.5",
+     "our": 0.2054,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 2.5",
+     "our": 0.5675,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 2.5",
+     "our": 0.4325,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Больше 3.5",
+     "our": 0.3435,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "ou",
+     "grp": "Тотал",
+     "name": "Меньше 3.5",
+     "our": 0.6565,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Да",
+     "our": 0.5267,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "btts",
+     "grp": "Обе забьют",
+     "name": "Нет",
+     "our": 0.4733,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "2–0",
+     "our": 0.1064,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "1–0",
+     "our": 0.1051,
+     "odds": null,
+     "ext": null
+    },
+    {
+     "key": "cs",
+     "grp": "Точный счёт",
+     "name": "2–1",
+     "our": 0.0993,
+     "odds": null,
+     "ext": null
+    }
+   ],
+   "modeled": true,
+   "topscore": "2–0",
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.627,
+    "adj": 0.627
+   }
+  },
+  {
+   "a": "Ferencváros TC",
+   "b": "NK Celje",
+   "home": "Ferencváros TC",
+   "away": "NK Celje",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Ferencváros TC",
+     "our": 0.7026,
+     "ext": 0.7246,
+     "odds": 1.38,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.1806,
+     "ext": 0.1862,
+     "odds": 5.37,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа NK Celje",
+     "our": 0.1168,
+     "ext": 0.1205,
+     "odds": 8.3,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.703,
+    "adj": 0.703
+   }
+  },
+  {
+   "a": "Sunderland",
+   "b": "Jagiellonia Białystok",
+   "home": "Sunderland",
+   "away": "Jagiellonia Białystok",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Sunderland",
+     "our": 0.7521,
+     "ext": 0.7752,
+     "odds": 1.29,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.1664,
+     "ext": 0.1715,
+     "odds": 5.83,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Jagiellonia Białystok",
+     "our": 0.0815,
+     "ext": 0.084,
+     "odds": 11.9,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.752,
+    "adj": 0.752
+   }
+  },
+  {
+   "a": "Juventus",
+   "b": "Omonoia FC",
+   "home": "Juventus",
+   "away": "Omonoia FC",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Juventus",
+     "our": 0.7896,
+     "ext": 0.813,
+     "odds": 1.23,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.142,
+     "ext": 0.1462,
+     "odds": 6.84,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Omonoia FC",
+     "our": 0.0684,
+     "ext": 0.0704,
+     "odds": 14.2,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.79,
+    "adj": 0.79
+   }
+  },
+  {
+   "a": "Lyon",
+   "b": "Lillestrom",
+   "home": "Lyon",
+   "away": "Lillestrom",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Lyon",
+     "our": 0.8041,
+     "ext": 0.8264,
+     "odds": 1.21,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.1297,
+     "ext": 0.1333,
+     "odds": 7.5,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Lillestrom",
+     "our": 0.0662,
+     "ext": 0.068,
+     "odds": 14.7,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.804,
+    "adj": 0.804
+   }
+  },
+  {
+   "a": "Rennes",
+   "b": "NEC Nijmegen",
+   "home": "NEC Nijmegen",
+   "away": "Rennes",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа NEC Nijmegen",
+     "our": 0.3229,
+     "ext": 0.3333,
+     "odds": 3.0,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.2484,
+     "ext": 0.2564,
+     "odds": 3.9,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа Rennes",
+     "our": 0.4287,
+     "ext": 0.4425,
+     "odds": 2.26,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.429,
+    "adj": 0.429
+   }
+  },
+  {
+   "a": "TSG Hoffenheim",
+   "b": "SK Sturm Graz",
+   "home": "TSG Hoffenheim",
+   "away": "SK Sturm Graz",
+   "league": "ЛЕ",
+   "when": "2026-11-26 20:00",
+   "iso": "2026-11-26T20:00:00Z",
+   "midweek": true,
+   "markets": [
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа TSG Hoffenheim",
+     "our": 0.7078,
+     "ext": 0.7299,
+     "odds": 1.37,
+     "modeled": false
+    },
+    {
+     "key": "x",
+     "grp": "Исход",
+     "name": "Ничья",
+     "our": 0.1754,
+     "ext": 0.1808,
+     "odds": 5.53,
+     "modeled": false
+    },
+    {
+     "key": "1x2",
+     "grp": "Исход",
+     "name": "Победа SK Sturm Graz",
+     "our": 0.1168,
+     "ext": 0.1205,
+     "odds": 8.3,
+     "modeled": false
+    }
+   ],
+   "modeled": false,
+   "intel": {
+    "homeOut": 0,
+    "awayOut": 0,
+    "homeKey": [],
+    "awayKey": [],
+    "base": 0.708,
+    "adj": 0.708
    }
   }
  ]
